@@ -1,4 +1,4 @@
-# Eliejesresce-K2
+# Elíejesresce-K2
 Este repositorio marca el inicio de una travesía personal: Elíejesresce K2.
 
 Su esencia se compone de tres raíces:
