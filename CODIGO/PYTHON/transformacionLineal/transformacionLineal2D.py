@@ -1,17 +1,20 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+# Valores de Vector Inicial
 x = 1
 y = 2
 
+# Valores de Matriz de Transformación
 a = -2
 b = 1
 c = 1
 d = -2
 
-
+# Creación de Vector
 v = np.array([[x], [y]])
 
+# Creación de Matriz
 A = np.array([[a, b],
              [c, d]])
 
