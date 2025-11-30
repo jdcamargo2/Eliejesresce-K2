@@ -1,0 +1,19 @@
+# --- Entornos Virtuales ---
+
+.venv/
+venv/
+env/
+
+# --- Python ---
+
+__pycache__/
+*.pyc
+
+# --- VS Code ---
+
+.vscode/
+
+# --- Sistema Operativo ---
+
+.DS_Store
+Thumbs.db
