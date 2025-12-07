@@ -1,7 +1,15 @@
+"""
+Este programa anima la evolución de un qubit en la esfera de Bloch para una secuencia
+de compuertas cuánticas y permite simular el colapso del estado mediante azar al
+presionar la tecla 'c'.
+"""
+
 import os
+
 os.environ.pop("MPLBACKEND", None)
 
 import matplotlib
+
 matplotlib.use("TkAgg", force=True)
 
 import numpy as np
@@ -24,16 +32,16 @@ from matplotlib.animation import FuncAnimation
 
 STATE_PRESETS = {
     "MANFO": (0.8, 0.8),
-    "|0>":  (0.0, 0.0),
-    "|1>":  (np.pi, 0.0),
-    "|+>":  (np.pi/2, 0.0),
-    "|->":  (np.pi/2, np.pi),
-    "|i+>": (np.pi/2, np.pi/2),
-    "|i->": (np.pi/2, -np.pi/2),
+    "|0>": (0.0, 0.0),
+    "|1>": (np.pi, 0.0),
+    "|+>": (np.pi / 2, 0.0),
+    "|->": (np.pi / 2, np.pi),
+    "|i+>": (np.pi / 2, np.pi / 2),
+    "|i->": (np.pi / 2, -np.pi / 2),
 }
 
 # Elige el estado inicial aquí:
-INITIAL_STATE = "MANFO"  # "|0>", "|1>", "|+>", "|->", "|i+>", "|i->"
+INITIAL_STATE = "|0>"  # "|0>", "|1>", "|+>", "|->", "|i+>", "|i->"
 
 theta_0, phi_0 = STATE_PRESETS[INITIAL_STATE]
 
@@ -45,7 +53,9 @@ theta_0, phi_0 = STATE_PRESETS[INITIAL_STATE]
 # Secuencia de compuertas (en orden)
 # Soportadas: "I", "X", "Y", "Z", "H", "S", "T", "RX", "RY", "RZ"
 # RX, RY, RZ aquí son rotaciones de pi/2 (90°) alrededor de cada eje.
-GATE_SEQUENCE = ["I"]  # por ejemplo: ["I", "X", "Y", "Z", "H", "S", "T", "RX", "RY", "RZ]
+GATE_SEQUENCE = [
+    "Z",
+]  # por ejemplo: ["I", "X", "Y", "Z", "H", "S", "T", "RX", "RY", "RZ]
 
 # Suavidad de la animación (más frames = giro más suave)
 FRAMES_PER_GATE = 60
@@ -54,6 +64,7 @@ FRAMES_PER_GATE = 60
 # =============================
 #  Funciones auxiliares
 # =============================
+
 
 def bloch_vector_from_angles(theta: float, phi: float) -> np.ndarray:
     x = np.sin(theta) * np.cos(phi)
@@ -68,11 +79,25 @@ def rotation_matrix(axis: np.ndarray, angle: float) -> np.ndarray:
     cos_a = np.cos(angle)
     sin_a = np.sin(angle)
 
-    return np.array([
-        [cos_a + ux**2 * (1-cos_a),     ux*uy*(1-cos_a) - uz*sin_a, ux*uz*(1-cos_a) + uy*sin_a],
-        [uy*ux*(1-cos_a) + uz*sin_a, cos_a + uy**2 * (1-cos_a),     uy*uz*(1-cos_a) - ux*sin_a],
-        [uz*ux*(1-cos_a) - uy*sin_a, uz*uy*(1-cos_a) + ux*sin_a, cos_a + uz**2 * (1-cos_a)]
-    ])
+    return np.array(
+        [
+            [
+                cos_a + ux**2 * (1 - cos_a),
+                ux * uy * (1 - cos_a) - uz * sin_a,
+                ux * uz * (1 - cos_a) + uy * sin_a,
+            ],
+            [
+                uy * ux * (1 - cos_a) + uz * sin_a,
+                cos_a + uy**2 * (1 - cos_a),
+                uy * uz * (1 - cos_a) - ux * sin_a,
+            ],
+            [
+                uz * ux * (1 - cos_a) - uy * sin_a,
+                uz * uy * (1 - cos_a) + ux * sin_a,
+                cos_a + uz**2 * (1 - cos_a),
+            ],
+        ]
+    )
 
 
 def get_gate_rotation(gate_name: str):
@@ -100,41 +125,41 @@ def get_gate_rotation(gate_name: str):
 
     elif gate_name == "X":
         axis = np.array([1, 0, 0])
-        angle = np.pi          # Rx(pi)
+        angle = np.pi  # Rx(pi)
 
     elif gate_name == "Y":
         axis = np.array([0, 1, 0])
-        angle = np.pi          # Ry(pi)
+        angle = np.pi  # Ry(pi)
 
     elif gate_name == "Z":
         axis = np.array([0, 0, 1])
-        angle = np.pi          # Rz(pi)
+        angle = np.pi  # Rz(pi)
 
     elif gate_name == "H":
         axis = np.array([1, 0, 1])  # (X+Z)/sqrt(2)
         axis = axis / np.linalg.norm(axis)
-        angle = np.pi               # rotación de 180° alrededor de ese eje
+        angle = np.pi  # rotación de 180° alrededor de ese eje
         return axis, angle
 
     elif gate_name == "S":
         axis = np.array([0, 0, 1])
-        angle = np.pi / 2      # Rz(pi/2)
+        angle = np.pi / 2  # Rz(pi/2)
 
     elif gate_name == "T":
         axis = np.array([0, 0, 1])
-        angle = np.pi / 4      # Rz(pi/4)
+        angle = np.pi / 4  # Rz(pi/4)
 
     elif gate_name == "RX":
         axis = np.array([1, 0, 0])
-        angle = np.pi / 2      # Rx(pi/2)
+        angle = np.pi / 2  # Rx(pi/2)
 
     elif gate_name == "RY":
         axis = np.array([0, 1, 0])
-        angle = np.pi / 2      # Ry(pi/2)
+        angle = np.pi / 2  # Ry(pi/2)
 
     elif gate_name == "RZ":
         axis = np.array([0, 0, 1])
-        angle = np.pi / 2      # Rz(pi/2)
+        angle = np.pi / 2  # Rz(pi/2)
 
     else:
         raise ValueError(f"Compuerta no soportada: {gate_name}")
@@ -145,7 +170,7 @@ def get_gate_rotation(gate_name: str):
 
 def plot_bloch_sphere(ax):
     """Dibuja la esfera de Bloch y los ejes."""
-    u = np.linspace(0, 2*np.pi, 60)
+    u = np.linspace(0, 2 * np.pi, 60)
     v = np.linspace(0, np.pi, 30)
     x = np.outer(np.cos(u), np.sin(v))
     y = np.outer(np.sin(u), np.sin(v))
@@ -174,6 +199,7 @@ def plot_bloch_sphere(ax):
 # =============================
 #  Precomputar trayectoria
 # =============================
+
 
 def build_trajectory():
     """
@@ -206,6 +232,7 @@ def build_trajectory():
 #  Animación en bucle + colapso
 # =============================
 
+
 def main():
     vectors, gate_labels = build_trajectory()
     n_frames = len(vectors)
@@ -217,23 +244,47 @@ def main():
 
     # vector inicial (rojo, fijo)
     v0 = vectors[0]
-    ax.quiver(0, 0, 0, v0[0], v0[1], v0[2],
-              color="red", linewidth=2, arrow_length_ratio=0.15,
-              label="Estado inicial")
+    ax.quiver(
+        0,
+        0,
+        0,
+        v0[0],
+        v0[1],
+        v0[2],
+        color="red",
+        linewidth=2,
+        arrow_length_ratio=0.15,
+        label="Estado inicial",
+    )
 
     # vector dinámico (azul)
     v_init = vectors[0]
-    arrow = ax.quiver(0, 0, 0, v_init[0], v_init[1], v_init[2],
-                      color="blue", linewidth=2.5, arrow_length_ratio=0.18,
-                      label="Estado actual")
+    arrow = ax.quiver(
+        0,
+        0,
+        0,
+        v_init[0],
+        v_init[1],
+        v_init[2],
+        color="blue",
+        linewidth=2.5,
+        arrow_length_ratio=0.18,
+        label="Estado actual",
+    )
 
     # trayectoria (línea morada)
     traj_x = [v_init[0]]
     traj_y = [v_init[1]]
     traj_z = [v_init[2]]
-    traj_line, = ax.plot(traj_x, traj_y, traj_z,
-                         linestyle="--", linewidth=2, color="purple",
-                         label="Trayectoria")
+    (traj_line,) = ax.plot(
+        traj_x,
+        traj_y,
+        traj_z,
+        linestyle="--",
+        linewidth=2,
+        color="purple",
+        label="Trayectoria",
+    )
 
     title = ax.set_title(f"Esfera de Bloch – Estado inicial {INITIAL_STATE}")
 
@@ -281,8 +332,12 @@ def main():
         # Actualizar flecha azul
         state["arrow"].remove()
         state["arrow"] = ax.quiver(
-            0, 0, 0,
-            v[0], v[1], v[2],
+            0,
+            0,
+            0,
+            v[0],
+            v[1],
+            v[2],
             color="blue",
             linewidth=2.5,
             arrow_length_ratio=0.18,
@@ -295,12 +350,7 @@ def main():
         return state["arrow"], state["traj_line"], state["title"]
 
     anim = FuncAnimation(
-        fig,
-        update,
-        frames=n_frames,
-        interval=40,
-        blit=False,
-        repeat=True
+        fig, update, frames=n_frames, interval=40, blit=False, repeat=True
     )
 
     # =============================
@@ -336,8 +386,12 @@ def main():
             # cambiar flecha a verde para indicar colapso
             state["arrow"].remove()
             state["arrow"] = ax.quiver(
-                0, 0, 0,
-                collapsed[0], collapsed[1], collapsed[2],
+                0,
+                0,
+                0,
+                collapsed[0],
+                collapsed[1],
+                collapsed[2],
                 color="green",
                 linewidth=3,
                 arrow_length_ratio=0.22,

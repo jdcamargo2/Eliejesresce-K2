@@ -1,7 +1,15 @@
+"""
+Este programa anima en tiempo real la evolución de un qubit sobre la esfera de Bloch,
+aplicando una secuencia de compuertas cuánticas como rotaciones 3D y mostrando su
+trayectoria completa.
+"""
+
 import os
-os.environ.pop("MPLBACKEND", None) 
+
+os.environ.pop("MPLBACKEND", None)
 
 import matplotlib
+
 matplotlib.use("TkAgg", force=True)
 
 import numpy as np
@@ -18,11 +26,11 @@ from matplotlib.animation import FuncAnimation
 # |0>  -> theta=0,  phi=0  (polo norte)
 # |1>  -> theta=pi, phi=0  (polo sur)
 theta_0 = 0.0
-phi_0   = 0.0
+phi_0 = 0.0
 
 # Secuencia de compuertas a aplicar (en orden)
 # Opciones implementadas: "X", "Y", "Z", "H", "S", "T"
-GATE_SEQUENCE = ["Z", "Z"]   # cámbiala como quieras, por ejemplo ["X"] o ["H","H"]
+GATE_SEQUENCE = ["Z", "Z"]  # cámbiala como quieras, por ejemplo ["X"] o ["H","H"]
 
 FRAMES_PER_GATE = 80  # cuántos pasos para cada compuerta (más = giro más suave)
 
@@ -30,6 +38,7 @@ FRAMES_PER_GATE = 80  # cuántos pasos para cada compuerta (más = giro más sua
 # =============================
 #  Funciones auxiliares
 # =============================
+
 
 def bloch_vector_from_angles(theta: float, phi: float) -> np.ndarray:
     """Convierte (theta, phi) en un vector 3D sobre la esfera de Bloch."""
@@ -46,11 +55,25 @@ def rotation_matrix(axis: np.ndarray, angle: float) -> np.ndarray:
     cos_a = np.cos(angle)
     sin_a = np.sin(angle)
 
-    return np.array([
-        [cos_a + ux**2 * (1-cos_a),     ux*uy*(1-cos_a) - uz*sin_a, ux*uz*(1-cos_a) + uy*sin_a],
-        [uy*ux*(1-cos_a) + uz*sin_a, cos_a + uy**2 * (1-cos_a),     uy*uz*(1-cos_a) - ux*sin_a],
-        [uz*ux*(1-cos_a) - uy*sin_a, uz*uy*(1-cos_a) + ux*sin_a, cos_a + uz**2 * (1-cos_a)]
-    ])
+    return np.array(
+        [
+            [
+                cos_a + ux**2 * (1 - cos_a),
+                ux * uy * (1 - cos_a) - uz * sin_a,
+                ux * uz * (1 - cos_a) + uy * sin_a,
+            ],
+            [
+                uy * ux * (1 - cos_a) + uz * sin_a,
+                cos_a + uy**2 * (1 - cos_a),
+                uy * uz * (1 - cos_a) - ux * sin_a,
+            ],
+            [
+                uz * ux * (1 - cos_a) - uy * sin_a,
+                uz * uy * (1 - cos_a) + ux * sin_a,
+                cos_a + uz**2 * (1 - cos_a),
+            ],
+        ]
+    )
 
 
 def get_gate_rotation(gate_name: str):
@@ -62,13 +85,13 @@ def get_gate_rotation(gate_name: str):
 
     if gate_name == "X":
         axis = np.array([1, 0, 0])
-        angle = np.pi          # Rx(pi)
+        angle = np.pi  # Rx(pi)
     elif gate_name == "Y":
         axis = np.array([0, 1, 0])
-        angle = np.pi          # Ry(pi)
+        angle = np.pi  # Ry(pi)
     elif gate_name == "Z":
         axis = np.array([0, 0, 1])
-        angle = np.pi          # Rz(pi)
+        angle = np.pi  # Rz(pi)
     elif gate_name == "H":
         axis = np.array([1, 0, 1])  # (X+Z)/sqrt(2)
         axis = axis / np.linalg.norm(axis)
@@ -76,10 +99,10 @@ def get_gate_rotation(gate_name: str):
         return axis, angle
     elif gate_name == "S":
         axis = np.array([0, 0, 1])
-        angle = np.pi / 2      # Rz(pi/2)
+        angle = np.pi / 2  # Rz(pi/2)
     elif gate_name == "T":
         axis = np.array([0, 0, 1])
-        angle = np.pi / 4      # Rz(pi/4)
+        angle = np.pi / 4  # Rz(pi/4)
     else:
         raise ValueError(f"Compuerta no soportada: {gate_name}")
 
@@ -89,7 +112,7 @@ def get_gate_rotation(gate_name: str):
 
 def plot_bloch_sphere(ax):
     """Dibuja la esfera de Bloch y los ejes."""
-    u = np.linspace(0, 2*np.pi, 60)
+    u = np.linspace(0, 2 * np.pi, 60)
     v = np.linspace(0, np.pi, 30)
     x = np.outer(np.cos(u), np.sin(v))
     y = np.outer(np.sin(u), np.sin(v))
@@ -118,6 +141,7 @@ def plot_bloch_sphere(ax):
 # =============================
 #  Precomputar trayectoria
 # =============================
+
 
 def build_trajectory():
     """
@@ -153,6 +177,7 @@ def build_trajectory():
 #  Animación
 # =============================
 
+
 def main():
     vectors, gate_labels = build_trajectory()
 
@@ -163,23 +188,47 @@ def main():
 
     # vector inicial (solo para contexto, en rojo)
     v0 = vectors[0]
-    ax.quiver(0, 0, 0, v0[0], v0[1], v0[2],
-              color="red", linewidth=2, arrow_length_ratio=0.15,
-              label="Estado inicial")
+    ax.quiver(
+        0,
+        0,
+        0,
+        v0[0],
+        v0[1],
+        v0[2],
+        color="red",
+        linewidth=2,
+        arrow_length_ratio=0.15,
+        label="Estado inicial",
+    )
 
     # vector dinámico (azul), lo actualizamos en la animación
     v_init = vectors[0]
-    arrow = ax.quiver(0, 0, 0, v_init[0], v_init[1], v_init[2],
-                      color="blue", linewidth=2.5, arrow_length_ratio=0.18,
-                      label="Estado actual")
+    arrow = ax.quiver(
+        0,
+        0,
+        0,
+        v_init[0],
+        v_init[1],
+        v_init[2],
+        color="blue",
+        linewidth=2.5,
+        arrow_length_ratio=0.18,
+        label="Estado actual",
+    )
 
     # trayectoria (línea morada)
     traj_x = [v_init[0]]
     traj_y = [v_init[1]]
     traj_z = [v_init[2]]
-    traj_line, = ax.plot(traj_x, traj_y, traj_z,
-                         linestyle="--", linewidth=2, color="purple",
-                         label="Trayectoria")
+    (traj_line,) = ax.plot(
+        traj_x,
+        traj_y,
+        traj_z,
+        linestyle="--",
+        linewidth=2,
+        color="purple",
+        label="Trayectoria",
+    )
 
     # texto con la compuerta actual
     title = ax.set_title("Esfera de Bloch – Animación")
@@ -210,14 +259,20 @@ def main():
         # actualizar flecha azul (remover y volver a crear)
         state["arrow"].remove()
         state["arrow"] = ax.quiver(
-            0, 0, 0,
-            v[0], v[1], v[2],
+            0,
+            0,
+            0,
+            v[0],
+            v[1],
+            v[2],
             color="blue",
             linewidth=2.5,
-            arrow_length_ratio=0.18
+            arrow_length_ratio=0.18,
         )
 
-        state["title"].set_text(f"Esfera de Bloch – Gate {gate} (frame {frame+1}/{len(vectors)})")
+        state["title"].set_text(
+            f"Esfera de Bloch – Gate {gate} (frame {frame+1}/{len(vectors)})"
+        )
 
         return state["arrow"], state["traj_line"], state["title"]
 
@@ -225,8 +280,8 @@ def main():
         fig,
         update,
         frames=len(vectors),
-        interval=40,   # ms entre frames (ajusta para más lento/rápido)
-        blit=False
+        interval=40,  # ms entre frames (ajusta para más lento/rápido)
+        blit=False,
     )
 
     # vista bonita para ver casi toda la esfera

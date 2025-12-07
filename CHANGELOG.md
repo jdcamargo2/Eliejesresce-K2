@@ -50,8 +50,6 @@
 
 ---
 
-
-
 ## Semana 3 (2025-11-17 al 2025-11-23)
 
 ### Teoría y aprendizaje
@@ -82,8 +80,6 @@
 - Registro de reflexiones personales en Diario de Bordo.
 
 ---
-
-
 
 ## Semana 4 (2025-11-24 al 2025-11-30)
 
@@ -130,3 +126,60 @@
 
 - READMEs quedan programados para el próximo domingo.
 - Repositorio queda alineado al estándar Elíejesresce-K2.
+
+---
+
+## Semana 5 (2025-12-01 al 2025-12-07)
+
+### Teoría y aprendizaje
+
+- Transición de Campamento 1 a Campamento 2 en el estudio cuántico.
+- Comprensión completa de la estructura de un circuito en Qiskit(crear, agregar compuertas, medir, ejecutar y analizar).
+- Estudio formal del **producto tensorial** y su rol en sistemas de 2 qubits.
+- Análisis profundo del comportamiento y propósito de la puerta **CNOT**(control, objetivo, orden, matriz 4×4).
+- Diferenciación algebraica entre **estados separables** y **estados entrelazados**mediante el criterio *ad – bc*.
+- Introducción y comprensión conceptual de los **cuatro estados de Bell**.
+- Primer puente teórico entre Bloch ↔ Qiskit ↔ Álgebra lineal ↔ Estados de Bell.
+
+### Diario y Biblioteca
+
+- Exportado y organizado el **Diario de Bordo – Semana 5** en PDF (Días 21–25).
+- Exportada y organizada la **Biblioteca – Semana 5** en PDF (Días 21–25).
+- Contenido coherente y alineado con la progresión teórica de la semana.
+
+### Código
+
+- Consolidación de los scripts iniciales dentro de `src/qiskit_projects/learning/`.
+- `circuit.py`: estructura base de circuitos y flujo operativo.
+- `convencion.py`: definición y estandarización de convenciones Bloch ↔ Qiskit.
+- `statevector.py`: obtención, análisis y visualización del vector de estado.
+- `bell.py`: implementación y medición de los cuatro estados de Bell.
+- `blochAnimation.py`: preparación del módulo para futuras animaciones unificadas.
+- Todos los archivos reciben encabezados de documentación indicando su propósito.
+
+### Estructura del repositorio
+
+- Integración completa de Semana 5 en la arquitectura general de Elíejesresce K2.
+- Confirmada la trazabilidad limpia sin duplicados ni inconsistencias.
+- Actualizada la descripción de la estructura del repositorio para reflejar la organización real bajo `CODIGO/src/`.
+- Consolidados los módulos principales en:
+
+  - `esfera_bloch/` para simulaciones y animaciones de la Esfera de Bloch.
+  - `qiskit_projects/learning/` para scripts de práctica con Qiskit.
+  - `transformacion_lineal/` para visualizaciones y ejercicios de álgebra lineal.
+  - `bell.py`: implementación y medición de los cuatro estados de Bell.
+  - `blochAnimation.py`: base para futuras animaciones unificadas.
+  - Archivos adicionales en preparación (circuit.py, convencion.py, statevector.py) aún no integrados en la carpeta `learning/`.
+- Eliminadas referencias anteriores a una estructura `CODIGO/PYTHON` y `CODIGO/QISKIT` que ya no corresponden al estado actual del proyecto.
+
+### Normalización de archivos
+
+- Renombrados todos los PDFs de Biblioteca y Diario para seguir la convención:
+  `Nombre_Semana_XX.pdf`.
+- Sustituidos espacios por guiones bajos para evitar errores en rutas y asegurar coherencia.
+
+### Notas
+
+- README actualizado parcialmente; progreso semanal ampliado hasta Semana 5.
+- Estructura del repositorio actualizada.
+- Semana 5 marca el inicio formal del estudio del **entrelazamiento cuántico**.

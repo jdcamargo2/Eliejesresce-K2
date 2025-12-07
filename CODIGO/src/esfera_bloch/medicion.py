@@ -1,3 +1,9 @@
+"""
+Este programa simula la medición de un qubit usando su representación en la esfera de
+Bloch, aplica una secuencia de compuertas, genera resultados probabilísticos tipo
+Monte Carlo y guarda todas las mediciones en un archivo CSV para su análisis.
+"""
+
 import numpy as np
 import csv
 
@@ -7,8 +13,8 @@ import csv
 
 # Ángulos iniciales del qubit en la esfera de Bloch
 # (puedes cambiarlos libremente)
-THETA_0 = 0.8  # por ejemplo, pi/2
-PHI_0 = 0.8  # por ejemplo, 0
+THETA_0 = 0.8
+PHI_0 = 0.8
 
 # Secuencia de compuertas (en orden)
 # Soportadas: "I", "X", "Y", "Z", "H", "S", "T", "RX", "RY", "RZ"

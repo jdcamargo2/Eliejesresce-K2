@@ -1,3 +1,8 @@
+"""
+Este programa anima la rotación RY de un qubit desde 0 hasta π sobre la esfera de Bloch,
+calculando el statevector en cada paso y convirtiéndolo en su vector (x, y, z).
+"""
+
 import numpy as np
 from qiskit import QuantumCircuit
 from qiskit.quantum_info import Statevector
@@ -6,19 +11,14 @@ import matplotlib.pyplot as plt
 
 
 def get_state_from_ry(theta: float) -> Statevector:
-    """
-    Devuelve el estado después de aplicar RY(theta) a |0>.
-    """
+    # Devuelve el estado después de aplicar RY(theta) a |0>.
     qc = QuantumCircuit(1)
     qc.ry(theta, 0)
     return Statevector.from_instruction(qc)
 
 
 def state_to_bloch_vector(state: Statevector) -> np.ndarray:
-    """
-    Convierte un statevector de 1 qubit en su vector (x, y, z)
-    en la esfera de Bloch.
-    """
+    # Convierte un statevector de 1 qubit en su vector (x, y, z) en la esfera de Bloch.
     data = state.data
     if len(data) != 2:
         raise ValueError("Este conversor solo funciona para 1 qubit.")
@@ -37,10 +37,8 @@ def state_to_bloch_vector(state: Statevector) -> np.ndarray:
 
 
 def animate_ry_rotation(num_frames: int = 40) -> None:
-    """
-    Animación estable de una rotación RY(theta) desde 0 hasta π
-    usando Bloch() SIN crear ventanas infinitas.
-    """
+    # Animación estable de una rotación RY(theta) desde 0 hasta π
+    # usando Bloch() SIN crear ventanas infinitas.
     plt.ion()  # modo interactivo
     fig = plt.figure()
     bloch = Bloch(fig=fig)
