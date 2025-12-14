@@ -134,10 +134,10 @@
 ### Teoría y aprendizaje
 
 - Transición de Campamento 1 a Campamento 2 en el estudio cuántico.
-- Comprensión completa de la estructura de un circuito en Qiskit(crear, agregar compuertas, medir, ejecutar y analizar).
+- Comprensión completa de la estructura de un circuito en Qiskit (crear, agregar compuertas, medir, ejecutar y analizar).
 - Estudio formal del **producto tensorial** y su rol en sistemas de 2 qubits.
-- Análisis profundo del comportamiento y propósito de la puerta **CNOT**(control, objetivo, orden, matriz 4×4).
-- Diferenciación algebraica entre **estados separables** y **estados entrelazados**mediante el criterio *ad – bc*.
+- Análisis profundo del comportamiento y propósito de la puerta **CNOT** (control, objetivo, orden, matriz 4×4).
+- Diferenciación algebraica entre **estados separables** y **estados entrelazados** mediante el criterio *ad – bc*.
 - Introducción y comprensión conceptual de los **cuatro estados de Bell**.
 - Primer puente teórico entre Bloch ↔ Qiskit ↔ Álgebra lineal ↔ Estados de Bell.
 
@@ -183,3 +183,46 @@
 - README actualizado parcialmente; progreso semanal ampliado hasta Semana 5.
 - Estructura del repositorio actualizada.
 - Semana 5 marca el inicio formal del estudio del **entrelazamiento cuántico**.
+
+---
+
+## Semana 6 (2025-12-08 al 2025-12-14)
+
+### Teoría y aprendizaje
+
+- Trabajo centrado en **entrelazamiento**, **Bell measurement** y **teleportación cuántica.**
+- Aparición de **fricción conceptual** al interpretar:
+  - el significado real de una medición en la base de Bell,
+  - la relación entre los diagramas del protocolo de teleportación y su lectura física/matemática.
+- Identificación de interpretaciones incorrectas iniciales (medir como “revelar un estado”) y comienzo de su corrección hacia la idea de **medición como proyección**.
+- Proceso reiterativo de ir y volver entre:
+  - álgebra,
+  - diagramas,
+  - circuitos en Qiskit,
+- La semana no busca cerrar teleportación, sino **entender qué pieza conceptual faltaba** para poder hacerlo correctamente.
+
+### Diario y Biblioteca
+
+- Exportado y organizado el **Diario de Bordo - Semana 6** en PDF.
+- Exportada y organizada la **Biblioteca - Semana 6** en PDF.
+
+### Código
+
+- Reorganización del código para agrupar **Python y Qiskit por tema**, reflejando el modo real de estudio (concepto → prueba → revisión).
+- Código mantenido flexible para repetir experimentos, cambiar estados iniciales y observar resultados sin forzar conclusiones.
+
+### Estructura del repositorio
+
+- Ajuste de la estructura del repositorio para favorecer la navegación por **conceptos** (Bell, Bloch, teleportación) en lugar de por tecnologías.
+- Identificación de puntos a refinar en la organización (nombres, versiones paralelas), sin romper la trazabilidad del trabajo realizado.
+
+### Normalización de archivos
+
+- Consolidación de los archivos:
+  - `Biblioteca - Semana 6.pdf`
+  - `Diario de Bordo - Semana 6.pdf`
+- Semana documentada de forma completa.
+
+### Notas
+
+- El eje se mantuvo, aunque el sistema se dobló.

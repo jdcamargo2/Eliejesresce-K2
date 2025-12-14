@@ -78,20 +78,29 @@ DIARIO/
 CODIGO/
   .venv/
   src/
+    bell/
+      bell.py
+      diagram_bell.py
+      transformation_bell_q1.py
+      transformation_bell_q2.py
+
     esfera_bloch/
+      __init__.py
+      esferaBlochStatic.py
+      animacion_v1.py
+      animacion_v2.py
+      animacion_v3.py
       mediciones/
         __init__.py
         medicion.py
-      __init__.py
-      blochAnimacion.py
-      blochAnimacionV2.py
-      esferaBloch.py
 
-    qiskit_projects/
-      learning/
-        __init__.py
-        bell.py
-        blochAnimation.py
+    learning_qiskit/
+      circuit.py
+      convencion.py
+      statevector.py
+
+    teleportacion_cuantica/
+      teleport_qiskit.py
 
     transformacion_lineal/
       __init__.py
@@ -133,31 +142,41 @@ Lecturas, ideas, conceptos aprendidos y esquemas teóricos.
 
 # 🔬 Área Técnica del Proyecto
 
-El repositorio documenta mi aprendizaje en:
+El repositorio documenta mi proceso de aprendizaje y exploración en los siguientes ejes, con énfasis en la conexión entre teoría matemática, interpretación conceptual y simulación computacional.
 
 ### **Álgebra Lineal**
 
-- Determinantes
-- Cofactores
-- Regla de Sarrus
-- Multiplicación de matrices
-- Interpretación geométrica
-- Transformaciones lineales
-- Eigenvalores y eigenvectores
+- Vectores y espacios vectoriales.
+- Determinantes, cofactores y regla de Sarrus.
+- Multiplicación de matrices y composición de transformaciones.
+- Interpretación geométrica de transformaciones lineales en 2D y 3D.
+- Producto tensorial y su rol en sistemas de múltiples qubits.
+- Estados separables vs estados entrelazados (criterios algebraicos).
+- Eigenvalores y eigenvectores como base conceptual para operadores y sistemas dinámicos.
 
 ### **Computación Cuántica**
 
-- Qubits y superposición
-- Esfera de Bloch
-- Operadores unitarios
-- Compuertas cuánticas (X, Z, H, CNOT, etc.)
-- Conjugado, transpuesta y conjugada transpuesta
-- Interpretación del determinante en sistemas cuánticos
+- Qubits, superposición y representación en la Esfera de Bloch.
+- Operadores unitarios y su interpretación como rotaciones.
+- Compuertas cuánticas de un qubit (X, Z, H, RX, RY, RZ).
+- Compuertas de dos qubits y entrelazamiento (CNOT).
+- Construcción e interpretación de los **estados de Bell**.
+- Medición cuántica y colapso del estado.
+- **Bell measurement** como proyección en una base entrelazada.
+- Introducción conceptual a la **teleportación cuántica** y su lectura mediante álgebra, diagramas y circuitos.
+- Relación entre formalismo matemático, diagramas de circuitos y resultados de medición.
 
-### **Programación**
+### **Programación y Simulación**
 
-- Python (transformaciones lineales, cálculos y experimentos)
-- Qiskit (simulaciones futuras)
+- Python como herramienta para:
+  - visualización de transformaciones lineales,
+  - experimentos matemáticos,
+  - animaciones de la Esfera de Bloch.
+- Qiskit para:
+  - construcción de circuitos cuánticos,
+  - simulación de estados y mediciones,
+  - exploración práctica de entrelazamiento y protocolos cuánticos.
+- Código utilizado como instrumento de exploración conceptual, no solo como implementación final.
 
 ---
 
@@ -168,6 +187,7 @@ El repositorio documenta mi aprendizaje en:
 - **Semana 3:** Profundización en la Esfera de Bloch (visualización 3D, rotaciones básicas) y primeras animaciones de estados |0⟩, |1⟩ y superposiciones.
 - **Semana 4:** Refinamiento del simulador de Bloch y mapeo de puertas cuánticas (X, Z, H, RX/RY/RZ) a rotaciones en la esfera. Conexión más clara entre probabilidades, norma y medición.
 - **Semana 5:** Paso de Campamento 1 a Campamento 2 en Qiskit. Estructura de circuitos (crear, medir, ejecutar), estudio del producto tensorial, puerta CNOT, criterio de estados separables vs entrelazados y construcción de los cuatro estados de Bell con Qiskit.
+- **Semana 6:** Trabajo enfocado en entrelazamiento, Bell measurement y teleportación cuántica. Aparición de fricción conceptual al interpretar la medición en la base de Bell y los diagramas del protocolo de teleportación. Revisión de interpretaciones iniciales (medir como revelar) y ajuste hacia la medición como proyección, mediante un proceso iterativo entre álgebra, diagramas y circuitos en Qiskit.
 
 ---
 
