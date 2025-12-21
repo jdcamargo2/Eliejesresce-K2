@@ -226,3 +226,60 @@
 ### Notas
 
 - El eje se mantuvo, aunque el sistema se dobló.
+
+---
+
+## Semana 7 (2025-12-08 al 2025-12-14)
+
+### Teoría y aprendizaje
+
+* Profundización en **entrelazamiento cuántico**, **medición en la base de Bell** y **protocolo de teleportación**.
+* Identificación de fricción conceptual al interpretar:
+
+  * el significado físico de una medición en la base de Bell,
+  * la relación entre los diagramas del protocolo y su formulación algebraica.
+* Corrección de interpretaciones iniciales incorrectas de la medición
+
+  (de “medir como revelar el estado” hacia **medición como proyección**).
+* Trabajo reiterativo de ida y vuelta entre:
+
+  * álgebra lineal,
+  * diagramas conceptuales,
+  * circuitos en Qiskit,
+
+    con foco en comprensión y no en ejecución mecánica.
+* La semana no tuvo como objetivo cerrar la teleportación, sino **detectar la pieza conceptual faltante** necesaria para completarla correctamente.
+
+### Diario y Biblioteca
+
+* Exportado y organizado el **Diario de Bordo – Semana 7** en PDF.
+* Exportada y organizada la **Biblioteca – Semana 7** en PDF.
+* Contenido alineado con el proceso de revisión conceptual vivido durante la semana.
+
+### Código
+
+* Reorganización del código para agrupar scripts por **conceptos físicos**
+
+  (Bell, Bloch, teleportación) en lugar de por tecnología.
+* Ajustes para mantener el código flexible:
+
+  * cambio de estados iniciales,
+  * repetición de experimentos,
+  * observación de resultados sin forzar conclusiones.
+
+### Estructura del repositorio
+
+* Ajustes menores en la estructura para mejorar la navegación por conceptos.
+* Se mantiene la coherencia con la arquitectura definida desde la Semana 5.
+
+### Normalización de archivos
+
+* Consolidación y normalización de los archivos:
+  * `Biblioteca_Semana_07.pdf`
+  * `Diario_de_Bordo_Semana_07.pdf`
+* Semana documentada de forma completa y consistente con las anteriores.
+
+### Notas
+
+* El eje se mantuvo, aunque el sistema se dobló.
+* Semana de ajuste conceptual previa al cierre correcto de la teleportación.

@@ -31,7 +31,7 @@ from matplotlib.animation import FuncAnimation
 # |i->  : (theta=pi/2,   phi=-pi/2)
 
 STATE_PRESETS = {
-    "MANFO": (0.8, 0.8),
+    "MANFO": (np.pi / 3, np.pi / 5),
     "|0>": (0.0, 0.0),
     "|1>": (np.pi, 0.0),
     "|+>": (np.pi / 2, 0.0),
@@ -41,7 +41,7 @@ STATE_PRESETS = {
 }
 
 # Elige el estado inicial aquí:
-INITIAL_STATE = "|0>"  # "|0>", "|1>", "|+>", "|->", "|i+>", "|i->"
+INITIAL_STATE = "MANFO"  # "|0>", "|1>", "|+>", "|->", "|i+>", "|i->"
 
 theta_0, phi_0 = STATE_PRESETS[INITIAL_STATE]
 
@@ -54,7 +54,7 @@ theta_0, phi_0 = STATE_PRESETS[INITIAL_STATE]
 # Soportadas: "I", "X", "Y", "Z", "H", "S", "T", "RX", "RY", "RZ"
 # RX, RY, RZ aquí son rotaciones de pi/2 (90°) alrededor de cada eje.
 GATE_SEQUENCE = [
-    "Z",
+    "I",
 ]  # por ejemplo: ["I", "X", "Y", "Z", "H", "S", "T", "RX", "RY", "RZ]
 
 # Suavidad de la animación (más frames = giro más suave)

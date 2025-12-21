@@ -59,6 +59,7 @@ Este repositorio es el **campamento base digital** donde se registra todo el ava
 # 📂 Estructura del Repositorio
 
 ```
+
 BIBLIOTECA/
   2025/
     Biblioteca_Semana_01.pdf
@@ -100,6 +101,7 @@ CODIGO/
       statevector.py
 
     teleportacion_cuantica/
+      teleport_procces.py
       teleport_qiskit.py
 
     transformacion_lineal/
@@ -188,6 +190,7 @@ El repositorio documenta mi proceso de aprendizaje y exploración en los siguien
 - **Semana 4:** Refinamiento del simulador de Bloch y mapeo de puertas cuánticas (X, Z, H, RX/RY/RZ) a rotaciones en la esfera. Conexión más clara entre probabilidades, norma y medición.
 - **Semana 5:** Paso de Campamento 1 a Campamento 2 en Qiskit. Estructura de circuitos (crear, medir, ejecutar), estudio del producto tensorial, puerta CNOT, criterio de estados separables vs entrelazados y construcción de los cuatro estados de Bell con Qiskit.
 - **Semana 6:** Trabajo enfocado en entrelazamiento, Bell measurement y teleportación cuántica. Aparición de fricción conceptual al interpretar la medición en la base de Bell y los diagramas del protocolo de teleportación. Revisión de interpretaciones iniciales (medir como revelar) y ajuste hacia la medición como proyección, mediante un proceso iterativo entre álgebra, diagramas y circuitos en Qiskit.
+- **Semana 7:** Semana dedicada a resolver la fricción conceptual en la  **teleportación cuántica** , aclarando el significado de la medición en la base de Bell y consolidando la medición como proyección mediante álgebra, diagramas y simulaciones en Qiskit.
 
 ---
 
