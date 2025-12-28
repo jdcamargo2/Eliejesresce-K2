@@ -283,3 +283,71 @@
 
 * El eje se mantuvo, aunque el sistema se dobló.
 * Semana de ajuste conceptual previa al cierre correcto de la teleportación.
+
+---
+
+## Semana 8 (2025-12-22 al 2025-12-28)
+
+### Teoría y aprendizaje
+
+- Profundización intensiva en el **algoritmo de Deutsch–Jozsa**, abordado desde múltiples capas:
+
+  - formulación conceptual,
+  - flujo del circuito cuántico,
+  - desarrollo algebraico paso a paso,
+  - interpretación de la interferencia.
+- Comprensión progresiva del rol del **oráculo como caja negra**:
+
+  - transición desde una expectativa de “evaluar valores” hacia la codificación de información en **fases**.
+- Identificación explícita de los puntos de fricción conceptual:
+
+  - el significado matemático de la fase `(-1)^{f(x)}`,
+  - la recombinación de estados mediante el Hadamard final,
+  - la razón por la cual se mide el registro completo y no qubit por qubit.
+- Consolidación de la idea central:
+
+  - la computación cuántica **no calcula resultados**, sino que **detecta patrones globales mediante interferencia**.
+- Reconocimiento del carácter **frágil** del algoritmo:
+
+  - ausencia de interferencia útil si falta superposición, fase o recombinación.
+
+### Diario y Biblioteca
+
+- Exportado y organizado el **Diario de Bordo – Semana 8** en PDF.
+- Exportada y organizada la **Biblioteca – Semana 8** en PDF.
+- La documentación refleja:
+  - días de avance parcial,
+  - días fuera del eje por contexto (Navidad),
+  - retorno consciente al proceso sin ruptura del sistema.
+- Registro explícito de la confusión como parte del aprendizaje, no como fallo.
+
+### Código
+
+- Implementación y experimentación del algoritmo de **Deutsch–Jozsa en Qiskit**.
+- Pruebas con:
+
+  - múltiples qubits de entrada (hasta 28 + 1 auxiliar),
+  - distintos tipos de oráculo (constante y balanceado),
+  - repetición de experimentos en 1024 shots.
+- Verificación empírica del comportamiento teórico:
+
+  - un solo valor distinto basta para que la función sea balanceada.
+
+### Estructura del repositorio
+
+- Se mantiene la estructura conceptual del repositorio introducida en semanas previas.
+- El contenido de la semana se integra sin romper la coherencia global del proyecto.
+- La organización sigue priorizando **algoritmos y fenómenos físicos** sobre implementaciones aisladas.
+
+### Normalización de archivos
+
+- Consolidación y normalización de los archivos:
+  - `Biblioteca_Semana_08.pdf`
+  - `Diario_de_Bordo_Semana_08.pdf`
+- Semana documentada de forma completa y consistente con la serie histórica del proyecto.
+
+### Notas
+
+- El eje se mantuvo con sesiones más cortas, pero conscientes.
+- Semana de consolidación profunda, sin épica, pero con ganancia estructural real.
+- Deutsch–Jozsa quedó funcionalmente comprendido, aunque matemáticamente aún abierto, lo cual es consistente con el nivel alcanzado.
