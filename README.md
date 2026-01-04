@@ -84,7 +84,10 @@ CODIGO/
       diagram_bell.py
       transformation_bell_q1.py
       transformation_bell_q2.py
-  
+
+    consolidacion/
+      consolidacion_1.py
+
     deutsch_jozsa/
       deutsch_jozsa.py
 
@@ -98,10 +101,16 @@ CODIGO/
         __init__.py
         medicion.py
 
+    grover/
+      circuit_grover.py
+
     learning_qiskit/
       circuit.py
       convencion.py
       statevector.py
+
+    mixtos/
+      estados_mixtos.py
 
     teleportacion_cuantica/
       teleport_procces.py
@@ -195,6 +204,7 @@ El repositorio documenta mi proceso de aprendizaje y exploración en los siguien
 - **Semana 6:** Trabajo enfocado en entrelazamiento, Bell measurement y teleportación cuántica. Aparición de fricción conceptual al interpretar la medición en la base de Bell y los diagramas del protocolo de teleportación. Revisión de interpretaciones iniciales (medir como revelar) y ajuste hacia la medición como proyección, mediante un proceso iterativo entre álgebra, diagramas y circuitos en Qiskit.
 - **Semana 7:** Semana dedicada a resolver la fricción conceptual en la **teleportación cuántica**, aclarando el significado de la medición en la base de Bell y consolidando la medición como proyección mediante álgebra, diagramas y simulaciones en Qiskit.
 - **Semana 8:** Semana centrada en la  **consolidación del algoritmo de Deutsch–Jozsa** , comprendiendo cómo el oráculo codifica información en fases y cómo la **interferencia global** permite distinguir funciones constantes y balanceadas mediante álgebra, análisis conceptual y simulaciones en Qiskit.
+- **Semana 9:** Consolidación profunda de la **interferencia cuántica** como mecanismo central. Distinción clara entre amplitud y probabilidad, rol de la fase relativa y su conversión en resultados medibles mediante recombinación. Introducción práctica a **Grover** como amplificación de amplitud y estudio inicial de **estados mixtos** y pérdida de coherencia mediante matrices densidad y visualización en la esfera de Bloch.
 
 ---
 

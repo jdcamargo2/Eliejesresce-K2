@@ -351,3 +351,78 @@
 - El eje se mantuvo con sesiones más cortas, pero conscientes.
 - Semana de consolidación profunda, sin épica, pero con ganancia estructural real.
 - Deutsch–Jozsa quedó funcionalmente comprendido, aunque matemáticamente aún abierto, lo cual es consistente con el nivel alcanzado.
+
+---
+
+## Semana 9 (2025-12-29 al 2026-01-04)
+
+### Teoría y aprendizaje
+
+* Consolidación de la **interferencia cuántica** como mecanismo central:
+  * distinción clara entre amplitud y probabilidad,
+  * rol de la fase relativa frente a la fase global,
+  * dependencia de lo observable respecto a la base de medición.
+* Uso del **Hadamard como operador de recombinación**:
+  * conversión de información de fase en resultados medibles,
+  * lectura geométrica del proceso.
+* Introducción a los **estados mixtos**:
+  * empleo de la matriz densidad,
+  * diferencia entre superposición y mezcla estadística,
+  * relación con pureza y entropía.
+* Primer acercamiento funcional al **algoritmo de Grover**:
+  * oráculo como inversor de fase,
+  * difusión como reflexión sobre el promedio,
+  * comprensión del algoritmo como rotación en un subespacio bidimensional.
+* Identificación de límites:
+  * número óptimo de iteraciones,
+  * efecto de *overshoot* al excederlo.
+
+### Diario y Biblioteca
+
+* Exportado y organizado el **Diario de Bordo – Semana 9** en PDF.
+* Exportada y organizada la **Biblioteca – Semana 9** en PDF.
+* La documentación registra:
+
+  * momentos de consolidación conceptual profunda,
+  * aparición explícita de obstáculos reales (estado mixto vs superposición),
+  * cierre de año sin ruptura del eje, con transición consciente entre ciclos.
+
+### Código
+
+* Experimentos mínimos para visualizar **fase, interferencia y cambio de base** mediante circuitos simples (H / HZH).
+* Implementación didáctica del **algoritmo de Grover para 2 qubits**:
+  * visualización de probabilidades a nivel de vector de estado,
+  * verificación explícita de que el oráculo no altera probabilidades,
+  * demostración del efecto de amplificación tras la difusión.
+* Desarrollo de un **laboratorio conceptual en la esfera de Bloch**:
+  * comparación entre estados puros y mixtos,
+  * evolución mediante matrices densidad,
+  * medición en bases Z y X,
+  * análisis de pureza y entropía de von Neumann.
+* Exploración controlada de **ruido cuántico** :
+  * dephasing como pérdida de coherencia,
+  * depolarización y relajación como modelos físicos básicos,
+  * observación directa del impacto del ruido sobre la interferencia.
+
+### Estructura del repositorio
+
+* La semana se integra como unidad completa, sin fragmentarse por el cambio de año.
+* Se mantiene la coherencia estructural del proyecto Elíejesresce K2.
+* Se incorporan nuevas carpetas para reflejar la evolución conceptual del proyecto:
+  * `grover/`: avances relacionados con el algoritmo de Grover y la amplificación de amplitud.
+  * `consolidacion/`: scripts de transición y cierre conceptual entre interferencia, fase y recombinación.
+  * `mixtos/`: estudio de estados mixtos, coherencia y matrices densidad.
+
+### Normalización de archivos
+
+* Consolidación y normalización de los archivos:
+  * `Biblioteca_Semana_09.pdf`
+  * `Diario_de_Bordo_Semana_09.pdf`
+* Organización consistente con la serie histórica del proyecto, preservando continuidad conceptual.
+
+### Notas
+
+* Semana de transición entre ciclos anuales, sostenida sin ruptura del eje.
+* Avance menos voluminoso en contenido nuevo, pero **más profundo en comprensión estructural** .
+* Interferencia, fase y coherencia quedaron ancladas como conceptos centrales.
+* Grover quedó comprendido en su esencia geométrica, con aspectos formales aún abiertos.

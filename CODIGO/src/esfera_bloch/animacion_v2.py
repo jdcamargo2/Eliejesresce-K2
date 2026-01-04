@@ -30,9 +30,9 @@ phi_0 = 0.0
 
 # Secuencia de compuertas a aplicar (en orden)
 # Opciones implementadas: "X", "Y", "Z", "H", "S", "T"
-GATE_SEQUENCE = ["H", "Z"]  # cámbiala como quieras, por ejemplo ["X"] o ["H","H"]
+GATE_SEQUENCE = ["H", "T", "H"]  # cámbiala como quieras, por ejemplo ["X"] o ["H","H"]
 
-FRAMES_PER_GATE = 80  # cuántos pasos para cada compuerta (más = giro más suave)
+FRAMES_PER_GATE = 40  # cuántos pasos para cada compuerta (más = giro más suave)
 
 
 # =============================
