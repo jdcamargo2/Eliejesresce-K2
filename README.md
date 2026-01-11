@@ -67,6 +67,13 @@ BIBLIOTECA/
     Biblioteca_Semana_03.pdf
     Biblioteca_Semana_04.pdf
     Biblioteca_Semana_05.pdf
+    Biblioteca_Semana_06.pdf
+    Biblioteca_Semana_07.pdf
+    Biblioteca_Semana_08.pdf
+    Biblioteca_Semana_09.pdf
+  
+   2026/
+    Biblioteca_Semana_10.pdf
 
 DIARIO/
   2025/
@@ -75,6 +82,13 @@ DIARIO/
     Diario_de_Bordo_Semana_03.pdf
     Diario_de_Bordo_Semana_04.pdf
     Diario_de_Bordo_Semana_05.pdf
+    Diario_de_Bordo_Semana_06.pdf
+    Diario_de_Bordo_Semana_07.pdf
+    Diario_de_Bordo_Semana_08.pdf
+    Diario_de_Bordo_Semana_09.pdf
+
+   2026/
+    Diario_de_Bordo_Semana_10.pdf
 
 CODIGO/
   .venv/
@@ -103,6 +117,7 @@ CODIGO/
 
     grover/
       circuit_grover.py
+      vector_grover.py
 
     learning_qiskit/
       circuit.py
@@ -121,13 +136,18 @@ CODIGO/
       transformacionLineal2D.py
       transformacionLineal3D.py
 
-FRASES/
-  (textos personales, disvarianza mental, poemas, conceptos)
+TEXTOS/
+    Discarianza Mental.md
+    Dos caminos.md
+    Entrelazamiento.md
+    Lejos en espacio.md
+    Navegante.md
 
 IDENTIDAD/
   (logos, documentos base, guía maestra, proyecto, horario...)
 
 README.md
+LICENSE.txt
 CHANGELOG.md
 
 ```
@@ -144,11 +164,11 @@ Documento central que define la filosofía, los símbolos y la lógica interna d
 
 Explica las fases, campamentos, protocolos y principios del ascenso K2.
 
-### **📓 Diario de Bordo (DIARIO/2025/)**
+### **📓 Diario de Bordo (DIARIO/)**
 
 Registro semanal personal del camino, exportado en PDF.
 
-### **📚 Biblioteca K2 (BIBLIOTECA/2025/)**
+### **📚 Biblioteca K2 (BIBLIOTECA/)**
 
 Lecturas, ideas, conceptos aprendidos y esquemas teóricos.
 
@@ -205,6 +225,7 @@ El repositorio documenta mi proceso de aprendizaje y exploración en los siguien
 - **Semana 7:** Semana dedicada a resolver la fricción conceptual en la **teleportación cuántica**, aclarando el significado de la medición en la base de Bell y consolidando la medición como proyección mediante álgebra, diagramas y simulaciones en Qiskit.
 - **Semana 8:** Semana centrada en la  **consolidación del algoritmo de Deutsch–Jozsa** , comprendiendo cómo el oráculo codifica información en fases y cómo la **interferencia global** permite distinguir funciones constantes y balanceadas mediante álgebra, análisis conceptual y simulaciones en Qiskit.
 - **Semana 9:** Consolidación profunda de la **interferencia cuántica** como mecanismo central. Distinción clara entre amplitud y probabilidad, rol de la fase relativa y su conversión en resultados medibles mediante recombinación. Introducción práctica a **Grover** como amplificación de amplitud y estudio inicial de **estados mixtos** y pérdida de coherencia mediante matrices densidad y visualización en la esfera de Bloch.
+- **Semana 10:** Profundización del **algoritmo de Grover** desde su estructura matemática y geométrica. Comprensión del proceso como **rotación en un subespacio bidimensional**, análisis del ángulo de rotación y del número óptimo de iteraciones. Desarrollo de visualizaciones con subpasos reales (oráculo y difusión) que validan empíricamente la amplificación de amplitud y sus límites.
 
 ---
 

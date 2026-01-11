@@ -426,3 +426,80 @@
 * Avance menos voluminoso en contenido nuevo, pero **más profundo en comprensión estructural** .
 * Interferencia, fase y coherencia quedaron ancladas como conceptos centrales.
 * Grover quedó comprendido en su esencia geométrica, con aspectos formales aún abiertos.
+
+---
+
+## Semana 10 (2026-01-05 al 2026-01-11)
+
+### Teoría y aprendizaje
+
+* Profundización formal en el **algoritmo de Grover desde su formulación matemática**:
+  * definición explícita de los subespacios ∣**w**⟩ y ∣w⊥⟩.
+  * descomposición del estado inicial∣**s**⟩ como combinación lineal de ambos.
+  * interpretación del algoritmo como **rotación en un plano bidimensional.**
+* Análisis geométrico completo del proceso:
+  * introducción del ángulo **θ** asociado a la fracción de estados marcados.
+  * relación entre **sin**θ = **M**/**N** y la probabilidad de éxito.
+  * comprensión del movimiento periódico y del fenómeno de *overshoot.*
+* Formalización de los operadores fundamentales:
+  * oráculo como **reflexión de fase** sobre el subespacio de soluciones.
+  * difusión como **inversión respecto al estado promedio.**
+  * composición del operador de Grover como rotación efectiva por **2θ.**
+* Comprensión explícita del **número óptimo de iteraciones**:
+  * derivación aproximada **k≈4πN/M.**
+  * aplicación práctica a casos pequeños **(N=8,M=1)**.
+  * contraste entre teoría continua y ejecución discreta.
+
+### Diario y Biblioteca
+
+* Exportado y organizado el **Diario de Bordo – Semana 10** en PDF.
+* Exportada y organizada la **Biblioteca – Semana 10** en PDF.
+* Se inaugura explícitamente la **estructura 2026** dentro del proyecto:
+  * separación limpia entre ciclos anuales.
+* La documentación registra:
+  * días fuera del eje asumidos conscientemente por cierre del ciclo universitario,
+  * aparición de una bifurcación simbólica entre lo técnico y lo narrativo.
+
+### Código
+
+* Desarrollo de un **nuevo script avanzado de Grover n-qubits**:
+
+  * soporte para uno o múltiples estados marcados.
+  * implementación explícita del oráculo como flip de fase selectivo.
+  * difusión generalizada mediante operadores multi-controlados.
+* Implementación de una **animación geométrica realista** del algoritmo:
+
+  * visualización de los estados en el plano ∣w⟩,∣w⊥⟩.
+  * representación de subpasos reales (init → oracle → diffusion).
+  * inclusión de círculo guía y vectores base visibles.
+
+### Textos
+
+* Incorporación de **dos nuevos textos originales** al proyecto:
+
+  * *Dos caminos*, reflexión breve sobre colapso, decisión y bifurcación,
+  * *El navegante*, narración simbólica inspirada en el espacio complejo, la rotación y el vacío central.
+
+### Estructura del repositorio
+
+* Se consolida la separación anual:
+  * `BIBLIOTECA/2026/`
+  * `DIARIO/2026/`
+* La Semana 10 se integra como unidad completa dentro del nuevo ciclo.
+* El repositorio creativo evoluciona:
+  * Cambio de nombre (**FRASES**) a (**TEXTOS**)
+
+### Normalización de archivos
+
+* Consolidación y normalización de los archivos:
+
+  * `Biblioteca_Semana_10.pdf`
+  * `Diario_de_Bordo_Semana_10.pdf`
+* El año se gestiona a nivel de carpeta, no de archivo.
+
+### Notas
+
+* Semana marcada por **alta exigencia académica externa** y cierre de ciclo universitario.
+* Menor volumen de días técnicos, pero **mayor densidad conceptual**.
+* Grover deja de ser solo algoritmo y se comprende como **estructura geométrica completa**.
+* El eje no se rompe: **se adapta y se traslada**.
