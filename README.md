@@ -74,6 +74,7 @@ BIBLIOTECA/
   
    2026/
     Biblioteca_Semana_10.pdf
+    Biblioteca_Semana_11.pdf
 
 DIARIO/
   2025/
@@ -89,6 +90,7 @@ DIARIO/
 
    2026/
     Diario_de_Bordo_Semana_10.pdf
+    Diario_de_Bordo_Semana_11.pdf
 
 CODIGO/
   .venv/
@@ -118,6 +120,7 @@ CODIGO/
     grover/
       circuit_grover.py
       vector_grover.py
+      minimum_grover.py
 
     learning_qiskit/
       circuit.py
@@ -140,6 +143,7 @@ TEXTOS/
     Discarianza Mental.md
     Dos caminos.md
     Entrelazamiento.md
+    Grover.md
     Lejos en espacio.md
     Navegante.md
 
@@ -226,6 +230,7 @@ El repositorio documenta mi proceso de aprendizaje y exploración en los siguien
 - **Semana 8:** Semana centrada en la  **consolidación del algoritmo de Deutsch–Jozsa** , comprendiendo cómo el oráculo codifica información en fases y cómo la **interferencia global** permite distinguir funciones constantes y balanceadas mediante álgebra, análisis conceptual y simulaciones en Qiskit.
 - **Semana 9:** Consolidación profunda de la **interferencia cuántica** como mecanismo central. Distinción clara entre amplitud y probabilidad, rol de la fase relativa y su conversión en resultados medibles mediante recombinación. Introducción práctica a **Grover** como amplificación de amplitud y estudio inicial de **estados mixtos** y pérdida de coherencia mediante matrices densidad y visualización en la esfera de Bloch.
 - **Semana 10:** Profundización del **algoritmo de Grover** desde su estructura matemática y geométrica. Comprensión del proceso como **rotación en un subespacio bidimensional**, análisis del ángulo de rotación y del número óptimo de iteraciones. Desarrollo de visualizaciones con subpasos reales (oráculo y difusión) que validan empíricamente la amplificación de amplitud y sus límites.
+- **Semana 11:** Transición de **Grover a Shor** mediante el estudio de la **periodicidad** y el rol central de la  **Transformada de Fourier**. Desarrollo explícito de la **DFT** y aproximación inicial a la **QFT**, entendida como manipulación de fases e interferencia. Cierre conceptual de Grover y primer contacto formal con la estructura matemática de Shor.
 
 ---
 

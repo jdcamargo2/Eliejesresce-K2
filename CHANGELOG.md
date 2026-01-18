@@ -503,3 +503,68 @@
 * Menor volumen de días técnicos, pero **mayor densidad conceptual**.
 * Grover deja de ser solo algoritmo y se comprende como **estructura geométrica completa**.
 * El eje no se rompe: **se adapta y se traslada**.
+
+---
+
+## Semana 11 (2026-01-12 al 2026-01-18)
+
+### Teoría y aprendizaje
+
+* **Cierre conceptual completo del algoritmo de Grover**:
+  * consolidación definitiva del algoritmo como **rotación periódica en un subespacio bidimensional**.
+  * comprensión explícita del fenómeno de *overshoot* como consecuencia geométrica inevitable.
+* **Introducción formal al algoritmo de Shor desde su núcleo matemático**:
+  * transición conceptual de la **factorización directa** a la **búsqueda de periodicidad**.
+  * separación clara entre la parte **clásica** (aritmética modular, orden, gcd) y la **cuántica**.
+  * identificación del rol central de la transformada de Fourier.
+* Estudio progresivo de las transformadas:
+  * desarrollo **manual y explícito de la DFT** sobre conjuntos pequeños.
+  * comprensión de la DFT como cambio de base global.
+* Introducción a la **Transformada Cuántica de Fourier (QFT)**:
+  * comparación estructural con la DFT clásica.
+  * identificación del papel exclusivo de las **fases relativas**.
+  * comprensión de la QFT como **preparación de interferencia**.
+
+### Diario y Biblioteca
+
+* Exportado y organizado el **Diario de Bordo – Semana 11** en PDF.
+* Exportada y organizada la **Biblioteca – Semana 11** en PDF.
+* La documentación registra:
+  * el tránsito explícito **Grover → Shor** como cambio de paradigma.
+  * la aparición de la Fourier (DFT/QFT) como **puente conceptual obligatorio**.
+
+### Código
+
+* Desarrollo de un **script mínimo y transparente de Grover**:
+
+  * implementación directa sobre **Statevector**.
+  * visualización explícita de amplitudes y probabilidades.
+  * demostración práctica del *overshoot* en espacios pequeños.
+
+### Textos
+
+* Incorporación de **un nuevo texto simbólico** al proyecto:
+
+  * *Grover*, poema-metáfora del algoritmo como lluvia,
+  * desbordamiento al exceder el número óptimo de iteraciones.
+
+### Estructura del repositorio
+
+* La Semana 11 se integra dentro del ciclo 2026.
+
+### Normalización de archivos
+
+* Consolidación y normalización de los archivos:
+
+  * `Biblioteca_Semana_11.pdf`
+  * `Diario_de_Bordo_Semana_11.pdf`
+
+### Notas
+
+* Semana marcada por un **cambio de eje cognitivo** :
+
+  * de la amplificación (Grover),
+  * a la extracción de estructura (Shor).
+* Se acepta explícitamente la dificultad:
+
+  * la QFT no se “domina” aún.
