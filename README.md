@@ -75,6 +75,7 @@ BIBLIOTECA/
    2026/
     Biblioteca_Semana_10.pdf
     Biblioteca_Semana_11.pdf
+    Biblioteca_Semana_12.pdf
 
 DIARIO/
   2025/
@@ -91,6 +92,7 @@ DIARIO/
    2026/
     Diario_de_Bordo_Semana_10.pdf
     Diario_de_Bordo_Semana_11.pdf
+    Diario_de_Bordo_Semana_12.pdf
 
 CODIGO/
   .venv/
@@ -108,14 +110,16 @@ CODIGO/
       deutsch_jozsa.py
 
     esfera_bloch/
+      mediciones/
+        mediciones_experimento_H.csv
+        mediciones_experimento_I.csv
+        mediciones_experimento_Y.csv
       __init__.py
       esferaBlochStatic.py
       animacion_v1.py
       animacion_v2.py
       animacion_v3.py
-      mediciones/
-        __init__.py
-        medicion.py
+      medicion.py
 
     grover/
       circuit_grover.py
@@ -140,7 +144,7 @@ CODIGO/
       transformacionLineal3D.py
 
 TEXTOS/
-    Discarianza Mental.md
+    Disvarianza Mental.md
     Dos caminos.md
     Entrelazamiento.md
     Grover.md
@@ -231,6 +235,7 @@ El repositorio documenta mi proceso de aprendizaje y exploración en los siguien
 - **Semana 9:** Consolidación profunda de la **interferencia cuántica** como mecanismo central. Distinción clara entre amplitud y probabilidad, rol de la fase relativa y su conversión en resultados medibles mediante recombinación. Introducción práctica a **Grover** como amplificación de amplitud y estudio inicial de **estados mixtos** y pérdida de coherencia mediante matrices densidad y visualización en la esfera de Bloch.
 - **Semana 10:** Profundización del **algoritmo de Grover** desde su estructura matemática y geométrica. Comprensión del proceso como **rotación en un subespacio bidimensional**, análisis del ángulo de rotación y del número óptimo de iteraciones. Desarrollo de visualizaciones con subpasos reales (oráculo y difusión) que validan empíricamente la amplificación de amplitud y sus límites.
 - **Semana 11:** Transición de **Grover a Shor** mediante el estudio de la **periodicidad** y el rol central de la  **Transformada de Fourier**. Desarrollo explícito de la **DFT** y aproximación inicial a la **QFT**, entendida como manipulación de fases e interferencia. Cierre conceptual de Grover y primer contacto formal con la estructura matemática de Shor.
+- **Semana 12:** Semana de baja intensidad por cierre de ciclo académico. Se desarrolló y consolidó el algoritmo de **Shor** de forma completa, enfatizando su estructura híbrida clásico-cuántica, el rol de la **QFT** y la recuperación del período. Se priorizó comprensión conceptual y reflexión sobre límites y condiciones del algoritmo, manteniendo el eje activo pese al cansancio.
 
 ---
 

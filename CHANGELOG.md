@@ -568,3 +568,79 @@
 * Se acepta explícitamente la dificultad:
 
   * la QFT no se “domina” aún.
+
+---
+
+## Semana 12 (2026-01-19 al 2026-01-25)
+
+### Teoría y aprendizaje
+
+* **Desarrollo completo y guiado del algoritmo de Shor mediante un ejemplo concreto**:
+  * elección explícita de un número compuesto pequeño \(N = 15\).
+  * análisis previo mediante **gcd** como parte clásica del algoritmo.
+  * formulación explícita de la función periódica \(f(x) = a^x (mod N)\).
+* **Construcción paso a paso de la estructura cuántica de Shor**:
+  * definición y justificación del tamaño de ambos registros cuánticos.
+  * preparación del primer registro en superposición uniforme.
+  * evaluación reversible de la función modular.
+* **Comprensión funcional de la QFT dentro de Shor**:
+  * interpretación de la QFT como mecanismo de **extracción de periodicidad**.
+  * relación entre picos en el dominio de frecuencia y el período oculto \(r\).
+  * recuperación de \(r\) mediante fracciones continuas.
+* **Verificación clásica posterior**:
+  * comprobación de condiciones sobre \(r\).
+  * extracción de factores no triviales mediante **gcd**.
+  * identificación explícita de casos degenerados y no degenerados.
+
+---
+
+### Diario y Biblioteca
+
+* Exportado y organizado el **Diario de Bordo – Semana 12** en PDF.
+* Exportada y organizada la **Biblioteca – Semana 12** en PDF.
+* La documentación registra:
+  * días **fuera del eje** por cierre del ciclo académico.
+  * un desarrollo largo, manuscrito y razonado del algoritmo de Shor.
+  * preguntas conceptuales abiertas sobre:
+    * primalidad,
+    * tamaño de registros,
+    * rol exacto de la QFT.
+
+---
+
+### Código
+
+* **Sin desarrollo de código nuevo**.
+* El trabajo se centró en:
+  * razonamiento matemático,
+  * trazado manual del algoritmo,
+  * comprensión estructural antes de la implementación en Qiskit.
+
+---
+
+### Estructura del repositorio
+
+* La Semana 12 se integra dentro del ciclo 2026.
+
+---
+
+### Normalización de archivos
+
+* Consolidación y normalización de los archivos:
+
+  * `Biblioteca_Semana_12.pdf`
+  * `Diario_de_Bordo_Semana_12.pdf`
+
+---
+
+### Notas
+
+* Semana de **baja intensidad operativa**, pero **alta densidad conceptual**.
+* El foco se desplazó de la implementación a la **comprensión profunda**.
+* Se asume explícitamente:
+
+  * el cansancio,
+  * el cierre del ciclo universitario,
+  * la necesidad de desacelerar sin romper la continuidad.
+* Shor queda **cerrado a nivel conceptual**, pero aún **no implementado**.
+* El eje no se pierde: **se sostiene en mínimo**.
