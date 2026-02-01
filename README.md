@@ -59,7 +59,6 @@ Este repositorio es el **campamento base digital** donde se registra todo el ava
 # 📂 Estructura del Repositorio
 
 ```
-
 BIBLIOTECA/
   2025/
     Biblioteca_Semana_01.pdf
@@ -76,6 +75,7 @@ BIBLIOTECA/
     Biblioteca_Semana_10.pdf
     Biblioteca_Semana_11.pdf
     Biblioteca_Semana_12.pdf
+    Biblioteca_Semana_13.pdf
 
 DIARIO/
   2025/
@@ -93,6 +93,7 @@ DIARIO/
     Diario_de_Bordo_Semana_10.pdf
     Diario_de_Bordo_Semana_11.pdf
     Diario_de_Bordo_Semana_12.pdf
+    Diario_de_Bordo_Semana_13.pdf
 
 CODIGO/
   .venv/
@@ -121,6 +122,10 @@ CODIGO/
       animacion_v3.py
       medicion.py
 
+    estres_cuantico/
+      estres_cuantico.py
+      mps.py
+
     grover/
       circuit_grover.py
       vector_grover.py
@@ -133,6 +138,10 @@ CODIGO/
 
     mixtos/
       estados_mixtos.py
+
+    shor/
+      shor_ruido.py
+      shor.py
 
     teleportacion_cuantica/
       teleport_procces.py
@@ -154,10 +163,9 @@ TEXTOS/
 IDENTIDAD/
   (logos, documentos base, guía maestra, proyecto, horario...)
 
-README.md
-LICENSE.txt
 CHANGELOG.md
-
+LICENSE.txt
+README.md
 ```
 
 ---
@@ -236,6 +244,7 @@ El repositorio documenta mi proceso de aprendizaje y exploración en los siguien
 - **Semana 10:** Profundización del **algoritmo de Grover** desde su estructura matemática y geométrica. Comprensión del proceso como **rotación en un subespacio bidimensional**, análisis del ángulo de rotación y del número óptimo de iteraciones. Desarrollo de visualizaciones con subpasos reales (oráculo y difusión) que validan empíricamente la amplificación de amplitud y sus límites.
 - **Semana 11:** Transición de **Grover a Shor** mediante el estudio de la **periodicidad** y el rol central de la  **Transformada de Fourier**. Desarrollo explícito de la **DFT** y aproximación inicial a la **QFT**, entendida como manipulación de fases e interferencia. Cierre conceptual de Grover y primer contacto formal con la estructura matemática de Shor.
 - **Semana 12:** Semana de baja intensidad por cierre de ciclo académico. Se desarrolló y consolidó el algoritmo de **Shor** de forma completa, enfatizando su estructura híbrida clásico-cuántica, el rol de la **QFT** y la recuperación del período. Se priorizó comprensión conceptual y reflexión sobre límites y condiciones del algoritmo, manteniendo el eje activo pese al cansancio.
+- **Semana 13:** Semana de alta intensidad técnica en la que se implementó completamente el **algoritmo de Shor** en Qiskit sobre un caso realista (N=21, a=2). Se cerró el ciclo desde la teoría hasta la validación computacional, explorando tanto simulaciones ideales como ruidosas y los límites clásicos de simulación. El campamento 2 queda conquistado.
 
 ---
 

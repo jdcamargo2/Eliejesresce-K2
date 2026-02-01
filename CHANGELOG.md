@@ -1,5 +1,9 @@
 # CHANGELOG – Elíejesresce K2
 
+> Nota: Las semanas se contabilizan de lunes a domingo.
+>
+> El domingo se utiliza como día de cierre y publicación del trabajo semanal.
+
 ---
 
 ## Semana 1 (2025-11-02 al 2025-11-09)
@@ -229,7 +233,7 @@
 
 ---
 
-## Semana 7 (2025-12-08 al 2025-12-14)
+## Semana 7 (2025-12-15 al 2025-12-21)
 
 ### Teoría y aprendizaje
 
@@ -644,3 +648,99 @@
   * la necesidad de desacelerar sin romper la continuidad.
 * Shor queda **cerrado a nivel conceptual**, pero aún **no implementado**.
 * El eje no se pierde: **se sostiene en mínimo**.
+
+---
+
+## Semana 13 (2026-01-26 al 2026-02-01)
+
+### Teoría y aprendizaje
+
+* Se implementó **completamente el algoritmo de Shor en Qiskit** sobre un caso realista:
+  * selección explícita del número compuesto \(N = 21\) y base \(a = 2\).
+  * incorporación de la **fase clásica inicial** mediante verificación de coprimalidad con `gcd`.
+  * identificación explícita del período \(r = 6\) y validación matemática de la periodicidad.
+* Se realizó la **transición formal de teoría a implementación computacional**:
+  * construcción explícita de las unitarias controladas \(U^{2^j}\) mediante **permutaciones modulares**.
+  * adopción de **estimación de fase iterativa (IPE)** con *feed-forward clásico* en lugar de una QFT completa.
+  * interpretación directa de los valores medidos \(m/Q\) como aproximaciones racionales del período.
+* Se cerró el **ciclo matemático–cuántico–clásico de Shor**:
+  * recuperación del período mediante **fracciones continuas**.
+  * verificación de condiciones sobre \(r\) (paridad y no degeneración).
+  * extracción explícita de los factores no triviales \(3\) y \(7\) mediante `gcd`.
+* Se incorporó un **análisis explícito de los límites de simulación clásica**:
+  * identificación del crecimiento exponencial del **statevector** como barrera práctica real.
+  * comparación entre simulación exacta y métodos aproximados.
+  * comprensión de que el cuello de botella es el **hardware clásico**, no el algoritmo.
+
+### Diario y Biblioteca
+
+* Se exportó y organizó el **Diario de Bordo – Semana 13** en formato PDF.
+* Se exportó y organizó la **Biblioteca – Semana 13** en formato PDF.
+* La documentación registrada incluye:
+  * implementación diaria y progresiva del algoritmo de Shor en Qiskit.
+  * dificultades técnicas reales relacionadas con:
+    * límites de memoria RAM,
+    * incompatibilidades con CUDA y GPU,
+    * gestión de versiones de dependencias.
+  * desarrollo manuscrito completo del caso \(N = 21\), incluyendo:
+    * cálculo del tamaño de registros,
+    * resultados de simulación,
+    * aplicación de fracciones continuas,
+    * verificación final de los factores.
+  * reflexiones explícitas sobre:
+    * la naturaleza híbrida (clásica–cuántica) del algoritmo,
+    * la diferencia entre Shor ideal y Shor ruidoso,
+    * el impacto emocional del cierre de un campamento.
+
+### Código
+
+* Se desarrolló código intensivo en Qiskit, incluyendo:
+  * implementación de **Shor ideal sin ruido** para validación lógica.
+  * implementación de **Shor con ruido** para análisis de degradación.
+  * pruebas de **escalabilidad con statevector** hasta alcanzar el límite del hardware.
+  * uso del método **Matrix Product State (MPS)** para extender el número de qubits simulables.
+* Se implementaron explícitamente:
+  * circuitos **GHZ** para *stress testing* del simulador.
+  * Shor-21 en versiones ideal y ruidosa.
+  * variantes ligeras para estudiar comportamiento computacional y consumo de recursos.
+
+### Estructura del repositorio
+
+* Se integró completamente la **Semana 13** dentro del ciclo 2026.
+* Se estableció una separación clara entre:
+  * scripts ideales,
+  * scripts ruidosos,
+  * pruebas de límite y escalabilidad.
+* Se reorganizó el material experimental y documental para mantener coherencia interna.
+* Se actualizó la carpeta **`IDENTIDAD`**:
+  * migración completa de los documentos base a **formato PDF**.
+  * eliminación de formatos editables.
+  * incorporación de un **nuevo documento estratégico** con la expansión del plan:
+
+    * `ELIEJESRESCE_K2_PROYECTO_AUMENTADO.pdf`.
+
+### Normalización de archivos
+
+* Se normalizaron los nombres y formatos de los archivos del proyecto.
+* Se consolidaron como referencias oficiales:
+
+  * `Biblioteca_Semana_13.pdf`
+  * `Diario_de_Bordo_Semana_13.pdf`
+* Se normalizaron los documentos de identidad bajo un criterio único de nombrado:
+
+  * uso consistente de mayúsculas,
+  * eliminación de acentos y caracteres especiales,
+  * uso de guiones bajos,
+  * prefijos `ELIEJESRESCE` / `ELIEJESRESCE_K2`.
+
+### Notas
+
+* Se completa por primera vez el **ciclo íntegro del algoritmo de Shor**:
+  * desde la teoría,
+  * pasando por la implementación,
+  * hasta la validación y el cierre.
+* Se deja explícito que:
+  * Shor **no es trivialmente escalable** en simulación clásica.
+  * el límite encontrado **no es conceptual**, sino computacional.
+* El **Campamento 2 queda cerrado**
+* El proyecto se expande: **el K2 se eleva** y aparecen nuevos campamentos en el horizonte.
