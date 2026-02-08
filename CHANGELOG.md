@@ -596,8 +596,6 @@
   * extracción de factores no triviales mediante **gcd**.
   * identificación explícita de casos degenerados y no degenerados.
 
----
-
 ### Diario y Biblioteca
 
 * Exportado y organizado el **Diario de Bordo – Semana 12** en PDF.
@@ -610,8 +608,6 @@
     * tamaño de registros,
     * rol exacto de la QFT.
 
----
-
 ### Código
 
 * **Sin desarrollo de código nuevo**.
@@ -620,13 +616,9 @@
   * trazado manual del algoritmo,
   * comprensión estructural antes de la implementación en Qiskit.
 
----
-
 ### Estructura del repositorio
 
 * La Semana 12 se integra dentro del ciclo 2026.
-
----
 
 ### Normalización de archivos
 
@@ -634,8 +626,6 @@
 
   * `Biblioteca_Semana_12.pdf`
   * `Diario_de_Bordo_Semana_12.pdf`
-
----
 
 ### Notas
 
@@ -744,3 +734,80 @@
   * el límite encontrado **no es conceptual**, sino computacional.
 * El **Campamento 2 queda cerrado**
 * El proyecto se expande: **el K2 se eleva** y aparecen nuevos campamentos en el horizonte.
+
+---
+
+## Semana 14 (2026-02-02 al 2026-02-08)
+
+### Teoría y aprendizaje
+
+- Se inició formalmente el **Campamento Anclaje**, orientado en la **consolidación matemática** del ascenso cuántico.
+- Se abordó de manera estructurada el **Espacio de Hilbert** como soporte matemático del estado cuántico:
+  - comprensión del estado cuántico como **vector normalizado** en un espacio vectorial complejo.
+  - identificación clara de que la cuántica **no vive en la esfera de Bloch**, sino en Hilbert.
+- Se descompuso el Espacio de Hilbert en sus **capas matemáticas fundamentales**:
+  - espacio vectorial complejo,
+  - producto interno hermítico,
+  - norma inducida,
+  - métrica asociada,
+  - sucesiones de Cauchy,
+  - completitud.
+- Se clarificó que:
+  - la **norma y la métrica no son axiomas independientes**, sino consecuencias directas del producto interno.
+  - la completitud es la condición que garantiza la **existencia de límites físicos**.
+- Se estableció la relación formal entre:
+  - convergencia,
+  - sucesiones de Cauchy,
+  - completitud,
+  - y la definición rigurosa de Espacio de Hilbert.
+- Se cerró la interpretación física:
+  - Hilbert como la **estructura matemática mínima sin contradicciones** capaz de soportar evolución, medición y probabilidad cuántica.
+
+### Diario y Biblioteca
+
+- Se exportó y organizó el **Diario de Bordo – Semana 14** en formato PDF.
+- Se exportó y organizó la **Biblioteca – Semana 14** en formato PDF.
+- La documentación registrada incluye:
+  - desarrollo manuscrito completo de la jerarquía de espacios matemáticos.
+  - ejercicios explícitos construyendo un Espacio de Hilbert sobre \(C^2\).
+  - verificación directa de:
+
+    - hermiticidad del producto interno,
+    - definición correcta de norma,
+    - métrica inducida,
+    - convergencia y condición de Cauchy.
+
+### Código
+
+- No se desarrolló código nuevo esta semana de forma deliberada.
+- La semana se dedicó a:
+
+  - **anclaje conceptual**,
+  - revisión matemática,
+  - consolidación de fundamentos previos al siguiente bloque computacional.
+
+### Estructura del repositorio
+
+- Se integró completamente la **Semana 14** dentro del ciclo 2026.
+- Se mantuvo la coherencia entre:
+  - Diario,
+  - Biblioteca,
+  - estructura global del proyecto.
+- No se realizaron cambios estructurales mayores:
+
+### Normalización de archivos
+
+- Se consolidaron como referencias oficiales:
+  - `Biblioteca_Semana_14.pdf`
+  - `Diario_de_Bordo_Semana_14.pdf`
+- Se mantuvo el criterio único de nombrado:
+  - uso consistente de mayúsculas,
+  - guiones bajos,
+  - ausencia de acentos y caracteres especiales.
+
+### Notas
+
+- Se deja explícito que:
+  - sin Espacio de Hilbert no existe cuántica coherente,
+  - sin completitud no existe evolución física bien definida.
+- El **Campamento Anclaje queda formalmente iniciado**.
