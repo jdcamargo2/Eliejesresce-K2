@@ -77,7 +77,7 @@ BIBLIOTECA/
     Biblioteca_Semana_12.pdf
     Biblioteca_Semana_13.pdf
     Biblioteca_Semana_14.pdf
-
+    Biblioteca_Semana_15.pdf
 
 DIARIO/
   2025/
@@ -97,6 +97,7 @@ DIARIO/
     Diario_de_Bordo_Semana_12.pdf
     Diario_de_Bordo_Semana_13.pdf
     Diario_de_Bordo_Semana_14.pdf
+    Diario_de_Bordo_Semana_15.pdf
 
 CODIGO/
   .venv/
@@ -197,29 +198,45 @@ Lecturas, ideas, conceptos aprendidos y esquemas teóricos.
 
 El repositorio documenta mi proceso de aprendizaje y exploración en los siguientes ejes, con énfasis en la conexión entre teoría matemática, interpretación conceptual y simulación computacional.
 
-### **Álgebra Lineal**
+## **Álgebra Lineal y Fundamentos Matemáticos**
 
-- Vectores y espacios vectoriales.
+- Vectores, bases y espacios vectoriales.
+- Números complejos, conjugación y operaciones adjuntas (transpuesta conjugada).
+- Producto interno hermítico, norma inducida y métrica asociada.
+- **Espacio de Hilbert** como estructura matemática del estado cuántico (completitud y convergencia).
 - Determinantes, cofactores y regla de Sarrus.
 - Multiplicación de matrices y composición de transformaciones.
 - Interpretación geométrica de transformaciones lineales en 2D y 3D.
 - Producto tensorial y su rol en sistemas de múltiples qubits.
 - Estados separables vs estados entrelazados (criterios algebraicos).
-- Eigenvalores y eigenvectores como base conceptual para operadores y sistemas dinámicos.
+- Eigenvalores y eigenvectores como base conceptual para operadores, observables y sistemas dinámicos.
 
-### **Computación Cuántica**
+## **Computación Cuántica**
 
-- Qubits, superposición y representación en la Esfera de Bloch.
+- Qubits, superposición y representación (Esfera de Bloch vs formalismo en Hilbert).
 - Operadores unitarios y su interpretación como rotaciones.
 - Compuertas cuánticas de un qubit (X, Z, H, RX, RY, RZ).
-- Compuertas de dos qubits y entrelazamiento (CNOT).
+- Compuertas de dos qubits y entrelazamiento (CNOT, CZ).
 - Construcción e interpretación de los **estados de Bell**.
-- Medición cuántica y colapso del estado.
+- Medición cuántica como proyección y colapso del estado.
 - **Bell measurement** como proyección en una base entrelazada.
-- Introducción conceptual a la **teleportación cuántica** y su lectura mediante álgebra, diagramas y circuitos.
-- Relación entre formalismo matemático, diagramas de circuitos y resultados de medición.
+- Teleportación cuántica: lectura mediante álgebra, diagramas y circuitos.
+- Interferencia cuántica y rol de la fase relativa.
+- **Algoritmos cuánticos**:
+  - Deutsch–Jozsa (detección de propiedades globales mediante interferencia).
+  - Grover (amplificación de amplitud e interpretación geométrica).
+  - Shor (búsqueda de periodicidad y extracción de factores).
+- Transformadas:
+  - DFT como cambio de base clásico.
+  - **QFT** como herramienta cuántica de extracción de periodicidad.
+- Estados mixtos y matriz densidad (diferencia entre mezcla estadística y superposición).
+- Introducción a efectos físicos: ruido, decoherencia y degradación de algoritmos.
+- Transición hacia arquitectura real:
+  - computación cuántica distribuida,
+  - entrelazamiento remoto “heralded”,
+  - compuertas no locales y networking cuántico.
 
-### **Programación y Simulación**
+## **Programación y Simulación**
 
 - Python como herramienta para:
   - visualización de transformaciones lineales,
@@ -228,8 +245,12 @@ El repositorio documenta mi proceso de aprendizaje y exploración en los siguien
 - Qiskit para:
   - construcción de circuitos cuánticos,
   - simulación de estados y mediciones,
-  - exploración práctica de entrelazamiento y protocolos cuánticos.
-- Código utilizado como instrumento de exploración conceptual, no solo como implementación final.
+  - exploración práctica de entrelazamiento, teleportación y algoritmos (Deutsch–Jozsa, Grover, Shor).
+- Simulación como instrumento de investigación:
+  - comparación entre simulación ideal vs ruidosa,
+  - límites prácticos del statevector en hardware clásico,
+  - uso de aproximaciones (p.ej. MPS) para extender escalabilidad.
+- El código se utiliza como laboratorio conceptual, no solo como implementación final.
 
 ---
 
@@ -249,6 +270,7 @@ El repositorio documenta mi proceso de aprendizaje y exploración en los siguien
 - **Semana 12:** Semana de baja intensidad por cierre de ciclo académico. Se desarrolló y consolidó el algoritmo de **Shor** de forma completa, enfatizando su estructura híbrida clásico-cuántica, el rol de la **QFT** y la recuperación del período. Se priorizó comprensión conceptual y reflexión sobre límites y condiciones del algoritmo, manteniendo el eje activo pese al cansancio.
 - **Semana 13:** Semana de alta intensidad técnica en la que se implementó completamente el **algoritmo de Shor** en Qiskit sobre un caso realista (N=21, a=2). Se cerró el ciclo desde la teoría hasta la validación computacional, explorando tanto simulaciones ideales como ruidosas y los límites clásicos de simulación. El campamento 2 queda conquistado.
 - **Semana 14:** Semana de consolidación conceptual dedicada al **Campamento Anclaje,** centrada en el **Espacio de Hilbert** como base matemática de la computación cuántica. Se formalizó la estructura completa (producto interno, norma, métrica y completitud), conectando rigor matemático con interpretación física.
+- **Semana 15:** Semana de transición físico-conceptual dedicada al análisis profundo del artículo  *“Distributed quantum computing across an optical network link”* , enfocada en la integración entre teoría cuántica y hardware real. Se consolidaron conceptos de entrelazamiento remoto, arquitectura modular y medición como proyección en el Espacio de Hilbert.
 
 ---
 

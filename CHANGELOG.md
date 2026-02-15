@@ -2,6 +2,10 @@
 
 > Nota: Las semanas se contabilizan de lunes a domingo.
 >
+> Excepción: La Semana 1 inicia el domingo 2025-11-02,
+> fecha de creación formal del proyecto.
+> El estudio sistemático comenzó el lunes siguiente.
+>
 > El domingo se utiliza como día de cierre y publicación del trabajo semanal.
 
 ---
@@ -811,3 +815,101 @@
   - sin Espacio de Hilbert no existe cuántica coherente,
   - sin completitud no existe evolución física bien definida.
 - El **Campamento Anclaje queda formalmente iniciado**.
+
+---
+
+## Semana 15 (2026-02-09 al 2026-02-15)
+
+### Teoría y aprendizaje
+
+- Se realizó lectura profunda y estructural del artículo:
+
+  **“Distributed quantum computing across an optical network link”**D. Main, P. Drmota, D. P. Nadlinger, E. M. Ainley, A. Agrawal, B. C. Nichol, R. Srinivas, G. Araneda y D. M. Lucas.
+- Se identificó que el artículo presenta:
+
+  - Demostración experimental de computación cuántica distribuida funcional.
+  - Implementación de entrelazamiento remoto “heralded” entre módulos de iones atrapados.
+  - Teleportación de compuertas cuánticas (incluyendo una compuerta CZ remota).
+  - Ejecución distribuida del algoritmo de Grover.
+  - Arquitectura modular conectada mediante enlace óptico.
+- Se estudió y formalizó conceptualmente:
+
+  - Heralded Remote Entanglement.
+  - Fault-Tolerant Quantum Computing.
+  - Quantum Repeaters.
+  - Entanglement Purification.
+  - Ion Traps y Paul Traps.
+  - All-to-all connectivity.
+  - Vacuum and Cryogenic Systems.
+  - Diamond Color Centers.
+  - Superconducting Qubits.
+  - Neutral Atoms.
+  - Wavelength Conversion.
+  - Trapped Ion Quantum Processing Modules.
+  - Zeeman States.
+  - Pauli Operators.
+  - Non-local Gates.
+- Se comprendió que el artículo integra simultáneamente:
+
+  - Física experimental (trampas de iones, estados Zeeman, ultra alto vacío).
+  - Óptica cuántica (interferencia de fotones, conversión de longitud de onda).
+  - Teoría de información cuántica (entanglement swapping, compuertas no locales).
+  - Arquitectura modular escalable.
+- Se ejecutó un ejercicio estructural formal en ℂ²:
+
+  - Identificación del estado cuántico como vector normalizado.
+  - Interpretación geométrica de la medición como proyección.
+  - Uso explícito de operadores proyectores.
+  - Aplicación directa de la regla de Born.
+- Se formalizó que:
+
+  - La probabilidad es consecuencia del producto interno en el Espacio de Hilbert.
+  - La medición no es una compuerta unitaria, sino una operación asociada a operadores hermíticos.
+
+---
+
+### Diario y Biblioteca
+
+- Se exportaron
+
+   y organizaron los archivos:
+
+  - `Diario_de_Bordo_Semana_15.pdf`
+  - `Biblioteca_Semana_15.pdf`
+- El Diario documenta:
+
+  - Lectura profunda del artículo.
+  - Extracción sistemática de dudas.
+  - Resumen conceptual sin traducción.
+  - Resolución estructural de preguntas.
+  - Ejercicio formal en espacio de Hilbert.
+  - Creación del “Codex” como sistema de términos técnicos.
+- La Biblioteca incluye:
+
+  - Desarrollo manuscrito de cada término técnico extraído del artículo.
+  - Formalización conceptual de protocolos de entrelazamiento remoto.
+  - Explicación estructurada de plataformas físicas cuánticas.
+  - Ejercicio matemático explícito sobre medición en base computacional.
+
+---
+
+### Código
+
+- No se desarrolló nuevo código.
+
+### Estructura del repositorio
+
+- No se realizaron modificaciones estructurales mayores.
+
+---
+
+### Normalización de archivos
+
+- Se consolidaron como referencias oficiales:
+
+  - `Biblioteca_Semana_15.pdf`
+  - `Diario_de_Bordo_Semana_15.pdf`
+
+### Notas
+
+- Se crea formalmente el **Codex** como ténica de acumulación de vocabulario técnico.
