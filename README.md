@@ -78,6 +78,10 @@ BIBLIOTECA/
     Biblioteca_Semana_13.pdf
     Biblioteca_Semana_14.pdf
     Biblioteca_Semana_15.pdf
+    Biblioteca_Semana_16.pdf
+
+CODEX/
+    Codex_Semana_16.pdf
 
 DIARIO/
   2025/
@@ -98,6 +102,7 @@ DIARIO/
     Diario_de_Bordo_Semana_13.pdf
     Diario_de_Bordo_Semana_14.pdf
     Diario_de_Bordo_Semana_15.pdf
+    Diario_de_Bordo_Semana_16.pdf
 
 CODIGO/
   .venv/
@@ -134,6 +139,9 @@ CODIGO/
       circuit_grover.py
       vector_grover.py
       minimum_grover.py
+
+    hilbert/
+      hilbert.py
 
     learning_qiskit/
       circuit.py
@@ -271,6 +279,7 @@ El repositorio documenta mi proceso de aprendizaje y exploración en los siguien
 - **Semana 13:** Semana de alta intensidad técnica en la que se implementó completamente el **algoritmo de Shor** en Qiskit sobre un caso realista (N=21, a=2). Se cerró el ciclo desde la teoría hasta la validación computacional, explorando tanto simulaciones ideales como ruidosas y los límites clásicos de simulación. El campamento 2 queda conquistado.
 - **Semana 14:** Semana de consolidación conceptual dedicada al **Campamento Anclaje,** centrada en el **Espacio de Hilbert** como base matemática de la computación cuántica. Se formalizó la estructura completa (producto interno, norma, métrica y completitud), conectando rigor matemático con interpretación física.
 - **Semana 15:** Semana de transición físico-conceptual dedicada al análisis profundo del artículo  *“Distributed quantum computing across an optical network link”* , enfocada en la integración entre teoría cuántica y hardware real. Se consolidaron conceptos de entrelazamiento remoto, arquitectura modular y medición como proyección en el Espacio de Hilbert.
+- **Semana 16:** Consolidación geométrica del qubit. Se formalizó el paso ℂ² → S³ → S³/S¹ ≅ CP¹ ≅ S², clarificando la eliminación de la fase global y la interpretación rigurosa de la esfera de Bloch como espacio proyectivo complejo. Se desarrolló además una visualización computacional de esta estructura.
 
 ---
 

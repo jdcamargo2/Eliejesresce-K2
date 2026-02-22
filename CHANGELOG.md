@@ -824,7 +824,7 @@
 
 - Se realizó lectura profunda y estructural del artículo:
 
-  **“Distributed quantum computing across an optical network link”**D. Main, P. Drmota, D. P. Nadlinger, E. M. Ainley, A. Agrawal, B. C. Nichol, R. Srinivas, G. Araneda y D. M. Lucas.
+  “Distributed quantum computing across an optical network link”**D. Main, P. Drmota, D. P. Nadlinger, E. M. Ainley, A. Agrawal, B. C. Nichol, R. Srinivas, G. Araneda y D. M. Lucas.
 - Se identificó que el artículo presenta:
 
   - Demostración experimental de computación cuántica distribuida funcional.
@@ -866,13 +866,11 @@
   - La probabilidad es consecuencia del producto interno en el Espacio de Hilbert.
   - La medición no es una compuerta unitaria, sino una operación asociada a operadores hermíticos.
 
----
-
 ### Diario y Biblioteca
 
 - Se exportaron
 
-   y organizaron los archivos:
+  y organizaron los archivos:
 
   - `Diario_de_Bordo_Semana_15.pdf`
   - `Biblioteca_Semana_15.pdf`
@@ -891,8 +889,6 @@
   - Explicación estructurada de plataformas físicas cuánticas.
   - Ejercicio matemático explícito sobre medición en base computacional.
 
----
-
 ### Código
 
 - No se desarrolló nuevo código.
@@ -900,8 +896,6 @@
 ### Estructura del repositorio
 
 - No se realizaron modificaciones estructurales mayores.
-
----
 
 ### Normalización de archivos
 
@@ -913,3 +907,93 @@
 ### Notas
 
 - Se crea formalmente el **Codex** como ténica de acumulación de vocabulario técnico.
+
+---
+
+## Semana 16 (2026-02-16 al 2026-02-22)
+
+### Teoría y aprendizaje
+
+- Se consolidó geométricamente la estructura del espacio de estados de un qubit:
+
+  - Identificación formal de ℋ = ℂ² como espacio de Hilbert.
+  - Interpretación de ℂ² como ℝ⁴.
+  - Restricción a la 3-esfera S³ mediante normalización ‖ψ‖ = 1.
+  - Eliminación de la fase global como redundancia física.
+  - Identificación del espacio físico como S³ / S¹ ≅ CP¹.
+  - Equivalencia geométrica CP¹ ≅ S² (esfera de Bloch).
+- Se formalizó estructuralmente:
+
+  - Diferencia precisa entre fase global y fase relativa.
+  - Interpretación geométrica de la órbita de fase como fibra S¹.
+  - Interpretación geométrica del cociente por fase global (S³/S¹).
+  - Reducción de grados de libertad: 4 → 3 → 2.
+  - Distinción entre espacio matemático (Hilbert) y espacio físico (proyectivo).
+- Se integró lectura de Shankar como referencia formal:
+
+  - Comprensión de la mecánica cuántica como extensión estructural de la clásica.
+
+---
+
+### Diario y Biblioteca
+
+- Se exportaron y organizaron los archivos:
+
+  - `Diario_de_Bordo_Semana_16.pdf`
+  - `Biblioteca_Semana_16.pdf`
+- El Diario documenta:
+
+  - Proceso de comprensión geométrica del qubit.
+  - Discusión sobre Bloch vs Hilbert.
+  - Clarificación profunda de fase global.
+  - Consolidación conceptual antes de avanzar a nuevos algoritmos.
+- La Biblioteca incluye:
+
+  - Desarrollo manuscrito del paso ℂ² → S³ → CP¹ → S².
+  - Explicación formal de reducción por fase global.
+  - Síntesis estructural del espacio proyectivo complejo.
+
+---
+
+### Código
+
+- Se desarrolló una animación conceptual en Python que visualiza:
+
+  - ℂ² como ℝ⁴ (vista parcial).
+  - Normalización hacia S³.
+  - Proyección estereográfica S³ → ℝ³.
+  - Órbita de fase global.
+  - Colapso geométrico mediante el mapa de Hopf hacia la esfera de Bloch.
+
+---
+
+### Codex
+
+- Se crea formalmente la estructura del **Codex** dentro del repositorio.
+- Se define la lógica de crecimiento semanal (no acumulativa).
+- Se integra el archivo correspondiente a la semana:
+
+  - `Codex_Semana_16.pdf`
+- Se consolida el Codex como sistema oficial de acumulación de vocabulario técnico del proyecto.
+
+---
+
+### Estructura del repositorio
+
+- Se agregó la carpeta dedicada a `codex/` siguiendo la lógica semanal ya utilizada en Diario y Biblioteca.
+
+---
+
+### Normalización de archivos
+
+- Se consolidaron como referencias oficiales:
+
+  - `Biblioteca_Semana_16.pdf`
+  - `Diario_de_Bordo_Semana_16.pdf`
+  - `Codex_Semana_16.pdf`
+
+---
+
+### Notas
+
+- El qubit físico vive en el espacio proyectivo complejo.
