@@ -280,6 +280,7 @@ El repositorio documenta mi proceso de aprendizaje y exploración en los siguien
 - **Semana 14:** Semana de consolidación conceptual dedicada al **Campamento Anclaje,** centrada en el **Espacio de Hilbert** como base matemática de la computación cuántica. Se formalizó la estructura completa (producto interno, norma, métrica y completitud), conectando rigor matemático con interpretación física.
 - **Semana 15:** Semana de transición físico-conceptual dedicada al análisis profundo del artículo  *“Distributed quantum computing across an optical network link”* , enfocada en la integración entre teoría cuántica y hardware real. Se consolidaron conceptos de entrelazamiento remoto, arquitectura modular y medición como proyección en el Espacio de Hilbert.
 - **Semana 16:** Consolidación geométrica del qubit. Se formalizó el paso ℂ² → S³ → S³/S¹ ≅ CP¹ ≅ S², clarificando la eliminación de la fase global y la interpretación rigurosa de la esfera de Bloch como espacio proyectivo complejo. Se desarrolló además una visualización computacional de esta estructura.
+- **Semana 17:** Comprensión profunda de operadores cuánticos dentro del espacio de Hilbert. Se aclaró la diferencia entre evolución (unitarios) y medición (proyección), se entendió qué representan realmente los eigenvalores y eigenvectores, y se conectó la no conmutatividad con la incompatibilidad de observables.
 
 ---
 

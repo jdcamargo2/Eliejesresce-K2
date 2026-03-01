@@ -997,3 +997,77 @@
 ### Notas
 
 - El qubit físico vive en el espacio proyectivo complejo.
+
+---
+
+## Semana 17 (2026-02-23 al 2026-03-01)
+
+### Teoría y aprendizaje
+
+- Se consolidó formalmente la estructura operativa del espacio de Hilbert:
+
+  - Definición rigurosa de espacio de Hilbert como espacio vectorial complejo completo con producto interno.
+  - Formalización de la norma inducida por el producto interno.
+  - Interpretación de la completitud mediante sucesiones de Cauchy.
+  - Clarificación estructural de la ortogonalidad: ⟨φ|ψ⟩ = 0.
+  - Interpretación física de estados ortogonales como resultados mutuamente excluyentes.
+- Se formalizó la teoría de operadores cuánticos:
+
+  - Definición general de operador lineal A : ℋ → ℋ.
+  - Distinción estructural entre operadores hermíticos y unitarios.
+  - Condición de hermiticidad: A† = A.
+  - Condición de unitariedad: U†U = I.
+  - Interpretación física: evolución reversible vs medición.
+- Se introdujo formalmente la estructura espectral:
+
+  - Ecuación de eigenvalor: A|ψ⟩ = λ|ψ⟩.
+  - Interpretación física de eigenvalores como resultados posibles de medición.
+  - Interpretación de eigenvectores como estados estables frente al observable.
+- Se consolidó la teoría de proyectores:
+
+  - Definición de operador proyector P = |a⟩⟨a|.
+  - Idempotencia: P² = P.
+  - Modelado matemático del colapso como proyección sobre subespacio propio.
+- Se formalizó la teoría de conmutadores:
+
+  - Definición: [A,B] = AB − BA.
+  - Caso [A,B] = 0 → existencia de base común de eigenvectores.
+  - Caso [A,B] ≠ 0 → incompatibilidad de observables.
+  - Conexión estructural con el principio de incertidumbre.
+
+### Diario y Biblioteca
+
+- Se exportaron y organizaron los archivos:
+
+  - `Diario_de_Bordo_Semana_17.pdf`
+  - `Biblioteca_Semana_17.pdf`
+- El Diario documenta:
+
+  - Consolidación conceptual del espacio de Hilbert.
+  - Incremento en el nivel de abstracción matemática.
+  - Registro de días fuera del eje por proceso de mudanza.
+- La Biblioteca incluye:
+
+  - Desarrollo manuscrito de operadores hermíticos, unitarios y proyectores.
+  - Formalización de conmutadores y compatibilidad de observables.
+  - Síntesis estructural de eigenvalores y eigenvectores.
+  - Consolidación matemática del Campamento Anclaje.
+
+### Código
+
+- No se desarrollaron nuevos algoritmos.
+
+### Estructura del repositorio
+
+- Se mantiene la organización modular
+
+### Normalización de archivos
+
+- Se consolidaron como referencias oficiales:
+
+  - `Biblioteca_Semana_17.pdf`
+  - `Diario_de_Bordo_Semana_17.pdf`
+
+### Notas
+
+- Avanzar con la mente dispersa es complicado.
