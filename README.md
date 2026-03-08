@@ -79,9 +79,12 @@ BIBLIOTECA/
     Biblioteca_Semana_14.pdf
     Biblioteca_Semana_15.pdf
     Biblioteca_Semana_16.pdf
+    Biblioteca_Semana_17.pdf
+    Biblioteca_Semana_18.pdf
 
 CODEX/
     Codex_Semana_16.pdf
+    Codex_Semana_18.pdf
 
 DIARIO/
   2025/
@@ -103,6 +106,8 @@ DIARIO/
     Diario_de_Bordo_Semana_14.pdf
     Diario_de_Bordo_Semana_15.pdf
     Diario_de_Bordo_Semana_16.pdf
+    Diario_de_Bordo_Semana_17.pdf
+    Diario_de_Bordo_Semana_18.pdf
 
 CODIGO/
   .venv/
@@ -281,6 +286,7 @@ El repositorio documenta mi proceso de aprendizaje y exploración en los siguien
 - **Semana 15:** Semana de transición físico-conceptual dedicada al análisis profundo del artículo  *“Distributed quantum computing across an optical network link”* , enfocada en la integración entre teoría cuántica y hardware real. Se consolidaron conceptos de entrelazamiento remoto, arquitectura modular y medición como proyección en el Espacio de Hilbert.
 - **Semana 16:** Consolidación geométrica del qubit. Se formalizó el paso ℂ² → S³ → S³/S¹ ≅ CP¹ ≅ S², clarificando la eliminación de la fase global y la interpretación rigurosa de la esfera de Bloch como espacio proyectivo complejo. Se desarrolló además una visualización computacional de esta estructura.
 - **Semana 17:** Comprensión profunda de operadores cuánticos dentro del espacio de Hilbert. Se aclaró la diferencia entre evolución (unitarios) y medición (proyección), se entendió qué representan realmente los eigenvalores y eigenvectores, y se conectó la no conmutatividad con la incompatibilidad de observables.
+- **Semana 18:** Consolidación de la descomposición espectral de operadores hermíticos. Se construyeron eigenvalores y eigenvectores a partir del polinomio característico, se definieron proyectores espectrales y se verificaron sus propiedades. Se entendió la medición cuántica como proyección sobre subespacios propios y se conectó formalmente la descomposición espectral con las probabilidades de medición.
 
 ---
 

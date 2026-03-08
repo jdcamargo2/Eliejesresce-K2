@@ -1071,3 +1071,95 @@
 ### Notas
 
 - Avanzar con la mente dispersa es complicado.
+
+---
+
+## Semana 18 (2026-03-02 al 2026-03-08)
+
+### Teoría y aprendizaje
+
+- Se consolidó algebraica y geométricamente la estructura espectral de operadores hermíticos:
+
+  - Construcción de eigenvalores a partir del polinomio característico.
+  - Construcción de eigenvectores asociados a cada eigenvalor.
+  - Normalización de eigenvectores para formar estados físicos válidos.
+  - Construcción de proyectores espectrales a partir de eigenvectores normalizados.
+  - Verificación de propiedades de los proyectores: ortogonalidad, idempotencia y resolución de la identidad.
+  - Reconstrucción de una matriz a partir de su descomposición espectral `A = Σ a Pₐ`.
+- Se formalizó estructuralmente la interpretación de la medición cuántica:
+
+  - Comprensión de la medición como proyección sobre subespacios propios de un observable.
+  - Descomposición de un estado en componentes asociadas a distintos subespacios propios.
+  - Cálculo de probabilidades de medición mediante proyectores.
+  - Comprensión de que los posibles resultados de medición son los eigenvalores del observable.
+  - Clarificación de que un observable se representa mediante un operador hermítico.
+- Se consolidó la distinción conceptual entre tipos de operadores cuánticos:
+
+  - Diferencia entre observable y compuerta cuántica.
+  - Comprensión de que las compuertas representan evolución unitaria.
+  - Comprensión de que la medición no es una compuerta, sino una operación de naturaleza distinta.
+  - Revisión del papel de los conmutadores y de la base de eigenvectores compartida.
+- Se reforzó la intuición del marco matemático del espacio de Hilbert:
+
+  - Operadores como transformaciones lineales en el espacio de Hilbert.
+  - Relación entre operadores, eigenvalores, eigenvectores y medición.
+  - Consolidación de una intuición geométrica sobre proyección, descomposición y certeza en la medición.
+
+### Diario y Biblioteca
+
+- Se exportaron y organizaron los archivos:
+
+  - `Diario_de_Bordo_Semana_18.pdf`
+  - `Biblioteca_Semana_18.pdf`
+- El Diario documenta:
+
+  - Construcción de eigenvalores, eigenvectores y proyectores espectrales.
+  - Trabajo con una matriz no normalizada para obtener su estructura espectral.
+  - Comprensión de la descomposición de estados en subespacios propios.
+  - Diferenciación entre observable y compuerta.
+  - Un punto de quiebre conceptual claro en el Día 88.
+  - Un día fuera de eje en el Día 89.
+  - Repaso integrador de operadores, espacio de Hilbert, conmutadores, eigenvalores y eigenvectores en el Día 90.
+- La Biblioteca incluye:
+
+  - Desarrollo manuscrito del caso diagonal y del caso no normalizado.
+  - Construcción paso a paso de eigenvalores y eigenvectores.
+  - Normalización explícita de vectores propios.
+  - Construcción y verificación de proyectores espectrales.
+  - Reconstrucción matricial mediante descomposición espectral.
+  - Mini-reto de descomposición de un estado arbitrario con cálculo de probabilidades.
+  - Repaso conceptual de operadores, observables, proyectores y conmutadores.
+
+### Código
+
+- No se desarrolló código nuevo esta semana.
+
+### Codex
+
+Se integró el archivo correspondiente a la semana:
+
+- `Codex_Semana_18.pdf`
+
+Se añadieron y consolidaron entradas fundamentales del marco matemático y físico actual:
+
+- Descomposición espectral.
+- Polinomio característico.
+- Observable.
+
+El Codex de esta semana acompaña directamente la transición desde la geometría del qubit hacia la estructura formal de medición y observables.
+
+### Estructura del repositorio
+
+No se modifico la estructura del repositorio esta semana.
+
+### Normalización de archivos
+
+- Se consolidaron como referencias oficiales:
+
+  - `Biblioteca_Semana_18.pdf`
+  - `Diario_de_Bordo_Semana_18.pdf`
+  - `Codex_Semana_18.pdf`
+
+### Notas
+
+- La medición cuántica quedó comprendida como una proyección sobre subespacios propios.
