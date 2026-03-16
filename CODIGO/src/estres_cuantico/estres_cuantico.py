@@ -1,58 +1,43 @@
 """
-Este script prueba el límite práctico de una PC al simular estados cuánticos.
-Construye un estado GHZ con un número creciente de qubits y mide
-cuándo la simulación por statevector deja de ser viable por recursos.
+Construye estados GHZ de tamaño creciente en Qiskit y fuerza al simulador
+a generar el statevector completo para medir hasta qué número de qubits
+puede sostener la simulación clásica. El resultado se valida observando
+si el cálculo termina con éxito, su tiempo de ejecución y la dimensión del vector.
 """
 
-import numpy as np
-from qiskit import QuantumCircuit, transpile
-from qiskit_aer import AerSimulator
 import time
+from qiskit import QuantumCircuit
+from qiskit_aer import AerSimulator
+import numpy as np
 
 
 def test_quantum_limit(n_qubits):
-    """
-    Crea y simula un circuito GHZ de n_qubits usando simulación por statevector.
-    Mide el tiempo de ejecución y detecta fallos por límite de memoria o CPU.
-    """
-
-    # 1. Crear el circuito cuántico
-    #    Estado GHZ: superposición global y entrelazamiento completo
     qc = QuantumCircuit(n_qubits)
-    qc.h(0)  # Pone el primer qubit en superposición
+    qc.h(0)
 
-    # Encadena compuertas CNOT para entrelazar todos los qubits
     for i in range(n_qubits - 1):
         qc.cx(i, i + 1)
 
-    # Medición de todos los qubits
-    qc.measure_all()
+    # Forzar al simulador a construir y guardar el statevector
+    qc.save_statevector()
 
-    # 2. Configurar el simulador
-    #    Se fuerza el método 'statevector', que consume 2^n amplitudes en RAM
-    simulator = AerSimulator(method='statevector')
+    simulator = AerSimulator(method="statevector")
 
     print(f"\n--- Probando con {n_qubits} qubits ---")
     start_time = time.time()
 
     try:
-        # 3. Transpilación del circuito para el backend seleccionado
-        t_qc = transpile(qc, simulator)
-
-        # 4. Ejecución del circuito
-        #    Un solo shot es suficiente; el costo real está en el statevector
-        result = simulator.run(t_qc, shots=1).result()
-
+        result = simulator.run(qc).result()
+        statevector = result.data(0)["statevector"]  # fuerza acceso real al vector
         end_time = time.time()
-        print(f"Éxito ✔ | Tiempo de ejecución: {end_time - start_time:.2f} segundos")
+
+        print(f"Éxito ✔ | Tiempo: {end_time - start_time:.4f} s")
+        print(f"Dimensión del statevector: {len(np.asarray(statevector))}")
 
     except Exception as e:
-        # Captura errores típicos de falta de memoria o recursos del sistema
-        print("FALLO ✖ | Límite de hardware alcanzado")
-        print(f"Detalle del error: {e}")
+        print("FALLO ✖")
+        print(f"Detalle: {e}")
 
 
-# 5. Barrido de número de qubits
-#    Aumenta progresivamente hasta que el sistema no pueda sostener la simulación
 for n in range(24, 35):
     test_quantum_limit(n)

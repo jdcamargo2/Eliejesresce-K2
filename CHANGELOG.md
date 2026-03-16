@@ -1163,3 +1163,111 @@ No se modifico la estructura del repositorio esta semana.
 ### Notas
 
 - La medición cuántica quedó comprendida como una proyección sobre subespacios propios.
+
+---
+
+## Semana 19 (2026-03-09 al 2026-03-15)
+
+### Teoría y aprendizaje
+
+- Se consolidó el cierre conceptual del **Campamento Anclaje**, integrando la comprensión formal de varios pilares de la mecánica cuántica aplicados a computación cuántica.
+
+  - El estado cuántico se comprendió formalmente como un vector normalizado dentro de un **espacio de Hilbert complejo**.
+  - Se reforzó la interpretación de la **medición como proyección** sobre una base de eigenvectores.
+  - Se distinguió claramente entre **operadores unitarios** (evolución del sistema) y **operadores hermíticos** (observables).
+  - Se consolidó la interpretación física de **eigenvalores y eigenvectores** como resultados posibles de medición y estados estables frente a un observable.
+  - Se reforzó la intuición de la **Transformada Cuántica de Fourier (QFT)** como un cambio de base que revela periodicidad.
+- Durante la semana se produjo una conexión conceptual importante relacionada con la medición en diferentes bases:
+
+  - Medición en **Z** distingue poblaciones entre \|0⟩ y \|1⟩.
+  - Medición en **X** revela la coherencia del estado.
+  - Medición en **Y** revela información sobre la fase relativa.
+- Esta comprensión llevó a reconocer la relación con **tomografía cuántica**, donde un estado no puede caracterizarse completamente con una sola base de medición.
+- También se reafirmó la diferencia entre la representación física del sistema cuántico y su simulación clásica:
+
+  - La simulación clásica requiere almacenar explícitamente el **statevector completo**, cuyo tamaño crece exponencialmente con el número de qubits.
+  - El sistema físico cuántico codifica información en fases, interferencias y correlaciones entre estados.
+- El progreso conceptual fue sólido, aunque se registró un día de baja energía que afectó momentáneamente el ritmo de estudio.
+
+### Diario y Biblioteca
+
+- Se exportaron y organizaron los archivos:
+
+  - `Diario de Bordo - Semana 19.pdf`
+  - `Biblioteca - Semana 19.pdf`
+- El **Diario de Bordo** documentó:
+
+  - un inicio irregular con un día fuera de eje
+  - la creación y ajuste de scripts de simulación
+  - el traslado del entorno de trabajo hacia **WSL**
+  - conexiones conceptuales surgidas durante la implementación de código
+  - el cierre formal del **Campamento Anclaje**
+  - un inicio simbólico del **Campamento 3**
+- La **Biblioteca** incluyó:
+
+  - preguntas y respuestas sobre operadores y bases de eigenvectores
+  - reflexiones sobre conmutadores y observables incompatibles
+  - la relación entre medición y proyección en el espacio de Hilbert
+  - una síntesis de las cinco misiones del Campamento Anclaje
+  - notas sobre medición en distintas bases y su relación con tomografía cuántica
+
+### Código
+
+Durante la semana se trabajó en dos scripts principales.
+
+**1. Prueba de límite de simulación de statevector**
+
+- Se reutilizó una idea previa para probar una lógica distinta de ejecución.
+- El script genera estados tipo **GHZ** aplicando una compuerta Hadamard inicial seguida de una cadena de compuertas CNOT.
+- El simulador se fuerza a construir y devolver el **statevector completo**, permitiendo observar:
+
+  - tiempo de ejecución
+  - dimensión del vector
+  - límite práctico de simulación clásica
+- Este script funcionó como demostración empírica del **crecimiento exponencial del espacio de estados** en sistemas cuánticos simulados clásicamente.
+
+**2. Simulación visual de operadores cuánticos sobre un qubit**
+
+- Se desarrolló una simulación animada del efecto de un operador sobre un qubit en la **esfera de Bloch**.
+- El programa permite seleccionar:
+
+  - estado inicial
+  - operador aplicado
+  - base de medición
+- La visualización incluye simultáneamente:
+
+  - trayectoria del estado en la esfera de Bloch
+  - vector de estado actual
+  - probabilidades de medición en tiempo real
+  - representación explícita del estado \|ψ⟩
+  - coordenadas de Bloch
+  - eigenvalores del operador aplicado
+- Este código integró en una sola simulación varios conceptos clave del Campamento Anclaje:
+
+  - espacio de Hilbert
+  - evolución mediante operadores unitarios
+  - medición en diferentes bases
+  - interpretación geométrica del estado cuántico
+
+### Codex
+
+- No se añadió un archivo nuevo de Codex durante esta semana.
+
+### Estructura del repositorio
+
+- Se inició la transición del entorno de trabajo hacia **Linux mediante WSL**.
+- Se revisó el comportamiento de scripts de simulación en el nuevo entorno.
+- No se realizaron cambios estructurales importantes en la organización del repositorio.
+
+### Normalización de archivos
+
+Se consolidaron como referencias oficiales de la semana:
+
+- `Biblioteca_Semana_19.pdf`
+- `Diario_de_Bordo_Semana_19.pdf`
+
+### Notas
+
+* Esta semana marcó el **cierre del Campamento Anclaje**, donde el qubit dejó de entenderse solo desde la intuición geométrica de la esfera de Bloch y pasó a interpretarse como un objeto matemático formal dentro del espacio de Hilbert.
+
+* La comprensión de medición en distintas bases permitió conectar la geometría del estado con la reconstrucción de información cuántica, consolidando una visión más completa de la relación entre operadores, evolución y observables.
