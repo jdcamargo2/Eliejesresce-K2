@@ -1269,5 +1269,88 @@ Se consolidaron como referencias oficiales de la semana:
 ### Notas
 
 * Esta semana marcó el **cierre del Campamento Anclaje**, donde el qubit dejó de entenderse solo desde la intuición geométrica de la esfera de Bloch y pasó a interpretarse como un objeto matemático formal dentro del espacio de Hilbert.
-
 * La comprensión de medición en distintas bases permitió conectar la geometría del estado con la reconstrucción de información cuántica, consolidando una visión más completa de la relación entre operadores, evolución y observables.
+
+---
+
+## Semana 20 (2026-03-16 al 2026-03-20)
+
+### Teoría y aprendizaje
+
+- El progreso teórico de la semana fue limitado debido a una alta carga logística asociada al viaje a Venezuela.
+- Se realizó una introducción inicial al Postulado 1 de la mecánica cuántica, contrastando:
+
+  - Mecánica clásica: estado definido por posición y momento (x(t), p(t))
+  - Mecánica cuántica: estado representado como vector |ψ(t)⟩ en un espacio de Hilbert
+- Se estableció la diferencia conceptual clave:
+
+  - En clásica: estado completamente determinado
+  - En cuántica: estado definido por amplitudes complejas que generan probabilidades
+- Se realizó un repaso breve del Postulado 1 para mantener continuidad en el proceso.
+- Dificultades:
+
+  - Interrupción del ritmo por actividades externas
+  - Falta de tiempo para profundizar en desarrollo matemático
+
+---
+
+### Diario y Biblioteca
+
+- Se exportaron y organizaron los archivos:
+
+  - `Diario_de_Bordo_Semana_20.pdf`
+  - `Biblioteca_Semana_20.pdf`
+- El Diario documenta:
+
+  - Múltiples días fuera de eje por logística de viaje
+  - Inicio del Campamento 3
+  - Introducción conceptual al Postulado 1
+  - Reflexión sobre el cambio de entorno (viaje inminente)
+- La Biblioteca incluye:
+
+  - Comparación directa entre mecánica clásica y cuántica
+  - Definición del estado clásico como punto en espacio de fases
+  - Definición del estado cuántico como vector en espacio de Hilbert
+
+  Ejemplo:
+
+  - Definición clásica: x(t), p(t)
+  - Definición cuántica: |ψ(t)⟩ :contentReference[oaicite:4]{index=4}
+- La biblioteca fue principalmente conceptual y de introducción, sin desarrollo matemático profundo.
+
+---
+
+### Código
+
+- No se desarrolló código nuevo esta semana.
+
+---
+
+### Codex
+
+- No se añadieron nuevas entradas al Codex esta semana.
+
+---
+
+### Estructura del repositorio
+
+- Se añadieron los documentos correspondientes a la Semana 20:
+
+  - Diario
+  - Biblioteca
+- No se realizaron cambios estructurales adicionales.
+
+---
+
+### Normalización de archivos
+
+Se consolidaron como referencias oficiales de la semana:
+
+- `Biblioteca_Semana_20.pdf`
+- `Diario_de_Bordo_Semana_20.pdf`
+
+### Notas
+
+Semana marcada por una transición física importante más que por avance teórico. A pesar de la interrupción del ritmo, se mantuvo el vínculo con el sistema mediante acciones mínimas, iniciando el Campamento 3 y estableciendo la base conceptual del Postulado 1.
+
+El sistema no se rompió: se adaptó.
