@@ -1354,3 +1354,71 @@ Se consolidaron como referencias oficiales de la semana:
 Semana marcada por una transición física importante más que por avance teórico. A pesar de la interrupción del ritmo, se mantuvo el vínculo con el sistema mediante acciones mínimas, iniciando el Campamento 3 y estableciendo la base conceptual del Postulado 1.
 
 El sistema no se rompió: se adaptó.
+
+---
+
+## Semana 21 (2026-03-23 al 2026-03-27)
+
+### Teoría y aprendizaje
+
+- El progreso teórico de la semana fue limitado y se centró en mantener la continuidad del sistema en condiciones de viaje.
+
+  - Se realizó un repaso breve del Postulado 1, reforzando la idea del estado cuántico como vector complejo.
+  - Se reinterpretó la situación personal como un sistema cuántico, incorporando:
+    - superposición de estados (avance, bloqueo, flujo)
+    - ruido y decoherencia (estrés, incertidumbre, cansancio)
+    - operador de acción mínima como mecanismo de control del sistema
+  - Se conectó la medición con la toma de decisiones y probabilidad en contextos reales.
+
+### Diario y Biblioteca
+
+- El Diario documenta:
+
+  - inicio de un nuevo Diario de Bordo tras alcanzar 100 páginas
+  - inicio del viaje hacia Venezuela
+  - múltiples días fuera de eje debido a problemas logísticos
+  - reinterpretación del proceso como sistema cuántico
+  - continuidad del vínculo a pesar del contexto adverso
+- La Biblioteca incluye:
+
+  - repaso conceptual del Postulado 1
+  - construcción de un modelo cuántico abstracto aplicado al estado personal
+  - introducción de:
+
+    - superposición no normalizada
+    - operador de acción consciente
+    - decoherencia como ruido del entorno
+  - análisis de una noticia sobre computación cuántica y criptografía (Google, 2026)
+
+### Código
+
+- No se desarrolló código nuevo esta semana.
+
+### TEXTOS
+
+- Se escribió un nuevo texto:
+
+  - `Traslado.md`
+- El texto introduce una metáfora temporal del cambio de etapa, conectando memoria, evolución y dirección del sistema personal
+
+### Codex
+
+- No se añadieron nuevas entradas al Codex esta semana.
+
+### Estructura del repositorio
+
+- Se añadieron los documentos semanales correspondientes.
+- No se realizaron cambios estructurales relevantes.
+
+### Normalización de archivos
+
+- Se consolidaron como referencias oficiales:
+
+  - `Biblioteca_Semana_21.pdf`
+  - `Diario_de_bordo_Semana_21.pdf`
+- No se generó archivo de Codex para esta semana.
+
+### Notas
+
+- La semana no representó un avance técnico fuerte, pero sí una validación del sistema: incluso en condiciones de ruido, el eje no se pierde, se adapta.
+- Se consolidó una idea clave: el sistema no exige perfección, exige continuidad.

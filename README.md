@@ -83,6 +83,7 @@ BIBLIOTECA/
     Biblioteca_Semana_18.pdf
     Biblioteca_Semana_19.pdf
     Biblioteca_Semana_20.pdf
+    Biblioteca_Semana_21.pdf
 
 CODEX/
     Codex_Semana_16.pdf
@@ -112,6 +113,7 @@ DIARIO/
     Diario_de_Bordo_Semana_18.pdf
     Diario_de_Bordo_Semana_19.pdf
     Diario_de_Bordo_Semana_20.pdf
+ Diario_de_Bordo_Semana_21.pdf
 
 CODIGO/
   .venv/
@@ -296,6 +298,7 @@ El repositorio documenta mi proceso de aprendizaje y exploración en los siguien
 - **Semana 18:** Consolidación de la descomposición espectral de operadores hermíticos. Se construyeron eigenvalores y eigenvectores a partir del polinomio característico, se definieron proyectores espectrales y se verificaron sus propiedades. Se entendió la medición cuántica como proyección sobre subespacios propios y se conectó formalmente la descomposición espectral con las probabilidades de medición.
 - **Semana 19:** Se consolidó el cierre del Campamento Anclaje reforzando la estructura matemática del estado cuántico dentro del espacio de Hilbert y la interpretación de la medición como proyección sobre eigenvectores. La semana permitió conectar la evolución por operadores con la observación en distintas bases (Z, X y Y), comprendiendo cómo cada medición revela información diferente del estado y cómo esta idea se relaciona con la tomografía cuántica.
 - **Semana 20:** La semana estuvo dominada por una transición logística significativa de cambio de país, lo que limitó el avance teórico y llevó el enfoque hacia la continuidad mínima del sistema. Se inició el Campamento 3 con una introducción al Postulado 1, estableciendo la diferencia entre la descripción clásica del estado como (x, p) y la formulación cuántica como vector en espacio de Hilbert, consolidando así el punto de entrada al nuevo bloque conceptual.
+- **Semana 21:** El progreso conceptual fue muy limitado debido al contexto de viaje y dificultades logísticas. La semana se centró en mantener el vínculo con el sistema mediante ideas ligeras y analogías, sin desarrollo teórico nuevo, pero evitando la ruptura del eje.
 
 ---
 
