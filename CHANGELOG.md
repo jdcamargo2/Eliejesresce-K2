@@ -1422,3 +1422,117 @@ El sistema no se rompió: se adaptó.
 
 - La semana no representó un avance técnico fuerte, pero sí una validación del sistema: incluso en condiciones de ruido, el eje no se pierde, se adapta.
 - Se consolidó una idea clave: el sistema no exige perfección, exige continuidad.
+
+---
+
+## Semana 22 (2026-03-30 al 2026-04-03)
+
+### Teoría y aprendizaje
+
+- El progreso teórico de la semana fue limitado debido al proceso de mudanza y cambio de entorno.
+- Se realizó una revisión conceptual de mecánica clásica a partir del libro "Mecánica General - I. Rubio", identificándola como base para la ecuación de Schrödinger.
+- Se retomó el eje del proyecto mediante una revisión de los postulados de la mecánica cuántica según Shankar:
+
+  - Estado como vector en espacio de Hilbert
+  - Evolución mediante operadores unitarios
+  - Medición como colapso a eigenestados
+  - Evolución gobernada por la ecuación de Schrödinger
+- Se consolidó una conexión clave:
+
+  - Los primeros tres postulados describen el sistema en un instante
+  - El cuarto describe su evolución temporal
+- Se identificó una dificultad importante:
+
+  - Falta de representación explícita de la ecuación de Schrödinger dentro del marco práctico
+
+### Diario y Biblioteca
+
+- Se exportaron y organizaron los archivos:
+
+  - `Diario_de_Bordo_Semana_22.pdf`
+  - `Biblioteca_Semana_22.pdf`
+- El Diario documenta:
+
+  - varios días fuera de eje por mudanza
+  - mantenimiento del vínculo con el proyecto
+  - reconexión progresiva con los postulados
+  - transición hacia implementación en código
+- La Biblioteca incluye:
+
+  - revisión de mecánica clásica como base de la cuántica
+  - formulación simplificada de los 4 postulados
+  - conexión entre teoría y Qiskit
+  - introducción clara al concepto de fase y cambio de base
+
+### Código
+
+- Se desarrolló un script en Qiskit para explorar los postulados cuánticos con un qubit:
+
+  - Preparación de estados:
+
+    - |+> con Hadamard
+    - |1> con X
+    - estado con fase compleja
+  - Análisis del estado:
+
+    - uso de `Statevector`
+    - visualización de amplitudes y probabilidades
+  - Evolución unitaria:
+
+    - compuertas H y X como operadores unitarios
+  - Medición:
+
+    - simulación en base Z con `measure`
+    - medición en base X mediante cambio de base (H + measure)
+  - Interpretación física integrada:
+
+    - el estado es un vector complejo previo a medición
+    - la fase relativa no se ve en Z pero sí en cambios de base
+    - las compuertas representan evolución unitaria
+
+### TEXTOS
+
+- No se desarrollaron textos nuevos esta semana.
+
+### Codex
+
+- Se definió un cambio estructural importante:
+
+  - El Codex deja de ser un archivo PDF semanal
+  - Pasa a ser un archivo Markdown acumulativo
+- Se integrará progresivamente el contenido del cuaderno físico al repositorio
+- Se revisó el documento base del Codex
+
+  - Estructura:
+
+    - Término — Traducción
+    - Definición clara
+    - Fórmula (si aplica)
+  - Entre parte del contenido incluye:
+
+    - Qubit
+    - Estadovector
+    - Producto interno
+    - Base computacional
+    - Fase global y relativa
+    - Operadores unitarios
+    - Descomposición espectral
+
+### Estructura del repositorio
+
+- Se definió una nueva política para el Codex:
+
+  - Archivo único acumulativo (`codex.md`)
+  - Eliminación del formato semanal en PDF
+
+### Normalización de archivos
+
+- Se consolidaron como referencias oficiales de la semana:
+
+  - `Biblioteca_Semana_22.pdf`
+  - `Diario_de_Bordo_Semana_22.pdf`
+  - Codex migrará a `.md` en lugar de PDF
+
+### Notas
+
+Semana de transición donde el foco no fue avanzar en contenido sino sostener el sistema. El punto clave fue la reconexión con los postulados y su traducción a código, logrando ver por primera vez el sistema cuántico como una estructura completa: estado, evolución y medición integrados en una misma representación operativa.
