@@ -1273,7 +1273,7 @@ Se consolidaron como referencias oficiales de la semana:
 
 ---
 
-## Semana 20 (2026-03-16 al 2026-03-20)
+## Semana 20 (2026-03-16 al 2026-03-22)
 
 ### Teoría y aprendizaje
 
@@ -1357,7 +1357,7 @@ El sistema no se rompió: se adaptó.
 
 ---
 
-## Semana 21 (2026-03-23 al 2026-03-27)
+## Semana 21 (2026-03-23 al 2026-03-29)
 
 ### Teoría y aprendizaje
 
@@ -1425,7 +1425,7 @@ El sistema no se rompió: se adaptó.
 
 ---
 
-## Semana 22 (2026-03-30 al 2026-04-03)
+## Semana 22 (2026-03-30 al 2026-04-05)
 
 ### Teoría y aprendizaje
 
@@ -1536,3 +1536,103 @@ El sistema no se rompió: se adaptó.
 ### Notas
 
 Semana de transición donde el foco no fue avanzar en contenido sino sostener el sistema. El punto clave fue la reconexión con los postulados y su traducción a código, logrando ver por primera vez el sistema cuántico como una estructura completa: estado, evolución y medición integrados en una misma representación operativa.
+
+---
+
+## Semana 23 (2026-04-06 al 2026-04-12)
+
+### Teoría y aprendizaje
+
+- La semana comenzó con un repaso de los postulados cuánticos desde reconstrucción interna, sin depender de libros ni apuntes externos.
+
+  - Se consolidó la idea de que el estado cuántico se representa como vector normalizado en un espacio de Hilbert complejo.
+  - Se reforzó la evolución unitaria como transformación central del sistema.
+  - Se aclaró el papel de la medición como colapso hacia eigenestados siguiendo la regla de Born.
+  - Se afianzó la relación entre compuertas cuánticas y la ecuación de Schrödinger como evolución unitaria discreta.
+- Se revisó y refactorizó el script de postulados para que reflejara de forma explícita cada uno de los postulados dentro de un único experimento con un qubit.
+- El avance conceptual más importante de la semana fue el paso desde la comprensión de los postulados hacia su materialización como arquitectura funcional, mediante el diseño y consolidación de un sistema cuántico distribuido simulado.
+- También se identificó con claridad una limitación estructural importante:
+
+  - el sistema todavía no es completamente distribuido, ya que mantiene un orquestador central que procesa y coordina el protocolo.
+
+### Diario y Biblioteca
+
+- Se exportaron y organizaron los archivos:
+
+  - `Diario_de_Bordo_Semana_23.pdf`
+  - `Biblioteca_Semana_23.pdf`
+- El Diario documenta:
+
+  - repaso de postulados desde reconstrucción interna
+  - refactorización del código de postulados
+  - nacimiento del proyecto de sistema cuántico distribuido
+  - paso a una versión tangible con nodos funcionando por red
+  - mejora posterior hacia una versión 2 con nuevas características
+  - reflexión crítica sobre la diferencia entre un sistema distribuido simulado y uno realmente distribuido
+- La Biblioteca incluye:
+
+  - formulación compacta de los cuatro postulados
+  - reinterpretación del script para recorrer explícitamente cada postulado
+  - preparación del estado \(|psi> = (|0> + i|1>) / sqrt{2}) usando compuertas H y S
+  - diseño conceptual completo del sistema de computación cuántica distribuida
+  - arquitectura, stack, flujo del sistema y fases del protocolo
+  - documentación de la versión 1 y de la versión 2 del sistema
+  - mejoras introducidas en la versión 2 y resultados obtenidos
+
+### Código
+
+- Se trabajó sobre un script de Qiskit que muestra de forma explícita los cuatro postulados cuánticos con un solo qubit.
+
+  - Se representa el estado como vector normalizado.
+  - Se prepara el estado mediante evolución unitaria.
+  - Se conecta la evolución con la ecuación de Schrödinger.
+  - Se compara la medición teórica con la observada en base Z y base X.
+- Se desarrolló y consolidó un sistema cuántico distribuido simulado como subproyecto independiente del repositorio principal.
+- El sistema evolucionó en dos etapas:
+
+  - **Versión 1**
+
+    - nodos conectados por red
+    - enlace básico entre ambos nodos
+    - primeras pruebas funcionales del protocolo
+    - presencia de errores de diseño y carencia de funcionalidades
+  - **Versión 2**
+
+    - generación de enlace con heraldo
+    - canal de transmisión con ruido dependiente de distancia
+    - estados de Bell variables por enlace
+    - medición local en cada nodo
+    - protocolo de revelación
+    - reconstrucción global de correlación
+    - paneles de información en tiempo real
+    - actualización del estado de ambos nodos
+    - integración de Qiskit para el cálculo cuántico del sistema
+    - corrección de bugs detectados en la versión anterior
+- Durante el cierre semanal, el sistema fue organizado como repositorio independiente, con README, requirements, LICENSE, documentación visual y relación explícita con el proyecto principal Elíejesresce K2.
+
+### TEXTOS
+
+- No se desarrollaron textos nuevos esta semana.
+
+### Codex
+
+- No se agregaron terminos nuevos esta semana.
+
+### Estructura del repositorio
+
+- Se mantuvo el repositorio principal como núcleo conceptual y documental del proyecto.
+- Se abrió un repositorio satélite para el sistema cuántico distribuido simulado, como expansión práctica del Campamento 3.
+- Se volvió necesario añadir en el repositorio principal una referencia explícita a este nuevo subproyecto derivado en el README.
+
+### Normalización de archivos
+
+- Se consolidaron como referencias oficiales de la semana:
+
+  - `Biblioteca_Semana_23.pdf`
+  - `Diario_de_Bordo_Semana_23.pdf`
+- El código de postulados quedó como referencia explícita del trabajo teórico-práctico de la semana.
+- El prototipo DQC quedó formalizado además como repositorio independiente documentado.
+
+### Notas
+
+Esta semana marcó un punto de inflexión real en Elíejesresce K2: los postulados dejaron de ser solo un objeto de estudio y empezaron a operar como criterio de construcción. El avance más fuerte no fue únicamente entender mejor la mecánica cuántica, sino transformarla en arquitectura, protocolo, interfaz y sistema ejecutable. La pregunta ya no fue solo qué hace un estado cuántico, sino cómo se organiza un sistema que intente comportarse como uno.

@@ -56,6 +56,19 @@ Este repositorio es el **campamento base digital** donde se registra todo el ava
 
 ---
 
+# 🗃️ Subproyectos derivados
+
+### Distributed DQC Prototype
+
+Como expansión práctica del **Campamento 3**, en la semana 23 nació un subproyecto independiente enfocado en la simulación de un sistema de computación cuántica distribuida con nodos separados, generación heráldica de enlace, ruido dependiente de distancia, medición local y reconstrucción global de correlación.
+
+El sistema es una simulación de carácter práctico, orientada al estudio y entendimiento, sin fines de implementación física real.
+
+Repositorio:
+[Distributed DQC Prototype](https://github.com/jdcamargo2/distributed_dqc_prototype)
+
+---
+
 # 📂 Estructura del Repositorio
 
 ```
@@ -84,6 +97,8 @@ BIBLIOTECA/
     Biblioteca_Semana_19.pdf
     Biblioteca_Semana_20.pdf
     Biblioteca_Semana_21.pdf
+    Biblioteca_Semana_22.pdf
+    Biblioteca_Semana_23.pdf
 
 CODEX/
     Codex_Semana_16.pdf
@@ -113,7 +128,9 @@ DIARIO/
     Diario_de_Bordo_Semana_18.pdf
     Diario_de_Bordo_Semana_19.pdf
     Diario_de_Bordo_Semana_20.pdf
- Diario_de_Bordo_Semana_21.pdf
+    Diario_de_Bordo_Semana_21.pdf
+    Diario_de_Bordo_Semana_22.pdf
+    Diario_de_Bordo_Semana_23.pdf
 
 CODIGO/
   .venv/
@@ -164,6 +181,9 @@ CODIGO/
 
     operadores/
       operadores.py
+    
+    postulados/
+      postualados.py
 
     shor/
       shor_ruido.py
@@ -185,6 +205,7 @@ TEXTOS/
     Grover.md
     Lejos en espacio.md
     Navegante.md
+    Traslado.md
 
 IDENTIDAD/
   (logos, documentos base, guía maestra, proyecto, horario...)
@@ -300,6 +321,7 @@ El repositorio documenta mi proceso de aprendizaje y exploración en los siguien
 - **Semana 20:** La semana estuvo dominada por una transición logística significativa de cambio de país, lo que limitó el avance teórico y llevó el enfoque hacia la continuidad mínima del sistema. Se inició el Campamento 3 con una introducción al Postulado 1, estableciendo la diferencia entre la descripción clásica del estado como (x, p) y la formulación cuántica como vector en espacio de Hilbert, consolidando así el punto de entrada al nuevo bloque conceptual.
 - **Semana 21:** El progreso conceptual fue muy limitado debido al contexto de viaje y dificultades logísticas. La semana se centró en mantener el vínculo con el sistema mediante ideas ligeras y analogías, sin desarrollo teórico nuevo, pero evitando la ruptura del eje.
 - **Semana 22:** La semana estuvo marcada por una transición de entorno que limitó el avance teórico, enfocándose principalmente en mantener la continuidad del sistema. Se realizó una reconexión con los postulados fundamentales de la mecánica cuántica y su interpretación práctica en Qiskit, comenzando a entenderlos como un sistema coherente donde estado, evolución y medición se integran dentro de una misma estructura conceptual.
+- **Semana 23:** Se consolidó la comprensión de los postulados cuánticos como marco operativo del estado, la evolución y la medición, y ese entendimiento se trasladó a la práctica mediante la refactorización explícita del script de postulados y la construcción de un sistema cuántico distribuido simulado, que terminó formalizándose como un subproyecto independiente conectado al universo de Elíejesresce K2.
 
 ---
 
