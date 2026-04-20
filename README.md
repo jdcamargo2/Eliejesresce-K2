@@ -99,10 +99,10 @@ BIBLIOTECA/
     Biblioteca_Semana_21.pdf
     Biblioteca_Semana_22.pdf
     Biblioteca_Semana_23.pdf
+    Biblioteca_Semana_24.pdf
 
 CODEX/
-    Codex_Semana_16.pdf
-    Codex_Semana_18.pdf
+    Codex.md
 
 DIARIO/
   2025/
@@ -131,6 +131,7 @@ DIARIO/
     Diario_de_Bordo_Semana_21.pdf
     Diario_de_Bordo_Semana_22.pdf
     Diario_de_Bordo_Semana_23.pdf
+    Diario_de_Bordo_Semana_24.pdf
 
 CODIGO/
   .venv/
@@ -206,6 +207,7 @@ TEXTOS/
     Lejos en espacio.md
     Navegante.md
     Traslado.md
+    Volver.md
 
 IDENTIDAD/
   (logos, documentos base, guía maestra, proyecto, horario...)
@@ -322,6 +324,7 @@ El repositorio documenta mi proceso de aprendizaje y exploración en los siguien
 - **Semana 21:** El progreso conceptual fue muy limitado debido al contexto de viaje y dificultades logísticas. La semana se centró en mantener el vínculo con el sistema mediante ideas ligeras y analogías, sin desarrollo teórico nuevo, pero evitando la ruptura del eje.
 - **Semana 22:** La semana estuvo marcada por una transición de entorno que limitó el avance teórico, enfocándose principalmente en mantener la continuidad del sistema. Se realizó una reconexión con los postulados fundamentales de la mecánica cuántica y su interpretación práctica en Qiskit, comenzando a entenderlos como un sistema coherente donde estado, evolución y medición se integran dentro de una misma estructura conceptual.
 - **Semana 23:** Se consolidó la comprensión de los postulados cuánticos como marco operativo del estado, la evolución y la medición, y ese entendimiento se trasladó a la práctica mediante la refactorización explícita del script de postulados y la construcción de un sistema cuántico distribuido simulado, que terminó formalizándose como un subproyecto independiente conectado al universo de Elíejesresce K2.
+- **Semana 24:** Se consolidó la comprensión de la ecuación de Schrödinger como ley fundamental de evolución del estado cuántico, identificando al Hamiltoniano como el generador de la dinámica y resolviendo explícitamente un sistema que reveló el carácter oscilatorio de las amplitudes. Este avance permitió reinterpretar las compuertas cuánticas como manifestaciones de la evolución unitaria del sistema en el espacio de Hilbert.
 
 ---
 

@@ -1636,3 +1636,85 @@ Semana de transición donde el foco no fue avanzar en contenido sino sostener el
 ### Notas
 
 Esta semana marcó un punto de inflexión real en Elíejesresce K2: los postulados dejaron de ser solo un objeto de estudio y empezaron a operar como criterio de construcción. El avance más fuerte no fue únicamente entender mejor la mecánica cuántica, sino transformarla en arquitectura, protocolo, interfaz y sistema ejecutable. La pregunta ya no fue solo qué hace un estado cuántico, sino cómo se organiza un sistema que intente comportarse como uno.
+
+---
+
+## Semana 24 (2026-04-13 al 2026-04-17)
+
+### Teoría y aprendizaje
+
+- Se desarrolló la comprensión fundamental de la ecuación de Schrödinger como ley de evolución del estado cuántico.
+
+  - Se identificó el papel del Hamiltoniano como generador de la dinámica del sistema.
+  - Se interpretó la ecuación como una relación entre cómo cambia el estado y qué lo hace cambiar.
+  - Se comprendió que la evolución del estado puede interpretarse como una rotación en el espacio de Hilbert.
+  - Se reforzó la idea de que la mecánica cuántica describe evolución, no resultados directos.
+
+- Se resolvió explícitamente un sistema basado en la ecuación de Schrödinger.
+
+  - Se partió de un Hamiltoniano tipo X.
+  - Se desacopló el sistema mediante derivadas de segundo orden.
+  - Se obtuvo una solución oscilatoria en términos de funciones seno y coseno.
+  - Se conectaron las amplitudes con probabilidades medibles.
+
+- Se consolidó la relación:
+
+  - Hamiltoniano → evolución
+  - Evolución → operador unitario
+  - Operador unitario → compuertas cuánticas
+
+- Se comprendió que las compuertas no son fundamentales, sino manifestaciones de la evolución.
+
+### Diario y Biblioteca
+
+- Se exportaron y organizaron los archivos:
+
+  - `Diario_de_Bordo_Semana_24.pdf`
+  - `Biblioteca_Semana_24.pdf`
+
+- El Diario documenta:
+
+  - días con dificultad física (gripe) que afectaron el ritmo
+  - continuidad del proyecto a pesar de condiciones adversas
+  - reflexiones sobre la constancia ("Siempre se vuelve")
+  - transición hacia una comprensión más profunda del sistema cuántico como evolución 
+
+- La Biblioteca incluye:
+
+  - desarrollo completo de la ecuación de Schrödinger
+  - descomposición conceptual de sus términos
+  - resolución matemática paso a paso del sistema
+  - interpretación física de la solución obtenida
+
+### Código
+
+- No se desarrolló código nuevo esta semana.
+
+### TEXTOS
+
+- Se escribió un nuevo texto titulado "Volver".
+
+  - Reflexiona sobre la constancia del proyecto en el tiempo.
+  - Refuerza la idea de que el vínculo con el proceso se mantiene incluso en días difíciles.
+
+### Codex
+
+- Se añadieron nuevas entradas relacionadas con:
+
+  - Hamiltoniano
+  - Ecuación de Schrödinger
+
+### Estructura del repositorio
+
+- No se modificó la estructura del repositorio esta semana.
+
+### Normalización de archivos
+
+- Se consolidaron como referencias oficiales de la semana:
+
+  - `Biblioteca_Semana_24.pdf`
+  - `Diario_de_Bordo_Semana_24.pdf`
+
+### Notas
+
+La semana marca un punto de inflexión conceptual: la mecánica cuántica deja de verse como una colección de operaciones y pasa a entenderse como una teoría de evolución gobernada por el Hamiltoniano. La ecuación de Schrödinger se internaliza no solo como fórmula, sino como mecanismo dinámico que da origen a todo el comportamiento del sistema.

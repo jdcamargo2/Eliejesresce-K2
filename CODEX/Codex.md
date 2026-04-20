@@ -131,3 +131,15 @@ U†U = I
 Unitary evolution (U(t)) — Evolución unitaria
 
 Es la forma en la que cambia un sistema cuántico en el tiempo mediante operadores unitarios, garantizando que las probabilidades se mantengan y la dinámica sea reversible.
+
+---
+
+Hamiltonian (H) — Hamiltoniano
+Operador que representa la energía total del sistema y define cómo evoluciona en el tiempo.
+iℏ ∂|ψ(t)⟩/∂t = H|ψ(t)⟩
+
+---
+
+Schrödinger equation — Ecuación de Schrödinger
+Ley fundamental que describe cómo cambia un estado cuántico en el tiempo según el Hamiltoniano.
+iℏ ∂|ψ(t)⟩/∂t = H|ψ(t)⟩
