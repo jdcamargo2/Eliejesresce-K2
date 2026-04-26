@@ -143,3 +143,17 @@ iℏ ∂|ψ(t)⟩/∂t = H|ψ(t)⟩
 Schrödinger equation — Ecuación de Schrödinger
 Ley fundamental que describe cómo cambia un estado cuántico en el tiempo según el Hamiltoniano.
 iℏ ∂|ψ(t)⟩/∂t = H|ψ(t)⟩
+
+---
+
+Coherence (—) — Coherencia
+Capacidad de un sistema cuántico para mantener relaciones de fase bien definidas entre estados en superposición.
+Permite interferencia y comportamiento no clásico observable.
+Condición: fases relativas estables entre componentes del estado
+
+---
+
+Decoherence (—) — Decoherencia
+Proceso por el cual un sistema cuántico pierde coherencia al interactuar con su entorno, destruyendo la información de fase.
+El sistema deja de comportarse como superposición y pasa a una mezcla clásica de probabilidades.
+Condición: pérdida de fase → ausencia de interferencia

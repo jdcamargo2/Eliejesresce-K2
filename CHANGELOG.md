@@ -1639,7 +1639,7 @@ Esta semana marcó un punto de inflexión real en Elíejesresce K2: los postulad
 
 ---
 
-## Semana 24 (2026-04-13 al 2026-04-17)
+## Semana 24 (2026-04-13 al 2026-04-19)
 
 ### Teoría y aprendizaje
 
@@ -1718,3 +1718,77 @@ Esta semana marcó un punto de inflexión real en Elíejesresce K2: los postulad
 ### Notas
 
 La semana marca un punto de inflexión conceptual: la mecánica cuántica deja de verse como una colección de operaciones y pasa a entenderse como una teoría de evolución gobernada por el Hamiltoniano. La ecuación de Schrödinger se internaliza no solo como fórmula, sino como mecanismo dinámico que da origen a todo el comportamiento del sistema.
+
+---
+
+## Semana 25 (2026-04-20 al 2026-04-26)
+
+### Teoría y aprendizaje
+
+- La semana se centró en consolidar la relación entre evolución cuántica y medición.
+
+  - Se reforzó la interpretación de la ecuación de Schrödinger como generadora de evolución del sistema.
+  - Se comprendió que el Hamiltoniano define completamente dicha evolución.
+  - Se integró la idea de que las compuertas cuánticas representan evoluciones específicas del sistema.
+  - Se estudió la medición como un proceso físico que rompe la evolución continua.
+  - Se profundizó en el concepto de decoherencia como pérdida de información de fase.
+  - Se estableció la diferencia entre fase controlada (coherencia) y fase aleatoria (decoherencia).
+  - Se conectó la decoherencia con la aparición de comportamiento clásico.
+
+- Dificultades:
+
+  - Persisten dudas sobre la conexión exacta entre el colapso teórico y el proceso físico real de medición.
+  - La interpretación de sistemas con decoherencia aún resulta abstracta.
+
+### Diario y Biblioteca
+
+- Se exportaron y organizaron los archivos:
+
+  - `Diario_de_Bordo_Semana_25.pdf`
+  - `Biblioteca_Semana_25.pdf`
+
+- El Diario documenta:
+
+  - días fuera de eje debido a diligencias y cansancio
+  - integración de Anki como herramienta de estudio
+  - consolidación de ideas clave sobre medición y coherencia
+  - dificultades conceptuales en decoherencia
+  - preguntas abiertas sobre qubits lógicos y variaciones del sistema
+
+- La Biblioteca incluye:
+
+  - desarrollo conceptual del Hamiltoniano total
+  - síntesis de la ecuación de Schrödinger como motor de evolución
+  - explicación de la medición como proyección
+  - descripción del proceso físico de medición: interacción, entrelazamiento, amplificación y decoherencia
+  - esquema conceptual de coherencia vs decoherencia
+
+### Código
+
+- No se desarrolló código nuevo esta semana.
+
+### TEXTOS
+
+- No se desarrollaron textos nuevos esta semana.
+
+### Codex
+
+Conceptos añadidos:
+
+- Coherence
+- Decoherence
+
+### Estructura del repositorio
+
+- No se modificó la estructura del repositorio esta semana.
+
+### Normalización de archivos
+
+Se consolidaron como referencias oficiales de la semana:
+
+- `Biblioteca_Semana_25.pdf`
+- `Diario_de_Bordo_Semana_25.pdf`
+
+### Notas
+
+La semana marca una transición importante desde entender la mecánica cuántica como un sistema de resultados hacia comprenderla como un proceso de evolución. La introducción de la decoherencia permite explicar la pérdida de comportamiento cuántico, aunque aún queda por cerrar la brecha conceptual entre el modelo teórico del colapso y su realización física.
