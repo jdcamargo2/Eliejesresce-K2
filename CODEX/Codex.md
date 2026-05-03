@@ -42,7 +42,7 @@ Conjunto de vectores que son ortogonales entre sí y tienen norma 1. Esto signif
 
 Kronecker delta (δᵢⱼ) — Delta de Kronecker
 
-Función que vale 1 cuando los índices son iguales y 0 cuando son distintos. Se usa 
+Función que vale 1 cuando los índices son iguales y 0 cuando son distintos. Se usa
 para expresar ortonormalidad y seleccionar componentes específicos.
 
 ---
@@ -135,18 +135,21 @@ Es la forma en la que cambia un sistema cuántico en el tiempo mediante operador
 ---
 
 Hamiltonian (H) — Hamiltoniano
+
 Operador que representa la energía total del sistema y define cómo evoluciona en el tiempo.
 iℏ ∂|ψ(t)⟩/∂t = H|ψ(t)⟩
 
 ---
 
 Schrödinger equation — Ecuación de Schrödinger
+
 Ley fundamental que describe cómo cambia un estado cuántico en el tiempo según el Hamiltoniano.
 iℏ ∂|ψ(t)⟩/∂t = H|ψ(t)⟩
 
 ---
 
 Coherence (—) — Coherencia
+
 Capacidad de un sistema cuántico para mantener relaciones de fase bien definidas entre estados en superposición.
 Permite interferencia y comportamiento no clásico observable.
 Condición: fases relativas estables entre componentes del estado
@@ -154,6 +157,15 @@ Condición: fases relativas estables entre componentes del estado
 ---
 
 Decoherence (—) — Decoherencia
+
 Proceso por el cual un sistema cuántico pierde coherencia al interactuar con su entorno, destruyendo la información de fase.
 El sistema deja de comportarse como superposición y pasa a una mezcla clásica de probabilidades.
 Condición: pérdida de fase → ausencia de interferencia
+
+---
+
+Non-commuting observables ([A, B] ≠ 0) — Observables no conmutativos
+
+Magnitudes físicas cuyos operadores no pueden intercambiarse sin alterar el resultado, lo que impide conocer sus valores simultáneamente con precisión. Reflejan un límite fundamental en la información accesible del sistema.
+
+[A, B] = AB − BA ≠ 0

@@ -100,6 +100,8 @@ BIBLIOTECA/
     Biblioteca_Semana_22.pdf
     Biblioteca_Semana_23.pdf
     Biblioteca_Semana_24.pdf
+    Biblioteca_Semana_25.pdf
+    Biblioteca_Semana_26.pdf
 
 CODEX/
     Codex.md
@@ -132,6 +134,8 @@ DIARIO/
     Diario_de_Bordo_Semana_22.pdf
     Diario_de_Bordo_Semana_23.pdf
     Diario_de_Bordo_Semana_24.pdf
+    Diario_de_Bordo_Semana_25.pdf
+    Diario_de_Bordo_Semana_26.pdf
 
 CODIGO/
   .venv/
@@ -326,6 +330,7 @@ El repositorio documenta mi proceso de aprendizaje y exploración en los siguien
 - **Semana 23:** Se consolidó la comprensión de los postulados cuánticos como marco operativo del estado, la evolución y la medición, y ese entendimiento se trasladó a la práctica mediante la refactorización explícita del script de postulados y la construcción de un sistema cuántico distribuido simulado, que terminó formalizándose como un subproyecto independiente conectado al universo de Elíejesresce K2.
 - **Semana 24:** Se consolidó la comprensión de la ecuación de Schrödinger como ley fundamental de evolución del estado cuántico, identificando al Hamiltoniano como el generador de la dinámica y resolviendo explícitamente un sistema que reveló el carácter oscilatorio de las amplitudes. Este avance permitió reinterpretar las compuertas cuánticas como manifestaciones de la evolución unitaria del sistema en el espacio de Hilbert.
 - **Semana 25:** La semana se centró en consolidar la comprensión de la evolución cuántica y la medición, integrando la ecuación de Schrödinger con la interpretación física del colapso y el rol del Hamiltoniano. Se profundizó en la coherencia y decoherencia como elementos clave que determinan la transición entre comportamiento cuántico y clásico, reforzando la intuición sobre la pérdida de fase y su impacto en la interferencia.
+- **Semana 26:** La semana se centró en consolidar los postulados de la mecánica cuántica y su integración con el algoritmo de Shor, conectando el estado como vector en espacio de Hilbert, la evolución unitaria y la medición como proyección con la codificación de periodicidad en fase.
 
 ---
 

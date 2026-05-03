@@ -1649,20 +1649,17 @@ Esta semana marcó un punto de inflexión real en Elíejesresce K2: los postulad
   - Se interpretó la ecuación como una relación entre cómo cambia el estado y qué lo hace cambiar.
   - Se comprendió que la evolución del estado puede interpretarse como una rotación en el espacio de Hilbert.
   - Se reforzó la idea de que la mecánica cuántica describe evolución, no resultados directos.
-
 - Se resolvió explícitamente un sistema basado en la ecuación de Schrödinger.
 
   - Se partió de un Hamiltoniano tipo X.
   - Se desacopló el sistema mediante derivadas de segundo orden.
   - Se obtuvo una solución oscilatoria en términos de funciones seno y coseno.
   - Se conectaron las amplitudes con probabilidades medibles.
-
 - Se consolidó la relación:
 
   - Hamiltoniano → evolución
   - Evolución → operador unitario
   - Operador unitario → compuertas cuánticas
-
 - Se comprendió que las compuertas no son fundamentales, sino manifestaciones de la evolución.
 
 ### Diario y Biblioteca
@@ -1671,14 +1668,12 @@ Esta semana marcó un punto de inflexión real en Elíejesresce K2: los postulad
 
   - `Diario_de_Bordo_Semana_24.pdf`
   - `Biblioteca_Semana_24.pdf`
-
 - El Diario documenta:
 
   - días con dificultad física (gripe) que afectaron el ritmo
   - continuidad del proyecto a pesar de condiciones adversas
   - reflexiones sobre la constancia ("Siempre se vuelve")
-  - transición hacia una comprensión más profunda del sistema cuántico como evolución 
-
+  - transición hacia una comprensión más profunda del sistema cuántico como evolución
 - La Biblioteca incluye:
 
   - desarrollo completo de la ecuación de Schrödinger
@@ -1734,7 +1729,6 @@ La semana marca un punto de inflexión conceptual: la mecánica cuántica deja d
   - Se profundizó en el concepto de decoherencia como pérdida de información de fase.
   - Se estableció la diferencia entre fase controlada (coherencia) y fase aleatoria (decoherencia).
   - Se conectó la decoherencia con la aparición de comportamiento clásico.
-
 - Dificultades:
 
   - Persisten dudas sobre la conexión exacta entre el colapso teórico y el proceso físico real de medición.
@@ -1746,7 +1740,6 @@ La semana marca un punto de inflexión conceptual: la mecánica cuántica deja d
 
   - `Diario_de_Bordo_Semana_25.pdf`
   - `Biblioteca_Semana_25.pdf`
-
 - El Diario documenta:
 
   - días fuera de eje debido a diligencias y cansancio
@@ -1754,7 +1747,6 @@ La semana marca un punto de inflexión conceptual: la mecánica cuántica deja d
   - consolidación de ideas clave sobre medición y coherencia
   - dificultades conceptuales en decoherencia
   - preguntas abiertas sobre qubits lógicos y variaciones del sistema
-
 - La Biblioteca incluye:
 
   - desarrollo conceptual del Hamiltoniano total
@@ -1792,3 +1784,68 @@ Se consolidaron como referencias oficiales de la semana:
 ### Notas
 
 La semana marca una transición importante desde entender la mecánica cuántica como un sistema de resultados hacia comprenderla como un proceso de evolución. La introducción de la decoherencia permite explicar la pérdida de comportamiento cuántico, aunque aún queda por cerrar la brecha conceptual entre el modelo teórico del colapso y su realización física.
+
+---
+
+# Semana 26 (2026-04-27 al 2026-05-03)
+
+### Teoría y aprendizaje
+
+- La semana se centró en la consolidación de los postulados de la mecánica cuántica y su conexión con el algoritmo de Shor.
+
+  - Se reforzó la comprensión del estado cuántico como vector en un espacio de Hilbert complejo.
+  - Se consolidó la evolución unitaria como consecuencia de la ecuación de Schrödinger.
+  - Se profundizó en la medición como proyección sobre eigenvectores y su interpretación mediante la regla de Born.
+  - Se comprendió el límite fundamental de la información a través de observables no conmutativos.
+  - Se estableció la conexión entre la periodicidad en Shor y su codificación en la fase del sistema.
+  - Se integró la necesidad de múltiples mediciones en diferentes bases (tomografía cuántica).
+- La semana tuvo un fuerte enfoque en integrar conceptos ya vistos, más que en introducir nuevos.
+
+### Diario y Biblioteca
+
+- Se exportaron y organizaron los archivos:
+
+  - `Diario_de_Bordo_Semana_26.pdf`
+  - `Biblioteca_Semana_26.pdf`
+- El Diario documenta:
+
+  - continuidad del eje mediante resolución de tarjetas en Anki
+  - días con carga académica que limitaron profundidad
+  - cierre de la misión 0 con repaso final
+  - inicio de conexión entre postulados y Shor
+  - un día fuera de eje
+- La Biblioteca incluye:
+
+  - resumen estructurado de los postulados cuánticos
+  - relación entre coherencia, interferencia y decoherencia
+  - interpretación física y matemática de la medición
+  - introducción conceptual a Shor desde los postulados
+  - desarrollo de la función periódica f(x) = a^x mod N y su codificación en fase
+
+### Código
+
+- No se desarrolló código nuevo esta semana.
+
+### TEXTOS
+
+- No se desarrollaron textos nuevos esta semana.
+
+### Codex
+
+- Se integraron nuevos conceptos:
+
+  - Observables no conmutativos
+
+### Estructura del repositorio
+
+- No se modificó la estructura del repositorio esta semana.
+
+### Normalización de archivos
+
+- Se consolidaron como referencias oficiales de la semana:
+  - `Biblioteca_Semana_26.pdf`
+  - `Diario_de_Bordo_Semana_26.pdf`
+
+### Notas
+
+Esta semana marca un punto de transición importante: los postulados dejan de ser teoría aislada y comienzan a funcionar como marco real para entender algoritmos como Shor. No se avanzó en volumen, pero sí en profundidad.
