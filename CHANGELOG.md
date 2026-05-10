@@ -1849,3 +1849,76 @@ La semana marca una transición importante desde entender la mecánica cuántica
 ### Notas
 
 Esta semana marca un punto de transición importante: los postulados dejan de ser teoría aislada y comienzan a funcionar como marco real para entender algoritmos como Shor. No se avanzó en volumen, pero sí en profundidad.
+
+---
+
+# Semana 27 (2026-05-04 al 2026-05-10)
+
+### Teoría y aprendizaje
+
+- La semana se centró principalmente en reconstruir conceptualmente el algoritmo de Shor a partir de los postulados fundamentales de la mecánica cuántica.
+
+  - Se consolidó la relación entre superposición, evolución unitaria, colapso parcial y medición probabilística dentro del flujo conceptual de Shor.
+  - Se reforzó la interpretación de la QFT como un cambio de base que transforma diferencias de fase en diferencias observables de amplitud.
+  - Se estudió cómo los picos de amplitud permiten revelar la periodicidad asociada a la función modular.
+  - Se conectó la regla de Born con la extracción probabilística de información después de aplicar la QFT.
+  - Se revisó cómo los operadores definen bases de medición dentro del espacio de Hilbert.
+  - Surgieron dudas relacionadas con el papel físico de la fase y la naturaleza de la información revelada al cambiar de base.
+
+- Parte importante de la semana se dedicó a repaso y consolidación mediante tarjetas de Anki.
+
+- La semana tuvo varias interrupciones debido a la mudanza y proyectos universitarios, generando múltiples días fuera de eje.
+
+### Diario y Biblioteca
+
+- Se exportaron y organizaron los archivos:
+
+  - `Diario_de_Bordo_Semana_27.pdf`
+  - `Biblioteca_Semana_27.pdf`
+
+- El Diario documenta:
+
+  - reconstrucción conceptual de Shor
+  - consolidación de postulados
+  - preguntas relacionadas con fase cuántica y QFT
+  - dificultades al reconstruir matemáticamente Shor
+  - mantenimiento del eje durante la mudanza
+
+- La Biblioteca incluye:
+
+  - relación entre postulados y Shor
+  - interpretación geométrica y probabilística de la QFT
+  - aparición de picos de amplitud tras el cambio de base
+  - conexión entre amplitud y probabilidad mediante la regla de Born
+  - repasos de conceptos olvidados relacionados con operadores y bases de medición
+
+### Código
+
+- No se desarrolló código nuevo esta semana.
+
+### TEXTOS
+
+- No se desarrollaron textos nuevos esta semana.
+  
+### Codex
+
+Conceptos añadidos o consolidados:
+
+- Born Rule
+- Quantum Amplitude
+- Permutation
+
+### Estructura del repositorio
+
+- No se modificó la estructura del repositorio esta semana.
+
+### Normalización de archivos
+
+Se consolidaron como referencias oficiales de la semana:
+
+- `Biblioteca_Semana_27.pdf`
+- `Diario_de_Bordo_Semana_27.pdf`
+
+### Notas
+
+La semana representó una transición desde entender Shor como un algoritmo hacia comprenderlo como una consecuencia directa de los postulados de la mecánica cuántica. La QFT dejó de verse únicamente como una herramienta matemática y comenzó a interpretarse como un mecanismo físico capaz de transformar información de fase en amplitudes medibles. Incluso con la mudanza y los días fuera de eje, el proyecto mantuvo continuidad conceptual.
