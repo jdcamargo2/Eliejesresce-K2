@@ -102,6 +102,8 @@ BIBLIOTECA/
     Biblioteca_Semana_24.pdf
     Biblioteca_Semana_25.pdf
     Biblioteca_Semana_26.pdf
+    Biblioteca_Semana_27.pdf
+    Biblioteca_Semana_28.pdf
 
 CODEX/
     Codex.md
@@ -136,6 +138,8 @@ DIARIO/
     Diario_de_Bordo_Semana_24.pdf
     Diario_de_Bordo_Semana_25.pdf
     Diario_de_Bordo_Semana_26.pdf
+    Diario_de_Bordo_Semana_27.pdf
+    Diario_de_Bordo_Semana_28.pdf
 
 CODIGO/
   .venv/
@@ -209,6 +213,7 @@ TEXTOS/
     Entrelazamiento.md
     Grover.md
     Lejos en espacio.md
+    Los Telares de la Realidad.md
     Navegante.md
     Traslado.md
     Volver.md
@@ -332,7 +337,7 @@ El repositorio documenta mi proceso de aprendizaje y exploración en los siguien
 - **Semana 25:** La semana se centró en consolidar la comprensión de la evolución cuántica y la medición, integrando la ecuación de Schrödinger con la interpretación física del colapso y el rol del Hamiltoniano. Se profundizó en la coherencia y decoherencia como elementos clave que determinan la transición entre comportamiento cuántico y clásico, reforzando la intuición sobre la pérdida de fase y su impacto en la interferencia.
 - **Semana 26:** La semana se centró en consolidar los postulados de la mecánica cuántica y su integración con el algoritmo de Shor, conectando el estado como vector en espacio de Hilbert, la evolución unitaria y la medición como proyección con la codificación de periodicidad en fase.
 - **Semana 27:** La semana se centró en reconstruir conceptualmente el algoritmo de Shor desde los postulados fundamentales de la mecánica cuántica, conectando superposición, evolución unitaria, colapso y medición probabilística con el papel de la QFT como cambio de base capaz de transformar diferencias de fase en picos de amplitud observables. A pesar de las interrupciones causadas por la mudanza y varios días fuera de eje, se mantuvo la continuidad mediante repasos y consolidación conceptual apoyada en Anki.
-
+- **Semana 28:** Se inició la transición desde la mecánica cuántica abstracta hacia la interpretación física del hardware cuántico, consolidando la idea del qubit como un sistema físico de dos niveles gobernado por un Hamiltoniano. La semana conectó evolución unitaria, resonancia cuántica, control mediante pulsos electromagnéticos y oscilaciones de Rabi, entendiendo las compuertas cuánticas como evoluciones físicas inducidas sobre sistemas reales.
 ---
 
 # 🧠 Filosofía Final

@@ -169,3 +169,48 @@ Non-commuting observables ([A, B] ≠ 0) — Observables no conmutativos
 Magnitudes físicas cuyos operadores no pueden intercambiarse sin alterar el resultado, lo que impide conocer sus valores simultáneamente con precisión. Reflejan un límite fundamental en la información accesible del sistema.
 
 [A, B] = AB − BA ≠ 0
+
+---
+
+Born rule — Regla de Born  
+
+Principio que establece que la probabilidad de medir un estado cuántico es el cuadrado del módulo de su amplitud. Permite convertir información cuántica en resultados observables.  
+P(x) = |αₓ|²
+
+---
+
+Quantum amplitude — Amplitud cuántica  
+
+Número complejo que describe la contribución de un estado dentro de una superposición. Su módulo al cuadrado determina la probabilidad de medición.
+
+---
+
+Permutation — Permutación  
+
+Reordenamiento de los elementos de un conjunto sin eliminar ni repetir elementos. Cambia el orden, pero conserva exactamente los mismos objetos.
+
+---
+
+Electromagnetic field — Campo electromagnético  
+
+Región física donde cargas eléctricas y campos variables producen efectos eléctricos y magnéticos. Transporta energía mediante campos oscilantes.
+
+---
+
+Frequency (f) — Frecuencia  
+
+Cantidad de oscilaciones por segundo en una onda o sistema periódico. En cuántica, diferencias de energía pueden asociarse a frecuencias.  
+1 Hz = 1 s⁻¹, ΔE = hf
+
+---
+
+Pulse — Pulso  
+
+Aplicación limitada en el tiempo de una señal o campo electromagnético. En qubits, controla cuánto tiempo actúa el campo sobre el sistema.
+
+---
+
+Resonant — Resonante 
+ 
+Un sistema es resonante cuando la frecuencia aplicada coincide con su frecuencia natural de respuesta. En qubits, esto permite transferir amplitud entre niveles energéticos.  
+f = ΔE / h

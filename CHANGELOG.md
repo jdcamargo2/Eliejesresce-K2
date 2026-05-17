@@ -1922,3 +1922,111 @@ Se consolidaron como referencias oficiales de la semana:
 ### Notas
 
 La semana representó una transición desde entender Shor como un algoritmo hacia comprenderlo como una consecuencia directa de los postulados de la mecánica cuántica. La QFT dejó de verse únicamente como una herramienta matemática y comenzó a interpretarse como un mecanismo físico capaz de transformar información de fase en amplitudes medibles. Incluso con la mudanza y los días fuera de eje, el proyecto mantuvo continuidad conceptual.
+
+---
+
+# Semana 28 (2026-05-11 al 2026-05-15)
+
+### Teoría y aprendizaje
+
+- Se inició formalmente la Misión 2 del Campamento 3 enfocada en la mecánica cuántica aplicada al hardware cuántico.
+
+- Se consolidó la comprensión del qubit como un sistema físico real de dos niveles energéticos.
+
+  - Se conectó la representación abstracta del estado cuántico con sistemas físicos reales.
+  - Se reforzó la idea de superposición como fenómeno físico y no únicamente matemático.
+
+- Se estudió el papel del Hamiltoniano como operador de energía y generador de evolución temporal.
+
+  - Se relacionó directamente la ecuación de Schrödinger con el comportamiento físico del qubit.
+  - Se entendió que controlar un qubit implica modificar físicamente su Hamiltoniano mediante campos externos.
+
+- Se desarrolló la intuición física del control cuántico.
+
+  - Se estudió cómo campos electromagnéticos, microondas y pulsos controlan la evolución del sistema.
+  - Se consolidó la interpretación física de las compuertas cuánticas como evoluciones unitarias inducidas.
+
+- Se trabajó resonancia cuántica y transferencia de amplitud entre niveles energéticos.
+
+  - Se conectó frecuencia, diferencia de energía y transición entre estados.
+  - Se introdujo la noción de oscilaciones de Rabi como mecanismo físico fundamental del control de qubits.
+
+- Se realizaron conexiones conceptuales importantes entre:
+
+  - mecánica cuántica
+  - teoría de operadores
+  - evolución temporal
+  - hardware cuántico
+  - control físico experimental
+
+- Se identificó explícitamente la enorme profundidad y ramificación física detrás del software cuántico.
+
+- Hubo un día fuera de eje debido a procesos universitarios, manteniendo aun así la continuidad general del sistema.
+
+### Diario y Biblioteca
+
+- Se exportaron y organizaron los archivos:
+
+  - `Diario_de_Bordo_Semana_28.pdf`
+  - `Biblioteca_Semana_28.pdf`
+
+- El Diario documenta:
+
+  - el inicio de la Misión 2 del Campamento 3
+  - la transición conceptual hacia hardware cuántico
+  - dificultades asociadas a la profundidad física de los temas
+  - conexiones entre teoría abstracta y control físico real
+  - un día fuera de eje por inscripción universitaria
+  - reflexiones conceptuales relacionadas con el ruido, resonancia y evolución física
+
+- La Biblioteca incluye:
+
+  - desarrollo conceptual de sistemas de dos niveles
+  - Hamiltoniano y ecuación de Schrödinger
+  - control físico del qubit
+  - resonancia cuántica
+  - interpretación física de compuertas
+  - oscilaciones de Rabi
+  - conexiones entre teoría y hardware cuántico
+
+- La biblioteca de esta semana representó principalmente una consolidación física e interpretativa de conceptos previamente matemáticos.
+
+### Código
+
+- No se desarrolló código nuevo esta semana.
+
+### TEXTOS
+
+- Se desarrolló el texto conceptual:
+
+  - `Los Telares de la Realidad.md`
+
+- El texto exploró una interpretación simbólica entre ruido, cuántica y construcción física de la realidad.
+
+### Codex
+
+Conceptos añadidos o consolidados:
+
+- Born rule
+- Quantum amplitude
+- Permutation
+- Electromagnetic field
+- Frequency
+- Pulse
+- Resonant
+
+### Estructura del repositorio
+
+- Se añadieron nuevos documentos correspondientes a la Semana 28.
+- No se realizaron modificaciones estructurales importantes en el repositorio.
+
+### Normalización de archivos
+
+Se consolidaron como referencias oficiales de la semana:
+
+- `Biblioteca_Semana_28.pdf`
+- `Diario_de_Bordo_Semana_28.pdf`
+
+### Notas
+
+Esta semana marcó el inicio del descenso hacia la física real del hardware cuántico. El qubit dejó de verse únicamente como un vector abstracto y comenzó a entenderse como un sistema físico gobernado por energía, resonancia y evolución temporal. La conexión entre teoría matemática y control experimental empezó a tomar forma concreta dentro del ascenso.
