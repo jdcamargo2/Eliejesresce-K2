@@ -214,3 +214,33 @@ Resonant — Resonante
  
 Un sistema es resonante cuando la frecuencia aplicada coincide con su frecuencia natural de respuesta. En qubits, esto permite transferir amplitud entre niveles energéticos.  
 f = ΔE / h
+
+---
+
+Rabi Oscillation (Ω) — Oscilación de Rabi  
+Evolución oscilatoria de un sistema cuántico de dos niveles cuando un campo electromagnético resonante interactúa con él. Las probabilidades de medir |0⟩ y |1⟩ cambian sinusoidalmente en el tiempo.  
+P(|1⟩)=sin²(Ωt/2)
+
+---
+
+Detuning (Δ) — Desintonización  
+Diferencia entre la frecuencia aplicada por el campo externo y la frecuencia natural de resonancia del sistema cuántico. Produce transferencias de energía imperfectas y errores.  
+Δ = ω_d − ω_q
+
+---
+
+Rotating Frame — Marco rotante  
+Sistema de referencia matemático que rota junto con la frecuencia del drive para simplificar la dinámica del qubit y eliminar oscilaciones rápidas.  
+H_eff = 1/2 (ΩX + ΔZ)
+
+---
+
+IQ Control (I,Q) — Control IQ  
+Método de control cuántico donde las componentes I y Q controlan rotaciones sobre los ejes X e Y del qubit mediante la fase del pulso electromagnético.  
+H_eff ∝ I·X + Q·Y + Δ·Z
+
+---
+
+Resonance — Resonancia  
+Condición donde la frecuencia aplicada coincide con la diferencia de energía del sistema, permitiendo máxima transferencia de energía y control eficiente del qubit.  
+f = ΔE / h

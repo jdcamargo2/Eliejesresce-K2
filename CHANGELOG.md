@@ -2030,3 +2030,93 @@ Se consolidaron como referencias oficiales de la semana:
 ### Notas
 
 Esta semana marcó el inicio del descenso hacia la física real del hardware cuántico. El qubit dejó de verse únicamente como un vector abstracto y comenzó a entenderse como un sistema físico gobernado por energía, resonancia y evolución temporal. La conexión entre teoría matemática y control experimental empezó a tomar forma concreta dentro del ascenso.
+
+---
+
+# Semana 29 (2026-05-18 al 2026-05-24)
+
+### Teoría y aprendizaje
+
+- La semana se centró en consolidar la comprensión física de las oscilaciones de Rabi como mecanismo fundamental de control cuántico.
+
+  - Se estudió cómo un campo electromagnético resonante modifica el Hamiltoniano de un sistema de dos niveles.
+  - Se conectó el concepto de compuerta cuántica con pulsos físicos de microondas aplicados sobre el qubit.
+  - Se comprendió que el control cuántico depende de parámetros físicos como frecuencia, amplitud, fase y duración del pulso.
+  - Se reforzó la idea de que una compuerta cuántica corresponde a una evolución continua gobernada por un Hamiltoniano.
+  - Se consolidó la relación entre resonancia, intercambio de energía y evolución sinusoidal de probabilidades.
+  - Se exploró el efecto del detuning y cómo una frecuencia desintonizada reduce la amplitud de las oscilaciones y genera errores.
+
+- También hubo jornadas de repaso y consolidación conceptual utilizando Anki y revisión de temas anteriores.
+
+### Diario y Biblioteca
+
+- Se exportaron y organizaron los archivos:
+
+  - `Diario_de_Bordo_Semana_29.pdf`
+  - `Biblioteca_Semana_29.pdf`
+
+- El Diario documenta:
+
+  - días de consolidación y repaso
+  - reflexiones sobre resonancia y ruido
+  - conexiones intuitivas con oscilaciones sinusoidales
+  - días fuera de eje utilizados como recuperación
+
+- La Biblioteca incluye:
+
+  - explicación conceptual de las oscilaciones de Rabi
+  - relación entre Hamiltoniano y control físico
+  - resonancia entre microondas y diferencia de energía
+  - interpretación física de compuertas cuánticas
+  - resumen conceptual del fenómeno de Rabi
+  - integración conceptual entre teoría y simulación computacional
+
+### Código
+
+- Se desarrolló una simulación interactiva de oscilaciones de Rabi y control físico de qubits.
+
+- El programa implementó:
+
+  - evolución de un qubit sobre la esfera de Bloch
+  - Hamiltoniano efectivo en marco rotante
+  - control IQ mediante componentes I, Q y detuning
+  - pulsos resonantes y desintonizados
+  - visualización simultánea de:
+    - trayectoria del estado cuántico
+    - pulso físico de laboratorio
+    - Hamiltoniano efectivo
+    - probabilidad de transición entre |0⟩ y |1⟩
+
+- La simulación permitió conectar directamente la física experimental del hardware cuántico con la interpretación geométrica en la esfera de Bloch.
+
+### TEXTOS
+
+- No se desarrollaron textos nuevos esta semana.
+
+### Codex
+
+- Se consolidaron conceptos relacionados con:
+
+  - Resonancia
+  - Oscilaciones de Rabi
+  - Hamiltoniano efectivo
+  - Control IQ
+  - Detuning
+  - Sistemas de dos niveles
+  - Pulsos resonantes
+
+### Estructura del repositorio
+
+- Se incorporó una nueva sección en CODIGO llamada 'rabi'.
+- No se realizaron cambios importantes en la estructura general del repositorio.
+
+### Normalización de archivos
+
+Se consolidaron como referencias oficiales de la semana:
+
+- `Biblioteca_Semana_29.pdf`
+- `Diario_de_Bordo_Semana_29.pdf`
+
+### Notas
+
+La semana representó una transición importante entre la mecánica cuántica abstracta y el control físico real de qubits. Las oscilaciones de Rabi dejaron de verse como una simple fórmula matemática y comenzaron a entenderse como la dinámica física que permite implementar compuertas cuánticas mediante campos electromagnéticos resonantes.

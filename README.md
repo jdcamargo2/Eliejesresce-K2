@@ -104,6 +104,7 @@ BIBLIOTECA/
     Biblioteca_Semana_26.pdf
     Biblioteca_Semana_27.pdf
     Biblioteca_Semana_28.pdf
+    Biblioteca_Semana_29.pdf
 
 CODEX/
     Codex.md
@@ -140,6 +141,7 @@ DIARIO/
     Diario_de_Bordo_Semana_26.pdf
     Diario_de_Bordo_Semana_27.pdf
     Diario_de_Bordo_Semana_28.pdf
+    Diario_de_Bordo_Semana_29.pdf
 
 CODIGO/
   .venv/
@@ -192,7 +194,10 @@ CODIGO/
       operadores.py
     
     postulados/
-      postualados.py
+      postulados.py
+    
+    rabi/
+      rabi_bloch.py
 
     shor/
       shor_ruido.py
@@ -338,6 +343,7 @@ El repositorio documenta mi proceso de aprendizaje y exploración en los siguien
 - **Semana 26:** La semana se centró en consolidar los postulados de la mecánica cuántica y su integración con el algoritmo de Shor, conectando el estado como vector en espacio de Hilbert, la evolución unitaria y la medición como proyección con la codificación de periodicidad en fase.
 - **Semana 27:** La semana se centró en reconstruir conceptualmente el algoritmo de Shor desde los postulados fundamentales de la mecánica cuántica, conectando superposición, evolución unitaria, colapso y medición probabilística con el papel de la QFT como cambio de base capaz de transformar diferencias de fase en picos de amplitud observables. A pesar de las interrupciones causadas por la mudanza y varios días fuera de eje, se mantuvo la continuidad mediante repasos y consolidación conceptual apoyada en Anki.
 - **Semana 28:** Se inició la transición desde la mecánica cuántica abstracta hacia la interpretación física del hardware cuántico, consolidando la idea del qubit como un sistema físico de dos niveles gobernado por un Hamiltoniano. La semana conectó evolución unitaria, resonancia cuántica, control mediante pulsos electromagnéticos y oscilaciones de Rabi, entendiendo las compuertas cuánticas como evoluciones físicas inducidas sobre sistemas reales.
+- **Semana 29:** Se consolidó la comprensión de las oscilaciones de Rabi como mecanismo físico fundamental para el control de qubits, conectando resonancia, Hamiltonianos y evolución oscilatoria del estado cuántico. La semana también permitió relacionar las compuertas cuánticas con pulsos electromagnéticos reales y visualizar su implementación mediante una simulación física completa en la esfera de Bloch.
 ---
 
 # 🧠 Filosofía Final
