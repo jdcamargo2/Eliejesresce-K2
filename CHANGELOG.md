@@ -2120,3 +2120,72 @@ Se consolidaron como referencias oficiales de la semana:
 ### Notas
 
 La semana representó una transición importante entre la mecánica cuántica abstracta y el control físico real de qubits. Las oscilaciones de Rabi dejaron de verse como una simple fórmula matemática y comenzaron a entenderse como la dinámica física que permite implementar compuertas cuánticas mediante campos electromagnéticos resonantes.
+
+---
+
+## Semana 30 (2026-05-25 al 2026-05-29)
+
+### Teoría y aprendizaje
+
+- La semana se centró en consolidar una línea importante del Campamento 3 mediante el repaso de temas previos y la disección conceptual del código asociado a oscilaciones de Rabi.
+
+  - Se reforzó la idea de que un qubit físico puede modelarse como un sistema de dos niveles energéticos permitidos.
+  - Se conectó el control externo mediante un pulso o campo electromagnético con la modificación efectiva del Hamiltoniano del sistema.
+  - Se consolidó la lectura del Hamiltoniano efectivo en el marco rotante, identificando los papeles de la frecuencia natural del qubit, la frecuencia del drive, el detuning, la frecuencia de Rabi y la velocidad real de rotación.
+  - Se trabajó la interpretación de las oscilaciones de Rabi como el resultado observable de una evolución gobernada por Schrödinger y convertida en probabilidades mediante la regla de Born.
+  - Se clarificó que el detuning no reduce la norma del estado, sino que cambia el eje efectivo alrededor del cual rota el vector en la esfera de Bloch.
+
+### Diario y Biblioteca
+
+- Se exportaron y organizaron los archivos:
+
+  - `Diario_de_Bordo_Semana_30.pdf`
+  - `Biblioteca_Semana_30.pdf`
+
+- El Diario documenta:
+
+  - días fuera de eje por cierre de actividades y exámenes finales;
+  - el regreso al repaso de temas pendientes;
+  - la disección final del código de Rabi;
+  - el cierre satisfactorio del ciclo semanal.
+
+- La Biblioteca incluye:
+
+  - repaso de cartas de Anki relacionadas con temas nuevos, vencidos y fallados;
+  - estructura física del control de un qubit mediante fase, duración, amplitud y frecuencia;
+  - explicación del qubit como sistema cuántico real de dos niveles;
+  - desarrollo conceptual del Hamiltoniano efectivo;
+  - separación de símbolos como ωq, ωd, Δ, Ω y Ωeff;
+  - ciclo de funcionamiento desde el sistema físico hasta la medición probabilística;
+  - vínculo entre Schrödinger, Bloch y Born como tres ventanas del mismo fenómeno.
+
+### Código
+
+- Se revisó conceptualmente el código de simulación de oscilaciones de Rabi, conectando sus parámetros con el modelo físico trabajado durante la semana.
+
+- No se registró el desarrollo de un script completamente nuevo durante esta semana.
+
+### TEXTOS
+
+- No se desarrollaron textos literarios nuevos esta semana.
+
+### Codex
+
+Se integró una nueva entrada al Codex:
+
+- `SINUSOIDAL (sin) — Sinusoidal`
+
+### Estructura del repositorio
+
+- No se modificó la estructura del repositorio esta semana.
+
+### Normalización de archivos
+
+Se consolidaron como referencias oficiales de la semana:
+
+- `Biblioteca_Semana_30.pdf`
+- `Diario_de_Bordo_Semana_30.pdf`
+
+### Notas
+
+La Semana 30 funcionó como una consolidación importante dentro del Campamento 3: permitió entender mejor que las oscilaciones de Rabi no son solo una curva probabilística, sino la manifestación visible de un sistema cuántico real controlado por un campo externo, descrito por un Hamiltoniano efectivo y observado finalmente mediante probabilidades.
