@@ -2189,3 +2189,73 @@ Se consolidaron como referencias oficiales de la semana:
 ### Notas
 
 La Semana 30 funcionó como una consolidación importante dentro del Campamento 3: permitió entender mejor que las oscilaciones de Rabi no son solo una curva probabilística, sino la manifestación visible de un sistema cuántico real controlado por un campo externo, descrito por un Hamiltoniano efectivo y observado finalmente mediante probabilidades.
+
+---
+
+## Semana 31 (2026-06-01 al 2026-06-07)
+
+### Teoría y aprendizaje
+
+- El progreso teórico de la semana fue limitado y estuvo marcado por una continuidad irregular del eje.
+
+  - Se registraron varios días fuera de eje, con dificultad para mantener la sintonía del estudio.
+  - Se mantuvo el vínculo con el proyecto mediante repaso de cartas de Anki y revisión de conceptos anteriores.
+  - Se inició el contacto conceptual con la superconductividad como entrada al hardware cuántico.
+  - Se introdujo la idea de la unión Josephson como pieza física clave para construir circuitos superconductores con niveles de energía cuantizados.
+
+### Diario y Biblioteca
+
+- Se exportaron y organizaron los archivos:
+
+  - `Diario_de_Bordo_Semana_31.pdf`
+  - `Biblioteca_Semana_31.pdf`
+
+- El Diario documenta una semana corta e irregular:
+
+  - Día 151: repaso de cartas de Anki y mantenimiento mínimo del eje.
+  - Día 152: día fuera de eje, sin comentarios.
+  - Día 153: finalización del texto `Disvarianza Mental`.
+  - Día 154: nuevo día fuera de eje, con olvido del estudio.
+  - Día 155: idea inicial sobre superconductividad y resistencia.
+
+- La Biblioteca incluye:
+
+  - Registro de términos observados o pendientes: ventana, Schrödinger, Bloch, Born/Rabi.
+  - Repaso de cartas de Anki vistas previamente, como Rabi, Hamiltoniano y compuertas.
+  - Continuación y sentido final del texto `Disvarianza Mental`.
+  - Primer apunte conceptual sobre superconductividad:
+    - la corriente eléctrica puede fluir sin resistencia en ciertos materiales muy fríos;
+    - los superconductores permiten reducir pérdidas de energía en circuitos;
+    - la unión Josephson permite obtener niveles de energía cuantizados útiles para representar `|0⟩` y `|1⟩`.
+
+### Código
+
+- No se desarrolló código nuevo esta semana.
+
+### TEXTOS
+
+- Se desarrolló y cerró el texto:
+
+  - `Disvarianza_Mental.md`
+
+- El texto consolidó una reflexión personal sobre desviación, eje mental y retorno a la dirección interna.
+
+### Codex
+
+- No se añadieron nuevas entradas.
+
+### Estructura del repositorio
+
+- Se añadieron los documentos correspondientes a la Semana 31.
+- Se incorporó el texto `Disvarianza_Mental.md` como producción escrita de la semana.
+
+### Normalización de archivos
+
+- Se consolidaron como referencias oficiales de la semana:
+
+  - `Biblioteca_Semana_31.pdf`
+  - `Diario_de_Bordo_Semana_31.pdf`
+
+### Notas
+
+- La Semana 31 no fue una semana de avance técnico fuerte, sino una semana de sostenimiento del eje. Aun con interrupciones y días fuera de ritmo, el proyecto mantuvo continuidad mediante repaso, cierre textual y apertura conceptual hacia la superconductividad.
