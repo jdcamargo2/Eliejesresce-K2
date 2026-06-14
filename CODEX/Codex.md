@@ -256,3 +256,24 @@ SINUSOIDAL (sin) — Sinusoidal
 
 Forma de variación suave y repetitiva que sube y baja como una onda regular. Aparece en señales, vibraciones, campos electromagnéticos y pulsos porque describe oscilaciones periódicas simples.  
 Fórmula: x(t)=A sin(ωt+ϕ)
+
+---
+
+FERMION — Fermión
+
+Partícula con espín semientero que no puede ocupar exactamente el mismo estado cuántico que otra partícula idéntica. Los electrones son fermiones y obedecen el principio de exclusión de Pauli.
+Condición: s = 1/2, 3/2, 5/2, ...
+
+---
+
+BOSON — Bosón
+
+Partícula con espín entero que sí puede compartir el mismo estado cuántico con otras partículas idénticas. Por eso muchos bosones pueden actuar colectivamente como un solo estado físico.
+Condición: s = 0, 1, 2, ...
+
+---
+
+COMPOSITE BOSON — Bosón compuesto
+
+Objeto formado por un número par de fermiones que puede comportarse colectivamente como un bosón. Un par de Cooper es un ejemplo: dos electrones fermiónicos se correlacionan y actúan como una unidad bosónica.
+Condición: número par de fermiones → espín total entero.

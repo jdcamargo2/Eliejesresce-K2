@@ -2259,3 +2259,76 @@ La Semana 30 funcionó como una consolidación importante dentro del Campamento 
 ### Notas
 
 - La Semana 31 no fue una semana de avance técnico fuerte, sino una semana de sostenimiento del eje. Aun con interrupciones y días fuera de ritmo, el proyecto mantuvo continuidad mediante repaso, cierre textual y apertura conceptual hacia la superconductividad.
+
+---
+
+## Semana 32 (2026-06-08 al 2026-06-14)
+
+### Teoría y aprendizaje
+
+- La semana se centró en consolidar la intuición física detrás de la superconductividad y su conexión con el hardware cuántico.
+
+  - Se trabajó la idea de los pares de Cooper como correlaciones cuánticas entre electrones dentro de un superconductor.
+  - Se reforzó que los electrones individuales son fermiones y obedecen el principio de exclusión de Pauli.
+  - Se entendió que un par de Cooper, al estar formado por dos fermiones con espines opuestos, puede comportarse colectivamente como un bosón compuesto.
+  - Se repasaron ideas clave: momento total compensado, carga doble, brecha de energía, longitud de coherencia y fase común.
+  - Se conectó la superconductividad con la posibilidad de corriente sin resistencia.
+  - Se revisó electricidad clásica para aclarar corriente, voltaje, resistencia, ley de Ohm, corriente continua y corriente alterna.
+  - Se introdujo la unión Josephson como una estructura superconductor–aislante delgado–superconductor capaz de permitir corriente superconductora por acoplamiento cuántico.
+  - Persistió una dificultad conceptual importante: comprender de forma intuitiva el túnel cuántico y cómo una corriente puede atravesar una barrera aislante delgada.
+
+### Diario y Biblioteca
+
+- Se exportaron y organizaron los archivos:
+
+  - `Diario_de_Bordo_Semana_32.pdf`
+  - `Biblioteca_Semana_32.pdf`
+
+- El Diario documenta:
+
+  - avance desde la intuición inicial de superconductores y pares de Cooper;
+  - dudas sobre si ciertos fenómenos son clásicos o cuánticos;
+  - repaso de temas anteriores;
+  - conexión con electricidad clásica;
+  - primera noción de unión Josephson.
+
+- La Biblioteca incluye:
+
+  - desarrollo conceptual sobre pares de Cooper;
+  - explicación de fermiones, bosones y bosones compuestos;
+  - repaso de longitud de coherencia, brecha de energía y fase común;
+  - fundamentos de electricidad clásica;
+  - ley de Ohm aplicada a conductores normales y superconductores;
+  - diferencia entre DC y AC;
+  - introducción al efecto Josephson DC.
+
+### Código
+
+- No se desarrolló código nuevo esta semana.
+
+### TEXTOS
+
+- No se desarrollaron textos nuevos esta semana.
+
+### Codex
+
+Se integraron nuevas entradas conceptuales al Codex:
+
+- Fermion
+- Boson
+- Composite Boson
+
+### Estructura del repositorio
+
+- No se modificó la estructura del repositorio esta semana.
+
+### Normalización de archivos
+
+Se consolidaron como referencias oficiales de la semana:
+
+- `Biblioteca_Semana_32.pdf`
+- `Diario_de_Bordo_Semana_32.pdf`
+
+### Notas
+
+La semana funcionó como puente entre física fundamental y hardware cuántico: los pares de Cooper dejaron de ser solo una idea abstracta y empezaron a conectarse con superconductores reales, corriente sin resistencia y uniones Josephson. El avance principal fue entender que la computación cuántica superconductora nace de una mezcla muy delicada entre electricidad clásica, correlación cuántica y fase colectiva.
