@@ -2332,3 +2332,73 @@ Se consolidaron como referencias oficiales de la semana:
 ### Notas
 
 La semana funcionó como puente entre física fundamental y hardware cuántico: los pares de Cooper dejaron de ser solo una idea abstracta y empezaron a conectarse con superconductores reales, corriente sin resistencia y uniones Josephson. El avance principal fue entender que la computación cuántica superconductora nace de una mezcla muy delicada entre electricidad clásica, correlación cuántica y fase colectiva.
+
+---
+
+## Semana 33 (2026-06-15 al 2026-06-19)
+
+### Teoría y aprendizaje
+
+- El progreso teórico de la semana fue limitado y se centró principalmente en revisión, mantenimiento y consolidación.
+
+  - Se repasaron conceptos previos mediante tarjetas de Anki.
+  - Se reforzó la idea de que el acoplamiento cuántico entre superconductores con distinta fase puede producir corriente.
+  - Se retomó la condición física `kBT << Δ`, conectando energía térmica, superconductividad y estabilidad del estado.
+  - Se consolidó la intuición de que los pares de Cooper son correlaciones cuánticas.
+  - Se repasó que la superconductividad corresponde a un estado de ciertos materiales donde no aparece resistencia eléctrica.
+  - Se registró una conexión pendiente con Shor y su parte cuántica asociada a la estimación de fase.
+
+### Diario y Biblioteca
+
+- Se exportaron y organizaron los archivos:
+
+  - `Diario_de_Bordo_Semana_33.pdf`
+  - `Biblioteca_Semana_33.pdf`
+
+- El Diario documenta:
+
+  - Día 161: repaso de cartas de Anki y detección de temas antiguos que requieren refresco.
+  - Día 162: día fuera de eje, registrado como mantenimiento.
+  - Día 163: preparación y realización de la primera clase a nivel universitario.
+  - Día 164: repaso de teoría con tarjetas y reconocimiento de temas antiguos poco frescos.
+  - Día 165: creación de un nuevo texto llamado `Hoy` y cierre de semana con baja energía.
+
+- La Biblioteca incluye:
+
+  - notas de repaso sobre acoplamiento cuántico entre superconductores.
+  - recordatorios sobre energía térmica, fase, frecuencia, amplitud y duración.
+  - consolidación de ideas sobre pares de Cooper y superconductividad.
+  - mención de Shor y la estimación de fase como punto cuántico pendiente.
+  - registro del nuevo texto `Hoy` como representación reflexiva de la semana.
+
+### Código
+
+- No se desarrolló código nuevo esta semana.
+
+### TEXTOS
+
+- Se desarrolló un texto nuevo llamado `Hoy`.
+
+  - El texto representó la semana desde una perspectiva más personal.
+  - Su núcleo fue la diferencia entre la emoción inicial y el eje persistente en el tiempo.
+  - El texto funcionó como cierre simbólico de una semana de baja energía pero continuidad sostenida.
+
+### Codex
+
+- No se generaron nuevas entradas esta semana.
+
+
+### Estructura del repositorio
+
+- No se modificó la estructura del repositorio esta semana.
+
+### Normalización de archivos
+
+Se consolidaron como referencias oficiales de la semana:
+
+- `Biblioteca_Semana_33.pdf`
+- `Diario_de_Bordo_Semana_33.pdf`
+
+### Notas
+
+La Semana 33 no fue una semana de expansión técnica fuerte, sino de permanencia. El avance principal estuvo en sostener el proyecto mediante repaso, memoria y registro, incluso con energía baja y días fuera de eje. El núcleo conceptual quedó en la consolidación de superconductividad, pares de Cooper y acoplamiento cuántico, mientras que el núcleo personal quedó expresado en el texto `Hoy`.
