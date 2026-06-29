@@ -2402,3 +2402,75 @@ Se consolidaron como referencias oficiales de la semana:
 ### Notas
 
 La Semana 33 no fue una semana de expansión técnica fuerte, sino de permanencia. El avance principal estuvo en sostener el proyecto mediante repaso, memoria y registro, incluso con energía baja y días fuera de eje. El núcleo conceptual quedó en la consolidación de superconductividad, pares de Cooper y acoplamiento cuántico, mientras que el núcleo personal quedó expresado en el texto `Hoy`.
+
+---
+
+## Semana 34 (2026-06-22 al 2026-06-26)
+
+### Teoría y aprendizaje
+
+- Se consolidó la entrada al estudio del hardware cuántico superconductivo, enfocándose en la relación entre superconductores, aislante delgado y unión de Josephson.
+
+  - Se trabajó la idea de que la unión de Josephson permite el túnel cuántico de pares de Cooper entre superconductores.
+  - Se conectó la diferencia de fase superconductora con una energía dependiente de fase.
+  - Se identificó que esta energía introduce no linealidad en el Hamiltoniano del circuito.
+  - Se reforzó la intuición de que la anarmonicidad permite obtener niveles de energía discretos no igualmente espaciados.
+  - Se conectó esa estructura energética con la posibilidad de seleccionar dos niveles como |0⟩ y |1⟩.
+  - Se clarificó que el transmon superconductivo es una forma concreta de construir un qubit físico, aunque no la única.
+  - Se repasó la idea de superposición de direcciones en flux qubits, asociando los estados base a corrientes en sentidos opuestos.
+
+- La semana tuvo interrupciones y días fuera de eje, pero también produjo un avance conceptual importante: pasar de “qubit como estado abstracto” a “qubit como sistema físico realizable”.
+
+### Diario y Biblioteca
+
+- Se exportaron y organizaron los archivos:
+
+  - `Diario_de_Bordo_Semana_34.pdf`
+  - `Biblioteca_Semana_34.pdf`
+
+- El Diario documenta:
+
+  - Dos días fuera de eje registrados durante la semana.
+  - Una revisión profunda del túnel cuántico, la diferencia energética superconductora y la estructura mental acumulada hasta ahora.
+  - La definición de una idea general teórica del hardware cuántico.
+  - El cierre de algunas dudas sobre estructuras físicas de qubits, como flux qubits y superposición de direcciones.
+  - Un día de repaso con tarjetas de Anki para hilar ideas.
+
+- La Biblioteca incluye:
+
+  - Apuntes sobre la unión superconductor–aislante–superconductor.
+  - Relación entre unión de Josephson, túnel cuántico y pares de Cooper.
+  - Organización mental de la estructura física: electrones → frío extremo → pares de Cooper → condensado superconductor → circuito superconductivo.
+  - Conexión entre unión de Josephson, capacitor, Hamiltoniano del circuito, anarmonicidad y estados |0⟩ / |1⟩.
+  - Repaso de fórmulas clave del transmon:
+    - Energía dependiente de fase: `-EJ cos(φ)`
+    - Hamiltoniano básico: `H = 4EC(n - ng)^2 - EJ cos(φ)`
+    - Diferencia de fase: `Δφ`
+
+### Código
+
+- No se desarrolló código nuevo esta semana.
+
+### TEXTOS
+
+- No se desarrollaron textos nuevos esta semana.
+
+### Codex
+
+- No se desarrollaron nuevas entradas esta semana.
+  
+### Estructura del repositorio
+
+- No se modificó la estructura general del repositorio esta semana.
+- Se incorporan los documentos semanales como registro oficial del avance.
+
+### Normalización de archivos
+
+Se consolidaron como referencias oficiales de la semana:
+
+- `Biblioteca_Semana_34.pdf`
+- `Diario_de_Bordo_Semana_34.pdf`
+
+### Notas
+
+- La Semana 34 fue una semana de avance irregular pero conceptualmente importante. El núcleo del progreso fue comprender que la física del hardware cuántico no es un detalle posterior, sino la base que permite que un qubit exista como sistema físico controlable. La unión de Josephson apareció como el puente entre superconductividad, fase, no linealidad y niveles de energía útiles para codificar información cuántica.
