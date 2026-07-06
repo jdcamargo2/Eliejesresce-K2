@@ -2474,3 +2474,67 @@ Se consolidaron como referencias oficiales de la semana:
 ### Notas
 
 - La Semana 34 fue una semana de avance irregular pero conceptualmente importante. El núcleo del progreso fue comprender que la física del hardware cuántico no es un detalle posterior, sino la base que permite que un qubit exista como sistema físico controlable. La unión de Josephson apareció como el puente entre superconductividad, fase, no linealidad y niveles de energía útiles para codificar información cuántica.
+
+---
+
+## Semana 35 (2026-06-29 al 2026-07-03)
+
+### Teoría y aprendizaje
+
+- El progreso teórico de la semana fue limitado y se centró principalmente en revisión, consolidación y mantenimiento del eje de estudio.
+
+  - Se repasaron conceptos asociados al transmon y al efecto Josephson mediante tarjetas de Anki.
+  - Se consolidó la intuición de la entropía como dispersión, incertidumbre y pérdida de energía útil.
+  - Se distinguió entre baja entropía como energía más concentrada y alta entropía como energía más distribuida y menos aprovechable.
+  - Se reforzó la diferencia entre macroestado y microestado como base estadística para entender por qué los sistemas tienden a estados de mayor entropía.
+  - Se dejó planteada la transición conceptual hacia la Misión 3: La Batalla contra la Entropía, enfocada en decoherencia.
+
+### Diario y Biblioteca
+
+- Se exportaron y organizaron los archivos:
+
+  - `Diario_de_Bordo_Semana_35.pdf`
+  - `Biblioteca_Semana_35.pdf`
+
+- El Diario documenta una semana irregular, marcada por repasos rápidos, días fuera de eje y actividades externas al proyecto.
+
+  - Día 171: se trabajó la entropía como conquista conceptual.
+  - Día 172: se registró un día fuera de eje por avance en otros proyectos.
+  - Día 173: se realizó repaso rápido en Anki para mantener continuidad.
+  - Día 174: se registró un día fuera de eje asociado a trámites universitarios.
+  - Día 175: se retomó el repaso rápido en Anki mientras se gestionaban papeles y planes alternativos.
+
+- La Biblioteca fue principalmente de repaso y consolidación.
+
+  - Se repasaron fórmulas del transmon, incluyendo la energía Josephson dependiente de fase y el Hamiltoniano básico.
+  - Se escribió una reflexión de cierre sobre haber tocado parte de la zona física de la cuántica.
+  - Se inició la Misión 3 con una introducción conceptual a la entropía.
+  - Se aclaró que la entropía no es simplemente “caos”, sino una medida de dispersión, incertidumbre y pérdida de energía útil.
+  - Se conectó el equilibrio termodinámico con estados de máxima entropía.
+
+### Código
+
+- No se desarrolló código nuevo esta semana.
+
+### TEXTOS
+
+- No se desarrollaron textos nuevos esta semana.
+
+### Codex
+
+- No se desarrollaron nuevas entradas.
+
+### Estructura del repositorio
+
+- No se modificó la estructura del repositorio esta semana.
+
+### Normalización de archivos
+
+Se consolidaron como referencias oficiales de la semana:
+
+- `Biblioteca_Semana_35.pdf`
+- `Diario_de_Bordo_Semana_35.pdf`
+
+### Notas
+
+La Semana 35 fue una semana de baja producción técnica, pero de continuidad real. El avance principal no estuvo en desarrollar teoría nueva, sino en mantener vivo el proyecto durante días atravesados por otros trámites y prioridades. La idea central que quedó consolidada fue que la entropía prepara el terreno para comprender la decoherencia: el entorno no solo “molesta” al qubit, sino que dispersa información, energía y fase hasta romper la coherencia útil del sistema.
