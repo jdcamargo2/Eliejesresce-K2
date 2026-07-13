@@ -1,62 +1,52 @@
 # Elíejesresce-K2
 
-Este repositorio marca el inicio de una travesía personal: **Elíejesresce K2**.
+> Proyecto de largo plazo sobre computación cuántica, física del hardware y simulación, desarrollado semana a semana mediante estudio técnico, código, documentación y bitácora.
 
-Su esencia se compone de tres raíces:
+# ¿Qué es Elíejesresce K2?
 
----
+Elíejesresce K2 es mi proyecto personal de largo plazo sobre computación cuántica.
 
-## **1. Elí- (de "Elegir") — La Elección Consciente**
+Nació como una ruta de estudio, pero con el tiempo se convirtió en un campamento base digital donde registro teoría, simulaciones, código, bitácoras, textos, intuiciones y documentación técnica alrededor de un mismo eje: entender la cuántica desde sus fundamentos matemáticos hasta su implementación física y computacional.
 
-Representa el acto inicial: **elegir renacer**.
-Es la voluntad de atravesar el camino difícil, preferir la disciplina sobre la comodidad y asumir la responsabilidad de construir un futuro brillante en lugar de uno pasivo.
-
-Elí- es la decisión que cambia la trayectoria.
+El proyecto combina álgebra lineal, mecánica cuántica, circuitos, algoritmos, hardware, Qiskit, superconductividad, decoherencia y QML, manteniendo una trazabilidad semanal del proceso.
 
 ---
 
-## **2. -ejes- (de "Ejes") — El Núcleo del Sistema**
+# Documentos clave
 
-El corazón del concepto.
+# Documentos clave
 
-Los ejes representan el **control y dominio del sistema**, tanto técnico como simbólico:
+- [`CHANGELOG.md`](./CHANGELOG.md): registro semanal completo del avance técnico, conceptual y estructural del proyecto.
+- [`ESTRUCTURA.md`](./ESTRUCTURA.md): mapa general del repositorio y explicación de la función de cada carpeta.
+- [`IDENTIDAD/VISION.md`](./IDENTIDAD/VISION.md): visión narrativa y filosófica de Elíejesresce K2.
+- [`IDENTIDAD/guia_maestra.pdf`](./IDENTIDAD/guia_maestra.pdf): guía de constancia, protocolos, frases fundamentales, ejes de estabilidad y modo viaje.
+- [`IDENTIDAD/ruta_aumentada.pdf`](./IDENTIDAD/ruta_aumentada.pdf): ruta técnica vigente del ascenso cuántico, con fases, campamentos y temas de estudio.
+- [`CODEX/Codex.md`](./CODEX/Codex.md): diccionario técnico acumulativo del proyecto.
+---
 
-- Los ejes **X, Y y Z de la Esfera de Bloch**, base del control cuántico.
-- Y los ejes estructurales de la vida:
-  - **Tiempo** → orden, calendario, estructura.
-  - **Energía** → disciplina física.
-  - **Mente** → claridad, estudio, dirección interna.
+# Colecciones del proyecto
 
-Dominar los ejes es dominarse a uno mismo.
+- `BIBLIOTECA/`: documentos semanales de estudio, desarrollo conceptual, derivaciones y notas técnicas.
+- `DIARIO/`: bitácora semanal del proceso, incluyendo avances, interrupciones, reflexiones y continuidad del eje.
+- `CODIGO/`: simulaciones, experimentos y scripts usados como laboratorio conceptual.
+- `TEXTOS/`: escritos simbólicos, reflexiones y piezas narrativas nacidas del estudio cuántico.
+- `IDENTIDAD/`: logos, visión, guía maestra y documentos base del universo Elíejesresce K2.
 
 ---
 
-## **3. -resce (de "Crecer", "Renacer", "Resplandecer") — La Expansión Permanente**
+# Área técnica del proyecto
 
--resce representa el resultado:
-el crecimiento que no se detiene,
-el renacimiento continuo,
-el resplandor de cada versión mejorada.
+El proyecto trabaja sobre varios ejes técnicos de la computación cuántica:
 
-No es un estado final.
-Es un **proceso vivo**.
-
----
-
-# 🌋 ¿Qué es Elíejesresce K2?
-
-Es un **sistema de renacimiento interno**, una metodología personal que combina:
-
-- Ciencia (Álgebra Lineal, Computación Cuántica).
-- Organización (Ejes de Vida, Bloque de Oro).
-- Identidad (símbolos, rituales, lenguaje propio).
-- Progreso acumulativo semanal.
-
-Este repositorio es el **campamento base digital** donde se registra todo el avance teórico, técnico y personal.
+- **Fundamentos matemáticos:** álgebra lineal, espacios vectoriales, números complejos, producto interno, operadores y estructuras de Hilbert.
+- **Computación cuántica:** qubits, compuertas, medición, entrelazamiento, circuitos, algoritmos y simulación.
+- **Física del hardware:** Hamiltonianos, resonancia, control físico de qubits, superconductividad, efecto Josephson, ruido y decoherencia.
+- **Programación científica:** Python, Qiskit, simulaciones, visualizaciones, experimentos reproducibles y análisis de resultados.
+- **Documentación técnica:** bitácoras, Codex, changelog, explicaciones conceptuales y organización semanal del aprendizaje.
 
 ---
 
-# 🗃️ Subproyectos derivados
+# Subproyectos derivados
 
 ### Distributed DQC Prototype
 
@@ -69,297 +59,21 @@ Repositorio:
 
 ---
 
-# 📂 Estructura del Repositorio
+# Progreso del proyecto
 
-```
-BIBLIOTECA/
-  2025/
-    Biblioteca_Semana_01.pdf
-    Biblioteca_Semana_02.pdf
-    Biblioteca_Semana_03.pdf
-    Biblioteca_Semana_04.pdf
-    Biblioteca_Semana_05.pdf
-    Biblioteca_Semana_06.pdf
-    Biblioteca_Semana_07.pdf
-    Biblioteca_Semana_08.pdf
-    Biblioteca_Semana_09.pdf
-  
-   2026/
-    Biblioteca_Semana_10.pdf
-    Biblioteca_Semana_11.pdf
-    Biblioteca_Semana_12.pdf
-    Biblioteca_Semana_13.pdf
-    Biblioteca_Semana_14.pdf
-    Biblioteca_Semana_15.pdf
-    Biblioteca_Semana_16.pdf
-    Biblioteca_Semana_17.pdf
-    Biblioteca_Semana_18.pdf
-    Biblioteca_Semana_19.pdf
-    Biblioteca_Semana_20.pdf
-    Biblioteca_Semana_21.pdf
-    Biblioteca_Semana_22.pdf
-    Biblioteca_Semana_23.pdf
-    Biblioteca_Semana_24.pdf
-    Biblioteca_Semana_25.pdf
-    Biblioteca_Semana_26.pdf
-    Biblioteca_Semana_27.pdf
-    Biblioteca_Semana_28.pdf
-    Biblioteca_Semana_29.pdf
+El avance completo semana a semana está documentado en [`CHANGELOG.md`](./CHANGELOG.md).
 
-CODEX/
-    Codex.md
+## Hitos principales
 
-DIARIO/
-  2025/
-    Diario_de_Bordo_Semana_01.pdf
-    Diario_de_Bordo_Semana_02.pdf
-    Diario_de_Bordo_Semana_03.pdf
-    Diario_de_Bordo_Semana_04.pdf
-    Diario_de_Bordo_Semana_05.pdf
-    Diario_de_Bordo_Semana_06.pdf
-    Diario_de_Bordo_Semana_07.pdf
-    Diario_de_Bordo_Semana_08.pdf
-    Diario_de_Bordo_Semana_09.pdf
-
-   2026/
-    Diario_de_Bordo_Semana_10.pdf
-    Diario_de_Bordo_Semana_11.pdf
-    Diario_de_Bordo_Semana_12.pdf
-    Diario_de_Bordo_Semana_13.pdf
-    Diario_de_Bordo_Semana_14.pdf
-    Diario_de_Bordo_Semana_15.pdf
-    Diario_de_Bordo_Semana_16.pdf
-    Diario_de_Bordo_Semana_17.pdf
-    Diario_de_Bordo_Semana_18.pdf
-    Diario_de_Bordo_Semana_19.pdf
-    Diario_de_Bordo_Semana_20.pdf
-    Diario_de_Bordo_Semana_21.pdf
-    Diario_de_Bordo_Semana_22.pdf
-    Diario_de_Bordo_Semana_23.pdf
-    Diario_de_Bordo_Semana_24.pdf
-    Diario_de_Bordo_Semana_25.pdf
-    Diario_de_Bordo_Semana_26.pdf
-    Diario_de_Bordo_Semana_27.pdf
-    Diario_de_Bordo_Semana_28.pdf
-    Diario_de_Bordo_Semana_29.pdf
-
-CODIGO/
-  .venv/
-  src/
-    bell/
-      bell.py
-      diagram_bell.py
-      transformation_bell_q1.py
-      transformation_bell_q2.py
-
-    consolidacion/
-      consolidacion_1.py
-
-    deutsch_jozsa/
-      deutsch_jozsa.py
-
-    esfera_bloch/
-      mediciones/
-        mediciones_experimento_H.csv
-        mediciones_experimento_I.csv
-        mediciones_experimento_Y.csv
-      __init__.py
-      esferaBlochStatic.py
-      animacion_v1.py
-      animacion_v2.py
-      animacion_v3.py
-      medicion.py
-
-    estres_cuantico/
-      estres_cuantico.py
-      mps.py
-
-    grover/
-      circuit_grover.py
-      vector_grover.py
-      minimum_grover.py
-
-    hilbert/
-      hilbert.py
-
-    learning_qiskit/
-      circuit.py
-      convencion.py
-      statevector.py
-
-    mixtos/
-      estados_mixtos.py
-
-    operadores/
-      operadores.py
-    
-    postulados/
-      postulados.py
-    
-    rabi/
-      rabi_bloch.py
-
-    shor/
-      shor_ruido.py
-      shor.py
-
-    teleportacion_cuantica/
-      teleport_procces.py
-      teleport_qiskit.py
-
-    transformacion_lineal/
-      __init__.py
-      transformacionLineal2D.py
-      transformacionLineal3D.py
-
-TEXTOS/
-    Disvarianza Mental.md
-    Dos caminos.md
-    Entrelazamiento.md
-    Grover.md
-    Lejos en espacio.md
-    Los Telares de la Realidad.md
-    Navegante.md
-    Traslado.md
-    Volver.md
-
-IDENTIDAD/
-  (logos, documentos base, guía maestra, proyecto, horario...)
-
-CHANGELOG.md
-LICENSE.txt
-README.md
-```
+- **Semanas 1–4:** Fundamentos iniciales de álgebra lineal, matrices, determinantes, qubits y primeras visualizaciones de la Esfera de Bloch.
+- **Semanas 5–9:** Construcción de circuitos cuánticos en Qiskit, estados de Bell, teleportación, Deutsch–Jozsa, interferencia cuántica, Grover inicial y estados mixtos.
+- **Semanas 10–13:** Consolidación de Grover y transición hacia Shor, incluyendo DFT, QFT, periodicidad, implementación de Shor en Qiskit y pruebas con simulación ideal y ruidosa.
+- **Semanas 14–19:** Campamento Anclaje: formalización del espacio de Hilbert, operadores, medición como proyección, eigenvalores, eigenvectores, proyectores y descomposición espectral.
+- **Semanas 20–23:** Inicio del Campamento 3, reconexión con los postulados de la mecánica cuántica y nacimiento del subproyecto Distributed DQC Prototype.
+- **Semanas 24–27:** Consolidación de la ecuación de Schrödinger, Hamiltoniano, evolución unitaria, medición, decoherencia inicial y reconstrucción conceptual de Shor desde los postulados.
+- **Semanas 28–30:** Transición hacia hardware cuántico: sistemas de dos niveles, resonancia, control físico de qubits, pulsos electromagnéticos y oscilaciones de Rabi.
+- **Semanas 31–35:** Entrada al hardware superconductivo: superconductividad, pares de Cooper, efecto Josephson, transmon, entropía y preparación conceptual hacia decoherencia.
 
 ---
 
-# 📘 Documentos Clave
-
-### **📖 Proyecto Elíejesresce (IDENTIDAD/)**
-
-Documento central que define la filosofía, los símbolos y la lógica interna del sistema.
-
-### **📘 Guía Maestra de Ascenso**
-
-Explica las fases, campamentos, protocolos y principios del ascenso K2.
-
-### **📓 Diario de Bordo (DIARIO/)**
-
-Registro semanal personal del camino, exportado en PDF.
-
-### **📚 Biblioteca K2 (BIBLIOTECA/)**
-
-Lecturas, ideas, conceptos aprendidos y esquemas teóricos.
-
----
-
-# 🔬 Área Técnica del Proyecto
-
-El repositorio documenta mi proceso de aprendizaje y exploración en los siguientes ejes, con énfasis en la conexión entre teoría matemática, interpretación conceptual y simulación computacional.
-
-## **Álgebra Lineal y Fundamentos Matemáticos**
-
-- Vectores, bases y espacios vectoriales.
-- Números complejos, conjugación y operaciones adjuntas (transpuesta conjugada).
-- Producto interno hermítico, norma inducida y métrica asociada.
-- **Espacio de Hilbert** como estructura matemática del estado cuántico (completitud y convergencia).
-- Determinantes, cofactores y regla de Sarrus.
-- Multiplicación de matrices y composición de transformaciones.
-- Interpretación geométrica de transformaciones lineales en 2D y 3D.
-- Producto tensorial y su rol en sistemas de múltiples qubits.
-- Estados separables vs estados entrelazados (criterios algebraicos).
-- Eigenvalores y eigenvectores como base conceptual para operadores, observables y sistemas dinámicos.
-
-## **Computación Cuántica**
-
-- Qubits, superposición y representación (Esfera de Bloch vs formalismo en Hilbert).
-- Operadores unitarios y su interpretación como rotaciones.
-- Compuertas cuánticas de un qubit (X, Z, H, RX, RY, RZ).
-- Compuertas de dos qubits y entrelazamiento (CNOT, CZ).
-- Construcción e interpretación de los **estados de Bell**.
-- Medición cuántica como proyección y colapso del estado.
-- **Bell measurement** como proyección en una base entrelazada.
-- Teleportación cuántica: lectura mediante álgebra, diagramas y circuitos.
-- Interferencia cuántica y rol de la fase relativa.
-- **Algoritmos cuánticos**:
-  - Deutsch–Jozsa (detección de propiedades globales mediante interferencia).
-  - Grover (amplificación de amplitud e interpretación geométrica).
-  - Shor (búsqueda de periodicidad y extracción de factores).
-- Transformadas:
-  - DFT como cambio de base clásico.
-  - **QFT** como herramienta cuántica de extracción de periodicidad.
-- Estados mixtos y matriz densidad (diferencia entre mezcla estadística y superposición).
-- Introducción a efectos físicos: ruido, decoherencia y degradación de algoritmos.
-- Transición hacia arquitectura real:
-  - computación cuántica distribuida,
-  - entrelazamiento remoto “heralded”,
-  - compuertas no locales y networking cuántico.
-
-## **Programación y Simulación**
-
-- Python como herramienta para:
-  - visualización de transformaciones lineales,
-  - experimentos matemáticos,
-  - animaciones de la Esfera de Bloch.
-- Qiskit para:
-  - construcción de circuitos cuánticos,
-  - simulación de estados y mediciones,
-  - exploración práctica de entrelazamiento, teleportación y algoritmos (Deutsch–Jozsa, Grover, Shor).
-- Simulación como instrumento de investigación:
-  - comparación entre simulación ideal vs ruidosa,
-  - límites prácticos del statevector en hardware clásico,
-  - uso de aproximaciones (p.ej. MPS) para extender escalabilidad.
-- El código se utiliza como laboratorio conceptual, no solo como implementación final.
-
----
-
-# 🗓️ Progreso Semanal
-
-- **Semana 1:** Inicio del proyecto Elíejesresce K2, definición de ejes y estructura del repositorio. Primeras lecturas de álgebra lineal (vectores, matrices, determinantes) e introducción a la Esfera de Bloch.
-- **Semana 2:** Consolidación de la base de álgebra lineal y notación cuántica. Más ejercicios de vectores y matrices, primeras conexiones entre álgebra y qubits.
-- **Semana 3:** Profundización en la Esfera de Bloch (visualización 3D, rotaciones básicas) y primeras animaciones de estados |0⟩, |1⟩ y superposiciones.
-- **Semana 4:** Refinamiento del simulador de Bloch y mapeo de puertas cuánticas (X, Z, H, RX/RY/RZ) a rotaciones en la esfera. Conexión más clara entre probabilidades, norma y medición.
-- **Semana 5:** Paso de Campamento 1 a Campamento 2 en Qiskit. Estructura de circuitos (crear, medir, ejecutar), estudio del producto tensorial, puerta CNOT, criterio de estados separables vs entrelazados y construcción de los cuatro estados de Bell con Qiskit.
-- **Semana 6:** Trabajo enfocado en entrelazamiento, Bell measurement y teleportación cuántica. Aparición de fricción conceptual al interpretar la medición en la base de Bell y los diagramas del protocolo de teleportación. Revisión de interpretaciones iniciales (medir como revelar) y ajuste hacia la medición como proyección, mediante un proceso iterativo entre álgebra, diagramas y circuitos en Qiskit.
-- **Semana 7:** Semana dedicada a resolver la fricción conceptual en la **teleportación cuántica**, aclarando el significado de la medición en la base de Bell y consolidando la medición como proyección mediante álgebra, diagramas y simulaciones en Qiskit.
-- **Semana 8:** Semana centrada en la  **consolidación del algoritmo de Deutsch–Jozsa** , comprendiendo cómo el oráculo codifica información en fases y cómo la **interferencia global** permite distinguir funciones constantes y balanceadas mediante álgebra, análisis conceptual y simulaciones en Qiskit.
-- **Semana 9:** Consolidación profunda de la **interferencia cuántica** como mecanismo central. Distinción clara entre amplitud y probabilidad, rol de la fase relativa y su conversión en resultados medibles mediante recombinación. Introducción práctica a **Grover** como amplificación de amplitud y estudio inicial de **estados mixtos** y pérdida de coherencia mediante matrices densidad y visualización en la esfera de Bloch.
-- **Semana 10:** Profundización del **algoritmo de Grover** desde su estructura matemática y geométrica. Comprensión del proceso como **rotación en un subespacio bidimensional**, análisis del ángulo de rotación y del número óptimo de iteraciones. Desarrollo de visualizaciones con subpasos reales (oráculo y difusión) que validan empíricamente la amplificación de amplitud y sus límites.
-- **Semana 11:** Transición de **Grover a Shor** mediante el estudio de la **periodicidad** y el rol central de la  **Transformada de Fourier**. Desarrollo explícito de la **DFT** y aproximación inicial a la **QFT**, entendida como manipulación de fases e interferencia. Cierre conceptual de Grover y primer contacto formal con la estructura matemática de Shor.
-- **Semana 12:** Semana de baja intensidad por cierre de ciclo académico. Se desarrolló y consolidó el algoritmo de **Shor** de forma completa, enfatizando su estructura híbrida clásico-cuántica, el rol de la **QFT** y la recuperación del período. Se priorizó comprensión conceptual y reflexión sobre límites y condiciones del algoritmo, manteniendo el eje activo pese al cansancio.
-- **Semana 13:** Semana de alta intensidad técnica en la que se implementó completamente el **algoritmo de Shor** en Qiskit sobre un caso realista (N=21, a=2). Se cerró el ciclo desde la teoría hasta la validación computacional, explorando tanto simulaciones ideales como ruidosas y los límites clásicos de simulación. El campamento 2 queda conquistado.
-- **Semana 14:** Semana de consolidación conceptual dedicada al **Campamento Anclaje,** centrada en el **Espacio de Hilbert** como base matemática de la computación cuántica. Se formalizó la estructura completa (producto interno, norma, métrica y completitud), conectando rigor matemático con interpretación física.
-- **Semana 15:** Semana de transición físico-conceptual dedicada al análisis profundo del artículo  *“Distributed quantum computing across an optical network link”* , enfocada en la integración entre teoría cuántica y hardware real. Se consolidaron conceptos de entrelazamiento remoto, arquitectura modular y medición como proyección en el Espacio de Hilbert.
-- **Semana 16:** Consolidación geométrica del qubit. Se formalizó el paso ℂ² → S³ → S³/S¹ ≅ CP¹ ≅ S², clarificando la eliminación de la fase global y la interpretación rigurosa de la esfera de Bloch como espacio proyectivo complejo. Se desarrolló además una visualización computacional de esta estructura.
-- **Semana 17:** Comprensión profunda de operadores cuánticos dentro del espacio de Hilbert. Se aclaró la diferencia entre evolución (unitarios) y medición (proyección), se entendió qué representan realmente los eigenvalores y eigenvectores, y se conectó la no conmutatividad con la incompatibilidad de observables.
-- **Semana 18:** Consolidación de la descomposición espectral de operadores hermíticos. Se construyeron eigenvalores y eigenvectores a partir del polinomio característico, se definieron proyectores espectrales y se verificaron sus propiedades. Se entendió la medición cuántica como proyección sobre subespacios propios y se conectó formalmente la descomposición espectral con las probabilidades de medición.
-- **Semana 19:** Se consolidó el cierre del Campamento Anclaje reforzando la estructura matemática del estado cuántico dentro del espacio de Hilbert y la interpretación de la medición como proyección sobre eigenvectores. La semana permitió conectar la evolución por operadores con la observación en distintas bases (Z, X y Y), comprendiendo cómo cada medición revela información diferente del estado y cómo esta idea se relaciona con la tomografía cuántica.
-- **Semana 20:** La semana estuvo dominada por una transición logística significativa de cambio de país, lo que limitó el avance teórico y llevó el enfoque hacia la continuidad mínima del sistema. Se inició el Campamento 3 con una introducción al Postulado 1, estableciendo la diferencia entre la descripción clásica del estado como (x, p) y la formulación cuántica como vector en espacio de Hilbert, consolidando así el punto de entrada al nuevo bloque conceptual.
-- **Semana 21:** El progreso conceptual fue muy limitado debido al contexto de viaje y dificultades logísticas. La semana se centró en mantener el vínculo con el sistema mediante ideas ligeras y analogías, sin desarrollo teórico nuevo, pero evitando la ruptura del eje.
-- **Semana 22:** La semana estuvo marcada por una transición de entorno que limitó el avance teórico, enfocándose principalmente en mantener la continuidad del sistema. Se realizó una reconexión con los postulados fundamentales de la mecánica cuántica y su interpretación práctica en Qiskit, comenzando a entenderlos como un sistema coherente donde estado, evolución y medición se integran dentro de una misma estructura conceptual.
-- **Semana 23:** Se consolidó la comprensión de los postulados cuánticos como marco operativo del estado, la evolución y la medición, y ese entendimiento se trasladó a la práctica mediante la refactorización explícita del script de postulados y la construcción de un sistema cuántico distribuido simulado, que terminó formalizándose como un subproyecto independiente conectado al universo de Elíejesresce K2.
-- **Semana 24:** Se consolidó la comprensión de la ecuación de Schrödinger como ley fundamental de evolución del estado cuántico, identificando al Hamiltoniano como el generador de la dinámica y resolviendo explícitamente un sistema que reveló el carácter oscilatorio de las amplitudes. Este avance permitió reinterpretar las compuertas cuánticas como manifestaciones de la evolución unitaria del sistema en el espacio de Hilbert.
-- **Semana 25:** La semana se centró en consolidar la comprensión de la evolución cuántica y la medición, integrando la ecuación de Schrödinger con la interpretación física del colapso y el rol del Hamiltoniano. Se profundizó en la coherencia y decoherencia como elementos clave que determinan la transición entre comportamiento cuántico y clásico, reforzando la intuición sobre la pérdida de fase y su impacto en la interferencia.
-- **Semana 26:** La semana se centró en consolidar los postulados de la mecánica cuántica y su integración con el algoritmo de Shor, conectando el estado como vector en espacio de Hilbert, la evolución unitaria y la medición como proyección con la codificación de periodicidad en fase.
-- **Semana 27:** La semana se centró en reconstruir conceptualmente el algoritmo de Shor desde los postulados fundamentales de la mecánica cuántica, conectando superposición, evolución unitaria, colapso y medición probabilística con el papel de la QFT como cambio de base capaz de transformar diferencias de fase en picos de amplitud observables. A pesar de las interrupciones causadas por la mudanza y varios días fuera de eje, se mantuvo la continuidad mediante repasos y consolidación conceptual apoyada en Anki.
-- **Semana 28:** Se inició la transición desde la mecánica cuántica abstracta hacia la interpretación física del hardware cuántico, consolidando la idea del qubit como un sistema físico de dos niveles gobernado por un Hamiltoniano. La semana conectó evolución unitaria, resonancia cuántica, control mediante pulsos electromagnéticos y oscilaciones de Rabi, entendiendo las compuertas cuánticas como evoluciones físicas inducidas sobre sistemas reales.
-- **Semana 29:** Se consolidó la comprensión de las oscilaciones de Rabi como mecanismo físico fundamental para el control de qubits, conectando resonancia, Hamiltonianos y evolución oscilatoria del estado cuántico. La semana también permitió relacionar las compuertas cuánticas con pulsos electromagnéticos reales y visualizar su implementación mediante una simulación física completa en la esfera de Bloch.
-- **Semana 30:** Se consolidó una línea central del Campamento 3 alrededor de las oscilaciones de Rabi, conectando el control externo de un qubit con el Hamiltoniano efectivo, el detuning, el eje de rotación en la esfera de Bloch y la regla de Born. La semana fue breve, pero fortaleció la relación entre sistema físico, evolución cuántica y probabilidad observable.
-- **Semana 31**: La semana estuvo marcada por una continuidad irregular del eje, con varios días de repaso y fuera de eje más que de avance profundo. Aun así, se cerró el texto “Disvarianza Mental” y se abrió la entrada conceptual hacia la superconductividad y la unión Josephson, iniciando el puente entre el control abstracto del qubit y su realización física en circuitos superconductores.
-- **Semana 32**: Se consolidó la conexión entre superconductividad, pares de Cooper y efecto Josephson, pasando desde la intuición fermión/bosón hasta la corriente superconductora sin voltaje clásico. La semana también reforzó electricidad básica —corriente, voltaje, resistencia, DC y AC— para construir una base física más clara antes de seguir avanzando hacia qubits superconductores.
-- **Semana 33:** La semana se centró en mantener la continuidad del ascenso mediante repaso de tarjetas, consolidación de ideas previas sobre superconductividad, pares de Cooper y acoplamiento cuántico, y una reflexión personal sobre sostener el eje incluso cuando la energía inicial disminuye. No fue una semana de avance técnico intenso, sino de mantenimiento, memoria y permanencia.
-- **Semana 34:** Se consolidó la transición hacia la física real del hardware cuántico, conectando superconductividad, túnel cuántico, unión de Josephson y energía dependiente de fase con la construcción de qubits físicos. La semana fue irregular, pero dejó una idea central más clara: un qubit no es una abstracción aislada, sino un sistema físico con dos estados distinguibles, controlables y coherentes.
-- **Semana 35:** La semana tuvo un avance conceptual limitado y se centró principalmente en mantener la continuidad del proyecto mediante repasos rápidos y consolidación de Anki. Se cerró la intuición general de la entropía como dispersión, incertidumbre y pérdida de energía útil, preparando el paso hacia la decoherencia como batalla física contra el ruido y la pérdida de coherencia cuántica.
----
-
-# 🧠 Filosofía Final
-
-> **Elíejesresce no es un proyecto.
-> Es la forma en la que decido vivir.
-> Elegir. Dominar mis ejes. Renacer siempre.**
-
----
-
-# 📜 Nota
-
-Este repositorio es de uso personal, orientado a crecimiento, registro técnico y desarrollo académico.
+###### *El ruido es el tejedor y la cuántica es la tela esparcida.*

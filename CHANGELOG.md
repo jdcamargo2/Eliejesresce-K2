@@ -447,14 +447,14 @@
   * interpretación del algoritmo como **rotación en un plano bidimensional.**
 * Análisis geométrico completo del proceso:
   * introducción del ángulo **θ** asociado a la fracción de estados marcados.
-  * relación entre **sin**θ = **M**/**N** y la probabilidad de éxito.
+  * relación entre sin²(θ) = M/N y la probabilidad de éxito.
   * comprensión del movimiento periódico y del fenómeno de *overshoot.*
 * Formalización de los operadores fundamentales:
   * oráculo como **reflexión de fase** sobre el subespacio de soluciones.
   * difusión como **inversión respecto al estado promedio.**
   * composición del operador de Grover como rotación efectiva por **2θ.**
 * Comprensión explícita del **número óptimo de iteraciones**:
-  * derivación aproximada **k≈4πN/M.**
+  * derivación aproximada **k ≈ (π/4)√(N/M).**
   * aplicación práctica a casos pequeños **(N=8,M=1)**.
   * contraste entre teoría continua y ejecución discreta.
 
@@ -797,7 +797,7 @@
   - Diario,
   - Biblioteca,
   - estructura global del proyecto.
-- No se realizaron cambios estructurales mayores:
+- No se realizaron cambios estructurales mayores.
 
 ### Normalización de archivos
 
@@ -824,7 +824,7 @@
 
 - Se realizó lectura profunda y estructural del artículo:
 
-  “Distributed quantum computing across an optical network link”**D. Main, P. Drmota, D. P. Nadlinger, E. M. Ainley, A. Agrawal, B. C. Nichol, R. Srinivas, G. Araneda y D. M. Lucas.
+  “Distributed quantum computing across an optical network link”, D. Main, P. Drmota, D. P. Nadlinger, E. M. Ainley, A. Agrawal, B. C. Nichol, R. Srinivas, G. Araneda y D. M. Lucas.
 - Se identificó que el artículo presenta:
 
   - Demostración experimental de computación cuántica distribuida funcional.
@@ -868,9 +868,7 @@
 
 ### Diario y Biblioteca
 
-- Se exportaron
-
-  y organizaron los archivos:
+- Se exportaron y organizaron los archivos:
 
   - `Diario_de_Bordo_Semana_15.pdf`
   - `Biblioteca_Semana_15.pdf`
@@ -906,7 +904,7 @@
 
 ### Notas
 
-- Se crea formalmente el **Codex** como ténica de acumulación de vocabulario técnico.
+- Se crea formalmente el **Codex** como técnica de acumulación de vocabulario técnico.
 
 ---
 
@@ -1150,7 +1148,7 @@ El Codex de esta semana acompaña directamente la transición desde la geometrí
 
 ### Estructura del repositorio
 
-No se modifico la estructura del repositorio esta semana.
+No se modificó la estructura del repositorio esta semana.
 
 ### Normalización de archivos
 
@@ -1315,7 +1313,7 @@ Se consolidaron como referencias oficiales de la semana:
   Ejemplo:
 
   - Definición clásica: x(t), p(t)
-  - Definición cuántica: |ψ(t)⟩ :contentReference[oaicite:4]{index=4}
+  - Definición cuántica: |ψ(t)⟩
 - La biblioteca fue principalmente conceptual y de introducción, sin desarrollo matemático profundo.
 
 ---
@@ -1335,7 +1333,6 @@ Se consolidaron como referencias oficiales de la semana:
 ### Estructura del repositorio
 
 - Se añadieron los documentos correspondientes a la Semana 20:
-
   - Diario
   - Biblioteca
 - No se realizaron cambios estructurales adicionales.
@@ -1415,7 +1412,7 @@ El sistema no se rompió: se adaptó.
 - Se consolidaron como referencias oficiales:
 
   - `Biblioteca_Semana_21.pdf`
-  - `Diario_de_bordo_Semana_21.pdf`
+  - `Diario_de_Bordo_Semana_21.pdf`
 - No se generó archivo de Codex para esta semana.
 
 ### Notas
@@ -1616,7 +1613,7 @@ Semana de transición donde el foco no fue avanzar en contenido sino sostener el
 
 ### Codex
 
-- No se agregaron terminos nuevos esta semana.
+- No se agregaron términos nuevos esta semana.
 
 ### Estructura del repositorio
 
@@ -1787,7 +1784,7 @@ La semana marca una transición importante desde entender la mecánica cuántica
 
 ---
 
-# Semana 26 (2026-04-27 al 2026-05-03)
+## Semana 26 (2026-04-27 al 2026-05-03)
 
 ### Teoría y aprendizaje
 
@@ -1852,7 +1849,7 @@ Esta semana marca un punto de transición importante: los postulados dejan de se
 
 ---
 
-# Semana 27 (2026-05-04 al 2026-05-10)
+## Semana 27 (2026-05-04 al 2026-05-10)
 
 ### Teoría y aprendizaje
 
@@ -1925,7 +1922,7 @@ La semana representó una transición desde entender Shor como un algoritmo haci
 
 ---
 
-# Semana 28 (2026-05-11 al 2026-05-15)
+## Semana 28 (2026-05-11 al 2026-05-15)
 
 ### Teoría y aprendizaje
 
@@ -2033,7 +2030,7 @@ Esta semana marcó el inicio del descenso hacia la física real del hardware cu�
 
 ---
 
-# Semana 29 (2026-05-18 al 2026-05-24)
+## Semana 29 (2026-05-18 al 2026-05-24)
 
 ### Teoría y aprendizaje
 
@@ -2538,3 +2535,130 @@ Se consolidaron como referencias oficiales de la semana:
 ### Notas
 
 La Semana 35 fue una semana de baja producción técnica, pero de continuidad real. El avance principal no estuvo en desarrollar teoría nueva, sino en mantener vivo el proyecto durante días atravesados por otros trámites y prioridades. La idea central que quedó consolidada fue que la entropía prepara el terreno para comprender la decoherencia: el entorno no solo “molesta” al qubit, sino que dispersa información, energía y fase hasta romper la coherencia útil del sistema.
+
+---
+
+## Semana 36 (2026-07-06 al 2026-07-12)
+
+### Teoría y aprendizaje
+
+- El progreso teórico de la semana fue moderado y se concentró principalmente en comprender la coherencia y la decoherencia de un qubit.
+
+  - Se definió la coherencia como la conservación de una relación de fase estable entre las amplitudes de un estado cuántico.
+  - Se estudió cómo la interacción entre el qubit y su entorno distribuye información del sistema y destruye gradualmente su capacidad de interferir.
+  - Se comprendió que la decoherencia no corresponde a un único mecanismo, sino que engloba distintos procesos de pérdida de información cuántica.
+  - Se diferenció entre el tiempo de relajación $T_1$, asociado a la pérdida de energía del estado excitado, y el tiempo de desfase $T_2$, asociado a la pérdida de la fase relativa.
+  - Se relacionó $T_2$ con la relajación energética y el desfase puro mediante:
+
+  $$\frac{1}{T_2} = \frac{1}{2T_1} + \frac{1}{T_\phi}$$
+
+  - Se consolidó que un qubit puede perder coherencia sin necesariamente perder energía.
+  - Se repasaron mediante Anki conceptos relacionados con el Hamiltoniano del transmon, la diferencia de fase, la energía de Josephson y la energía de carga.
+
+### Diario y Biblioteca
+
+- Se exportaron y organizaron los archivos correspondientes a la semana:
+
+  - `Diario de bordo - Semana 36.pdf`
+  - `Biblioteca - Semana 36.pdf`
+
+- El Diario documentó:
+
+  - El estudio de coherencia, decoherencia y los tiempos $T_1$ y T2.
+  - Dos días fuera de eje debido al cansancio y al trabajo en proyectos externos.
+  - La reestructuración general del proyecto dentro del repositorio Git.
+  - Una sesión de repaso mediante Anki.
+  - La continuidad del proyecto aun durante una semana fragmentada por otras responsabilidades.
+
+- El registro semanal fue irregular:
+
+  - Día 176: estudio de coherencia, decoherencia, $T_1$ y T2.
+  - Día 177: día fuera de eje por cansancio y proyectos externos.
+  - Día 178: reestructuración total del proyecto en Git.
+  - Día 179: repaso de contenidos mediante Anki.
+  - Día 180: día fuera de eje por trabajo en el proyecto SIGEDON.
+
+- La Biblioteca incluyó:
+
+  - Una explicación intuitiva de la coherencia como estabilidad de fase.
+  - El papel del entorno en la pérdida de información cuántica.
+  - La evolución conjunta entre qubit y entorno.
+  - La relajación energética $|1\rangle \rightarrow |0\rangle$.
+  - El desfase de una superposición cuántica.
+  - La relación entre $T_1$, $T_2$ y $T_\phi$.
+  - Un repaso del Hamiltoniano básico del transmon y de sus componentes energéticos.
+
+### Código
+
+- No se desarrolló código nuevo relacionado con el contenido cuántico durante esta semana.
+
+- La actividad técnica se concentró en la organización y documentación del repositorio, no en nuevas simulaciones o implementaciones.
+
+
+### TEXTOS
+
+- No se desarrollaron textos, poemas o relatos nuevos esta semana.
+
+### Codex
+
+- No se añadieron nuevas entradas al Codex durante esta semana.
+
+### Estructura del repositorio
+
+- Se realizó una reestructuración general de la documentación principal del proyecto para mejorar su navegación, legibilidad y presentación externa.
+
+- Se añadió `ESTRUCTURA.md` como mapa técnico del repositorio.
+
+  - El documento establece el propósito de las carpetas principales.
+  - Facilita la orientación de nuevos lectores.
+  - Reduce la necesidad de deducir la organización únicamente a partir de los nombres de los directorios.
+
+- Se añadió `VISION.md` como documento central de identidad y dirección del proyecto.
+
+  - Se trasladó allí la explicación conceptual de Elíejesresce.
+  - Se separó la visión general del proyecto de los documentos operativos y de estudio.
+  - Se estableció una entrada más clara para comprender el propósito del ascenso.
+
+- Se revisó `README.md`.
+
+  - Se adaptó a la nueva arquitectura documental.
+  - Se mejoró la navegación hacia los documentos principales.
+  - Se redujo la repetición de explicaciones que ahora pertenecen a `VISION.md` y `ESTRUCTURA.md`.
+
+- Se simplificaron los nombres de los documentos almacenados en `IDENTIDAD/`.
+
+  - `ELIEJESRESCE_CONCEPTO.pdf` fue sustituido por `concepto.pdf`.
+  - `ELIEJESRESCE_K2_GUIA_MAESTRA_DE_ASCENSO.pdf` fue sustituido por `guia_maestra.pdf`.
+  - `ELIEJESRESCE_K2_PROYECTO_AUMENTADO.pdf` fue sustituido por `ruta_aumentada.pdf`.
+  - `ELIEJESRESCE_K2_PROYECTO.pdf` fue sustituido por `ruta_original.pdf`.
+
+- Se retiraron de `IDENTIDAD/` documentos redundantes o que ya no cumplían una función clara dentro de la nueva estructura.
+
+  - `ELIEJESRESCE_K2_HORARIO.pdf`
+  - `ELIEJESRESCE_K2_PORTADA.pdf`
+  - `fondo.png`
+
+- Se mantuvieron sin cambios estructurales las áreas `DIARIO/`, `BIBLIOTECA/` y `CODEX/`, debido a que ya cumplen correctamente su función dentro del flujo semanal.
+
+- La reorganización permitió que el repositorio dejara de presentarse como una acumulación de documentos y comenzara a funcionar como un sistema documental con identidad, visión y rutas de navegación explícitas.
+
+### Normalización de archivos
+
+- Se consolidaron como referencias oficiales de la Semana 36:
+
+  - `Diario de bordo - Semana 36.pdf`
+  - `Biblioteca - Semana 36.pdf`
+
+- Se normalizaron los nombres de los documentos permanentes de identidad, eliminando prefijos largos y redundantes.
+
+- Los documentos originales eliminados fueron reemplazados por versiones con nombres más cortos y coherentes con el contexto de la carpeta que los contiene.
+
+### Notas
+
+- La Semana 36 no estuvo dominada por una gran cantidad de contenido nuevo, sino por una combinación de consolidación conceptual y mantenimiento estructural.
+
+- En el plano científico, se construyó una comprensión más precisa de la decoherencia: el qubit pierde su comportamiento útil cuando el entorno obtiene información sobre su estado, ya sea mediante pérdida de energía, pérdida de fase o ambas.
+
+- En el plano documental, el proyecto recibió una reorganización profunda que separó con mayor claridad su identidad, su visión, su estructura y sus rutas de aprendizaje.
+
+- Aunque dos jornadas quedaron fuera de eje, la semana mantuvo continuidad mediante estudio, repaso y trabajo de infraestructura. El avance principal no fue recorrer una gran distancia nueva, sino hacer que el camino ya recorrido resultara mucho más claro y respirable.
