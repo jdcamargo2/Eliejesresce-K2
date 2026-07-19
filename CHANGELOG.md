@@ -2662,3 +2662,80 @@ La Semana 35 fue una semana de baja producción técnica, pero de continuidad re
 - En el plano documental, el proyecto recibió una reorganización profunda que separó con mayor claridad su identidad, su visión, su estructura y sus rutas de aprendizaje.
 
 - Aunque dos jornadas quedaron fuera de eje, la semana mantuvo continuidad mediante estudio, repaso y trabajo de infraestructura. El avance principal no fue recorrer una gran distancia nueva, sino hacer que el camino ya recorrido resultara mucho más claro y respirable.
+
+---
+
+## Semana 37 (2026-07-13 al 2026-07-19)
+
+### Teoría y aprendizaje
+
+- Se cerró el Campamento 3, dedicado a construir una comprensión conceptual de la base física de los qubits y de algunas de sus principales limitaciones reales.
+
+  - Se consolidó la distinción entre relajación energética y pérdida de coherencia de fase mediante los tiempos T1 y T2.
+  - Se comprendió que T1 describe la transición del estado excitado |1⟩ al estado fundamental |0⟩ causada por la pérdida de energía hacia el entorno.
+  - Se reforzó que T2 describe la degradación de la relación de fase entre las amplitudes de una superposición, incluso cuando el qubit todavía conserva energía.
+  - Se conectaron el sistema físico de dos niveles, el Hamiltoniano, la resonancia y el control mediante campos externos.
+  - Se cerró la revisión conceptual de superconductividad, efecto Josephson, qubits transmon, ruido y decoherencia.
+  - El estudio fue deliberadamente conceptual: no se profundizó extensamente en matemáticas ni se desarrollaron implementaciones, porque el objetivo del campamento era comprender la física necesaria para continuar el ascenso.
+
+- Se inició la fase de transición denominada **El Laboratorio**, orientada al control experimental del qubit.
+
+  - Esta fase fue presentada como el puente entre comprender físicamente el qubit y aprender a controlarlo mediante señales reales.
+  - No se desarrolló todavía contenido experimental nuevo más allá de la introducción de la fase.
+
+### Diario y Biblioteca
+
+- Se exportaron y organizaron los archivos:
+
+  - `Diario_de_Bordo_Semana_37.pdf`
+  - `Biblioteca_Semana_37.pdf`
+
+- El Diario documentó:
+
+  - un repaso ligero mediante Anki;
+  - dos días fuera del eje;
+  - una jornada afectada por más de veinticuatro horas sin dormir;
+  - la retroalimentación final sobre T1 y T2;
+  - el cierre del Campamento 3;
+  - el comienzo simbólico de la fase El Laboratorio;
+  - varias interrupciones relacionadas con el trabajo realizado en el sistema SIGEDON.
+
+- La Biblioteca incluyó:
+
+  - la diferencia física entre pérdida de energía y pérdida de fase;
+  - la interpretación de |0⟩ como estado fundamental y |1⟩ como estado excitado;
+  - la transición |1⟩ → |0⟩ como proceso de relajación;
+  - la explicación de la pérdida progresiva de sincronización de fase en una superposición;
+  - el cierre conceptual del Campamento 3;
+  - los hitos alcanzados en sistemas de dos niveles, Hamiltonianos, resonancia, superconductividad, efecto Josephson, transmon, ruido, decoherencia, T1 y T2;
+  - la introducción de El Laboratorio como fase de transición hacia el control experimental.
+
+- La semana tuvo un ritmo irregular y estuvo marcada por trabajo externo, cansancio y días fuera del eje. Aun así, se mantuvo la continuidad suficiente para cerrar formalmente una etapa completa del proyecto.
+
+### Código
+
+- No se desarrolló código nuevo esta semana.
+
+### TEXTOS
+
+- No se desarrollaron textos nuevos esta semana.
+
+### Codex
+
+- No se añadieron nuevas entradas al Codex esta semana.
+
+### Estructura del repositorio
+
+- No se modificó la estructura del repositorio esta semana.
+- El principal cambio dentro de la ruta de aprendizaje fue la transición formal desde el Campamento 3 hacia la fase El Laboratorio.
+
+### Normalización de archivos
+
+- Se consolidaron como referencias oficiales de la semana:
+
+  - `Biblioteca_Semana_37.pdf`
+  - `Diario_de_Bordo_Semana_37.pdf`
+
+### Notas
+
+La Semana 37 no destacó por su volumen de trabajo, sino por cerrar una etapa importante. El Campamento 3 dejó una cadena conceptual completa desde el qubit como sistema físico hasta sus mecanismos reales de control, ruido y pérdida de información. Incluso con interrupciones y días fuera del eje, el sistema se dobló, pero no se rompió.
