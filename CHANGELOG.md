@@ -2739,3 +2739,78 @@ La Semana 35 fue una semana de baja producción técnica, pero de continuidad re
 ### Notas
 
 La Semana 37 no destacó por su volumen de trabajo, sino por cerrar una etapa importante. El Campamento 3 dejó una cadena conceptual completa desde el qubit como sistema físico hasta sus mecanismos reales de control, ruido y pérdida de información. Incluso con interrupciones y días fuera del eje, el sistema se dobló, pero no se rompió.
+
+---
+
+## Semana 38 (2026-07-20 al 2026-07-26)
+
+### Teoría y aprendizaje
+
+- Se inició la Fase de Transición: **El Laboratorio**, orientada al control experimental de qubits.
+
+  - Se introdujo la espectroscopía como el estudio de la respuesta de un sistema frente a distintas frecuencias.
+  - Se comprendió que la espectroscopía cuántica permite localizar la frecuencia de resonancia correspondiente a una transición entre niveles energéticos.
+  - Se relacionó la diferencia de energía entre los estados `|0⟩` y `|1⟩` con la frecuencia de transición mediante `ΔE = hf`.
+  - Se describió el procedimiento experimental de inicializar, excitar, medir y repetir el experimento para construir la población excitada `P₁(f)`.
+  - Se reconoció que una respuesta elevada en `P₁` señala la proximidad de una resonancia del sistema.
+  - Se introdujo la teoría de control cuántico mediante los parámetros frecuencia, amplitud, duración y fase de los pulsos.
+  - Se estudiaron las oscilaciones de Rabi como la evolución coherente de la población entre `|0⟩` y `|1⟩`.
+  - Se conectó la amplitud del pulso con la frecuencia angular de Rabi y, por tanto, con la velocidad de rotación del estado.
+  - Se distinguió entre variar la duración del pulso para observar `P₁(t)` y variar su amplitud para modificar la velocidad de la oscilación.
+
+### Diario y Biblioteca
+
+- Se exportaron y organizaron los archivos:
+
+  - `Diario_de_Bordo_Semana_38.pdf`
+  - `Biblioteca_Semana_38.pdf`
+
+- El Diario documentó:
+
+  - La introducción teórica a la espectroscopía cuántica.
+  - La comprensión general del procedimiento experimental utilizado para realizarla.
+  - El inicio conceptual de la teoría de control cuántico.
+  - Un día fuera del eje debido a los finales universitarios.
+  - Un repaso breve de tarjetas en Anki para mantener la continuidad durante los últimos días de evaluaciones.
+
+- La Biblioteca incluyó:
+
+  - La apertura formal de la Fase de Transición: El Laboratorio.
+  - Una explicación intuitiva de espectro, resonancia y respuesta frecuencial.
+  - La relación entre niveles energéticos y frecuencia de transición.
+  - El procedimiento completo de una espectroscopía de qubit.
+  - La construcción experimental de la curva `P₁(f)`.
+  - La introducción a los parámetros de control de un pulso de microondas.
+  - El modelo ideal de las oscilaciones de Rabi:
+
+    `P₁(t) = sin²(Ωᵣt / 2)`
+
+  - La interpretación de `Ωᵣ` como velocidad angular de la rotación inducida sobre el estado.
+
+### Código
+
+- No se desarrolló código nuevo esta semana.
+
+### TEXTOS
+
+- No se desarrollaron textos nuevos esta semana.
+
+### Codex
+
+- No se proporcionó un archivo actualizado del Codex para esta semana.
+
+### Estructura del repositorio
+
+- No se modificó la estructura general del repositorio esta semana.
+- Se abrió documentalmente la nueva etapa correspondiente a la Fase de Transición: El Laboratorio.
+
+### Normalización de archivos
+
+- Se consolidaron como referencias oficiales de la semana:
+
+  - `Biblioteca_Semana_38.pdf`
+  - `Diario_de_Bordo_Semana_38.pdf`
+
+### Notas
+
+- La semana marcó el paso desde comprender la física interna del qubit hacia comprender cómo se identifica y controla experimentalmente. La espectroscopía permitió localizar la transición energética del sistema, mientras que las oscilaciones de Rabi introdujeron la relación entre los parámetros físicos del pulso y la evolución coherente del estado. Aunque los finales universitarios redujeron el ritmo, el eje se mantuvo mediante estudio breve y repaso.
