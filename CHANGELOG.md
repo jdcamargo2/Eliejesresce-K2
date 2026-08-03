@@ -2814,3 +2814,65 @@ La Semana 37 no destacó por su volumen de trabajo, sino por cerrar una etapa im
 ### Notas
 
 - La semana marcó el paso desde comprender la física interna del qubit hacia comprender cómo se identifica y controla experimentalmente. La espectroscopía permitió localizar la transición energética del sistema, mientras que las oscilaciones de Rabi introdujeron la relación entre los parámetros físicos del pulso y la evolución coherente del estado. Aunque los finales universitarios redujeron el ritmo, el eje se mantuvo mediante estudio breve y repaso.
+
+---
+
+## Semana 39 (2026-07-27 al 2026-08-02)
+
+### Teoría y aprendizaje
+
+- No se registraron avances teóricos nuevos durante esta semana.
+
+  - El estudio formal quedó suspendido debido a la atención dedicada a trámites universitarios, documentación y preparativos de viaje.
+  - Se realizaron dos repasos breves mediante Anki para mantener activos conceptos estudiados anteriormente.
+  - No se introdujeron nuevos conceptos, desarrollos matemáticos ni conexiones técnicas.
+
+### Diario y Biblioteca
+
+- Se exportaron y organizaron los archivos:
+
+  - `Diario_de_Bordo_Semana_39.pdf`
+  - `Biblioteca_Semana_39.pdf`
+
+- El Diario documentó:
+
+  - Tres días fuera del eje.
+  - Dos jornadas de repaso mediante Anki.
+  - La aceptación en la Universidad de Murcia.
+  - El avance de los preparativos del viaje.
+  - La organización de documentos y papeles.
+  - La obtención de la lista definitiva de requisitos.
+  - El trámite del pasaporte.
+
+- La Biblioteca no incorporó contenido teórico nuevo correspondiente a esta semana.
+
+  - Las notas visibles sobre amplitud de pulsos y oscilaciones de Rabi pertenecen al cierre del trabajo anterior.
+  - Desde el día 191 solo se registraron días fuera del eje y repasos mediante Anki.
+  - No se desarrollaron ejercicios, derivaciones ni exploraciones conceptuales nuevas.
+
+### Código
+
+- No se desarrolló código nuevo esta semana.
+
+### TEXTOS
+
+- No se desarrolló texto nuevo esta semana.
+
+### Codex
+
+- No se añadieron nuevas entradas al Codex esta semana.
+
+### Estructura del repositorio
+
+- No se modificó la estructura del repositorio esta semana.
+
+### Normalización de archivos
+
+Se consolidaron como referencias oficiales de la semana:
+
+- `Biblioteca_Semana_39.pdf`
+- `Diario_de_Bordo_Semana_39.pdf`
+
+### Notas
+
+La Semana 39 no produjo avances técnicos nuevos. El proyecto permaneció en pausa mientras la atención se concentró en la aceptación universitaria, la documentación y los preparativos del viaje. Aun así, el vínculo con el eje se mantuvo mediante repasos mínimos en Anki y el registro honesto de los días fuera del eje.
