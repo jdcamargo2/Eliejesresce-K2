@@ -2876,3 +2876,81 @@ Se consolidaron como referencias oficiales de la semana:
 ### Notas
 
 La Semana 39 no produjo avances técnicos nuevos. El proyecto permaneció en pausa mientras la atención se concentró en la aceptación universitaria, la documentación y los preparativos del viaje. Aun así, el vínculo con el eje se mantuvo mediante repasos mínimos en Anki y el registro honesto de los días fuera del eje.
+
+---
+
+## Semana 40 (2026-08-03 al 2026-08-09)
+
+### Teoría y aprendizaje
+
+- La semana se centró en llevar la intuición de la espectroscopía cuántica a una representación dinámica de la respuesta de un qubit.
+
+  - Se reforzó la relación entre la frecuencia del pulso aplicado y la frecuencia natural del qubit.
+  - Se observó que, al aproximarse a la resonancia, aumenta la capacidad del pulso para transferir población entre |0⟩ y |1⟩.
+  - Se conectaron la frecuencia, amplitud, duración y fase del pulso con la evolución temporal del estado.
+  - Se consolidó la interpretación de las oscilaciones de Rabi como consecuencia de la evolución coherente del qubit bajo un campo de control.
+  - Se realizó un repaso mediante Anki, detectándose algunos conceptos previamente estudiados que habían comenzado a olvidarse.
+
+- El ritmo de estudio fue irregular durante parte de la semana, con varios días fuera de eje dedicados principalmente a asuntos personales y documentación.
+
+### Diario y Biblioteca
+
+- Se exportaron y organizaron los archivos:
+
+  - `Diario_de_Bordo_Semana_40.pdf`
+  - `Biblioteca_Semana_40.pdf`
+
+- El Diario documentó:
+
+  - la creación y posterior funcionamiento de la simulación interactiva de espectroscopía;
+  - la escritura del texto `Felicidad`;
+  - la conexión entre la simulación y las oscilaciones de Rabi;
+  - días fuera de eje relacionados con gestiones personales;
+  - una sesión final de repaso mediante Anki.
+
+- La Biblioteca incluyó:
+
+  - una descripción conceptual del laboratorio interactivo;
+  - la relación entre resonancia, población excitada y evolución del qubit;
+  - una explicación básica de cómo el desajuste de frecuencia modifica la trayectoria del estado;
+  - el registro conceptual del texto `Felicidad`.
+
+### Código
+
+- Se desarrolló un laboratorio interactivo para simular la respuesta de un qubit ante un pulso de microondas.
+
+  - Permite modificar frecuencia, amplitud, duración y fase mediante controles deslizantes.
+  - Calcula la evolución temporal del estado a partir de un modelo de dos niveles.
+  - Visualiza simultáneamente la onda aplicada, la población excitada P₁ y la trayectoria del estado sobre la esfera de Bloch.
+  - Incluye animación en tiempo real y controles para pausar, continuar y reiniciar la simulación.
+  - Permite comparar el comportamiento del qubit dentro y fuera de resonancia.
+
+- Aunque inicialmente fue registrada en el Diario como una simulación en Qiskit, la implementación final adjunta utiliza NumPy y Matplotlib directamente.
+
+### TEXTOS
+
+- Se escribió el texto `Felicidad`.
+
+  - El texto representa un instante en el que emociones, recuerdos y caminos recorridos convergen en un único punto.
+  - Utiliza imágenes provenientes de la mecánica cuántica —onda, resonancia, estado y colapso— como recursos metafóricos para expresar cómo algo antes percibido como un sueño termina formando parte de la realidad.
+
+### Codex
+
+- No se añadieron nuevas entradas al Codex esta semana.
+
+### Estructura del repositorio
+
+- No se realizaron cambios significativos en la estructura general del repositorio esta semana.
+
+- Se incorporó el nuevo código correspondiente al laboratorio interactivo y el texto desarrollado durante la semana.
+
+### Normalización de archivos
+
+Se consolidaron como referencias oficiales de la semana:
+
+- `Biblioteca_Semana_40.pdf`
+- `Diario_de_Bordo_Semana_40.pdf`
+
+### Notas
+
+La Semana 40 convirtió parte de la teoría reciente de espectroscopía en una representación visual y manipulable. El avance principal no estuvo en introducir nuevos fundamentos, sino en observar directamente cómo los parámetros de un pulso controlan la evolución de un qubit y cómo la resonancia se manifiesta en su población y trayectoria. Fue una semana irregular en ritmo, pero con una conexión clara entre teoría, simulación y representación física.
