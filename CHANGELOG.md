@@ -2954,3 +2954,84 @@ Se consolidaron como referencias oficiales de la semana:
 ### Notas
 
 La Semana 40 convirtió parte de la teoría reciente de espectroscopía en una representación visual y manipulable. El avance principal no estuvo en introducir nuevos fundamentos, sino en observar directamente cómo los parámetros de un pulso controlan la evolución de un qubit y cómo la resonancia se manifiesta en su población y trayectoria. Fue una semana irregular en ritmo, pero con una conexión clara entre teoría, simulación y representación física.
+
+---
+
+## Semana 41 (2026-08-10 al 2026-08-16)
+
+### Teoría y aprendizaje
+
+- La semana marcó el inicio conceptual del Campamento 4 y una reorientación previa al estudio profundo de Quantum Machine Learning: comprender primero los fundamentos de Machine Learning clásico.
+
+  - Se estudió qué significa realmente que una máquina "aprenda".
+  - Se distinguió entre la estructura del modelo, definida por el diseñador, y los parámetros internos que pueden ajustarse durante el entrenamiento.
+  - Se comprendió que un sistema de aprendizaje no programa explícitamente una solución para cada caso, sino que utiliza ejemplos para ajustar su comportamiento.
+  - Se introdujo la representación general de un modelo parametrizado como `f_θ(x)`.
+  - Se interpretó el aprendizaje como la búsqueda de una configuración de parámetros `θ*` que produzca un comportamiento adecuado para la tarea.
+  - Se introdujo la generalización como la capacidad de utilizar la estructura aprendida sobre ejemplos nuevos y no únicamente sobre los datos observados durante el entrenamiento.
+  - Se aclaró que una máquina no crea completamente su propio programa: la arquitectura, las reglas generales y el objetivo son definidos externamente, mientras que determinados parámetros son ajustados mediante el proceso de aprendizaje.
+
+- El Campamento 4 fue ampliado para convertir la ruta original de QML en un recorrido más profundo y experimental, incluyendo fundamentos de aprendizaje, codificación de datos, quantum kernels, circuitos parametrizados, entrenamiento híbrido, VQC, trainability, PennyLane, comparación con modelos clásicos y una expedición propia.
+
+### Diario y Biblioteca
+
+- Se exportaron y organizaron los archivos:
+
+  - `Diario_de_bordo_Semana_41.pdf`
+  - `Biblioteca_Semana_41.pdf`
+
+- El Diario documentó:
+
+  - un día fuera de eje debido a gestiones y documentos;
+  - el inicio formal del Campamento 4 — El Glaciar de la Inteligencia;
+  - la ampliación y reorganización de la ruta del campamento;
+  - el comienzo del estudio de Machine Learning clásico;
+  - la aparición de la generalización como concepto central del aprendizaje.
+
+- La Biblioteca incluyó:
+
+  - un repaso mediante Anki;
+  - una introducción al objetivo del Campamento 4;
+  - el análisis de la diferencia entre reglas explícitamente programadas y comportamiento aprendido;
+  - un modelo lineal sencillo `f(x) = wx + b` para separar estructura y parámetros;
+  - la abstracción del modelo mediante `f_θ(x)`;
+  - la interpretación de `θ*` como una configuración aprendida;
+  - una primera construcción conceptual de la generalización.
+
+### Código
+
+- No se desarrolló código nuevo esta semana.
+
+### TEXTOS
+
+- No se desarrollaron textos nuevos esta semana.
+
+### Codex
+
+- No se desarrollaron entradas nuevas esta semana.
+
+### Estructura del repositorio
+
+- Se amplió la documentación correspondiente al Campamento 4.
+
+- Se añadió:
+
+  - `campamento_4_extension.pdf`
+
+- Se actualizaron:
+
+  - `ruta_aumentada.pdf`
+  - `ruta_original.pdf`
+
+- La ruta del Campamento 4 pasó de una introducción breve a una estructura extendida orientada a construir progresivamente los fundamentos de QML y conectar cada etapa con experimentos reproducibles.
+
+### Normalización de archivos
+
+- Se consolidaron como referencias oficiales de la semana:
+
+  - `Biblioteca_Semana_41.pdf`
+  - `Diario_de_bordo_Semana_41.pdf`
+
+### Notas
+
+La Semana 41 funcionó como un cambio de orientación antes de entrar de lleno en QML. La pregunta dejó de ser únicamente cómo construir un modelo cuántico y pasó a una más fundamental: qué significa que cualquier modelo aprenda. La distinción entre estructura, parámetros, experiencia y generalización establece ahora la base clásica necesaria para comprender posteriormente qué parte de ese proceso puede trasladarse o modificarse mediante computación cuántica.
