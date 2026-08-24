@@ -3035,3 +3035,79 @@ La Semana 40 convirtió parte de la teoría reciente de espectroscopía en una r
 ### Notas
 
 La Semana 41 funcionó como un cambio de orientación antes de entrar de lleno en QML. La pregunta dejó de ser únicamente cómo construir un modelo cuántico y pasó a una más fundamental: qué significa que cualquier modelo aprenda. La distinción entre estructura, parámetros, experiencia y generalización establece ahora la base clásica necesaria para comprender posteriormente qué parte de ese proceso puede trasladarse o modificarse mediante computación cuántica.
+
+---
+
+## Semana 42 (2026-08-17 al 2026-08-23)
+
+### Teoría y aprendizaje
+
+- La semana se centró en construir los fundamentos conceptuales del aprendizaje automático antes de avanzar hacia modelos de Quantum Machine Learning.
+
+  - Se estudió la función de pérdida como una medida del desacuerdo entre las predicciones de un modelo y las respuestas esperadas.
+  - Se introdujo la optimización de los parámetros mediante la búsqueda de valores que minimicen la pérdida:
+
+    θ* = arg min L(θ)
+
+  - Se separaron conceptualmente tres componentes fundamentales del aprendizaje:
+    - el modelo `fθ(x)`, encargado de producir respuestas;
+    - el estado aprendido, representado por los parámetros resultantes del entrenamiento;
+    - el algoritmo de aprendizaje, responsable de transformar `θ → θ'` utilizando la experiencia disponible.
+  - Se construyó el marco tarea–experiencia–rendimiento, interpretando el aprendizaje como una mejora del desempeño en una tarea a partir de experiencia.
+  - Se desarrolló un mapa completo del proceso de entrenamiento:
+
+    datos → predicción → pérdida → actualización de parámetros → repetición
+
+  - Se consolidó la idea de que durante el entrenamiento el programa no necesita convertirse en otro programa: cambia progresivamente su estado interno mediante los parámetros aprendidos.
+
+### Diario y Biblioteca
+
+- Se exportaron y organizaron los archivos:
+
+  - `Diario_de_Bordo_Semana_42.pdf`
+  - `Biblioteca_Semana_42.pdf`
+
+- El Diario documentó cinco jornadas:
+
+  - Los días 207, 208 y 209 estuvieron dedicados al desarrollo conceptual del aprendizaje automático.
+  - Los días 206 y 210 fueron registrados como días fuera de eje.
+  - El cambio de sistema operativo de Windows a Linux apareció como interrupción principal al inicio de la semana.
+  - Se registraron conexiones alrededor de la naturaleza del aprendizaje y de la relación entre mejora de rendimiento y experiencia.
+
+- La Biblioteca desarrolló:
+
+  - función de pérdida;
+  - modelo parametrizado;
+  - estado aprendido;
+  - algoritmo de aprendizaje;
+  - tarea, experiencia y medida de rendimiento;
+  - ciclo iterativo de entrenamiento;
+  - representación gráfica del cambio `θ₀ → θ₁` producido a partir de datos y pérdida.
+
+### Código
+
+- No se desarrolló código nuevo esta semana.
+
+### TEXTOS
+
+- No se desarrollaron textos nuevos esta semana.
+
+### Codex
+
+- No se desarrollaron entradas nuevas esta semana.
+
+
+### Estructura del repositorio
+
+- No se registraron cambios en la estructura del repositorio durante esta semana.
+
+### Normalización de archivos
+
+Se consolidaron como referencias oficiales de la semana:
+
+- `Biblioteca_Semana_42.pdf`
+- `Diario_de_Bordo_Semana_42.pdf`
+
+### Notas
+
+La Semana 42 estableció el modelo mental básico del aprendizaje automático: un sistema produce predicciones, mide su error mediante una función de pérdida y utiliza esa información para modificar sus parámetros. El aprendizaje quedó entendido como el cambio acumulado del estado interno del modelo producido por la experiencia, preparando la base clásica necesaria antes de introducir componentes cuánticos.
